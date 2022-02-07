@@ -10,7 +10,9 @@ export default class HomeView extends React.Component {
     render() {
     
       return (
+      <div>
       <Navbar/>
+      </div>
       );
     }
   }
