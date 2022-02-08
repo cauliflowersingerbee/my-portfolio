@@ -2,3 +2,18 @@
     width: auto;
     align-items: right;
 }
+
+.nav-link {
+    font-family: 'Roboto Slab';
+    font-size: x-large;
+    display: flex;
+    font-weight: 800;
+    flex-direction: row;
+    color: #000;
+    margin: auto;
+    width: 30px;
+    justify-content: space-between; 
+    gap: 70px;
+    text-decoration: none;
+ 
+}
