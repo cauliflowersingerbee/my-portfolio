@@ -22,8 +22,9 @@ export default class HomeView extends React.Component {
       <img id='home-img' src={HomeImage} alt=''/>
       <img id='home-vector' src={HomeVector} alt=''/>
       <div id='home-text'>
-      <p>Hi there, I'm Okwiri</p>
-      <p>I'm a writer</p>
+      <p>Hi, I'm Okwiri.</p>
+      <p>Writer. Web developer. UX designer</p>
+      <p>Welcome to my portfolio.</p>
       </div>
       
       
