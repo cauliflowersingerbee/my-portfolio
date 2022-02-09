@@ -19,6 +19,12 @@ export default class WorkView extends React.Component {
       <img id='logo-img' src={LogoImage} alt=''/>
       <img id='work-img' src={WorkImage} alt=''/>
       <img id='work-vector' src={WorkVector} alt=''/>
+      <div id='work-text'>
+      <p>Thanks for checking out 
+        my portfolio. If you wish, you 
+        may contact me <span id='contact-link'>here</span> or via 
+        <span id='contact-link'> LinkedIn</span>. </p>
+        </div>
       </div>
       );
     }

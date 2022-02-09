@@ -8,13 +8,14 @@
     }
     
     #work-vector {
+      
     position: absolute;
-    width: 800px;
-    height: 900px;
-    left: 500px;
-    top: 50px;
+    width: 936.84px;
+    height:750px;
+    left: 350px;
+    top: 55px;
     }
-    
+ 
     
     #logo-img {
         position: absolute;
@@ -29,13 +30,18 @@
     flex-direction: column;
     position: absolute;
     z-index: 2;
-    left: 200px;
+    left: 550px;
     top: auto;
     color: #fff;
     font-size: 28px;
     font-family: 'Roboto', serif;
     font-weight: 400;
-    width:60%;
+    width:40%;
   bottom:auto;
   line-height: 2.2rem;
+    }
+
+    #contact-link {
+        color: #EF4968;
+       
     }
