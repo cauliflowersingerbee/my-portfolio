@@ -1,7 +1,7 @@
 import React from 'react';
 import {Navbar, Container, Nav} from 'react-bootstrap';
-import './navbar.scss'
-import LogoImage from '../imgs/wavy-logo.svg';
+import './navbar.scss';
+
 
 export default class NavbarView extends React.Component {
     render() {
@@ -9,8 +9,6 @@ export default class NavbarView extends React.Component {
 
 <Navbar bg="primary" className='Navbar' expand="lg">
   <Container>
-    
-
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="nav-link">
