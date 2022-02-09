@@ -2,12 +2,7 @@ import React from 'react';
 import NavbarView from '../navbar/navbar';
 import HomeVector from '../imgs/home-vector.svg';
 import HomeImage from '../imgs/home-img.svg';
-import './home.scss'
-
-
-//importing svg as react component
-//import { ReactComponent as HomeImage} from '../imgs/home-img.svg'
-//import { Router } from 'react-router-dom';
+import './home.scss';
 
 
 
@@ -23,7 +18,13 @@ export default class HomeView extends React.Component {
       <img id='home-vector' src={HomeVector} alt=''/>
       <div id='home-text'>
       <p>Hi, I'm Okwiri.</p>
-      <p>Writer. Web developer. UX designer</p>
+      <div className='word-carousel'>
+          <ul className='text-animation'>
+              <li>Writer.</li>
+              <li>Web developer.</li>
+              <li>UX designer.</li>
+          </ul>
+      </div>
       <p>Welcome to my portfolio.</p>
       </div>
       
