@@ -12,6 +12,7 @@ export default class ContactView extends React.Component {
       return (
       <div>
       <Navbar/>
+      
       </div>
       );
     }
