@@ -3,6 +3,7 @@ import NavbarView from '../navbar/navbar';
 import HomeVector from '../imgs/home-vector.svg';
 import HomeImage from '../imgs/home-img.svg';
 import './home.scss';
+import LogoImage from '../imgs/leaf-logo.svg';
 
 
 
@@ -14,6 +15,7 @@ export default class HomeView extends React.Component {
       return (
       <div>
       <NavbarView />
+      <img id='logo-img' src={LogoImage} alt=''/>
       <img id='home-img' src={HomeImage} alt=''/>
       <img id='home-vector' src={HomeVector} alt=''/>
       <div id='home-text'>
