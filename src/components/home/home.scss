@@ -31,7 +31,7 @@ top: 50px;
     left: 300px;
     bottom: -50px;
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Roboto', serif;
     font-weight: 800;
     width:100%;
@@ -41,14 +41,14 @@ top: 50px;
     }
 
 #flip {
-    text-transform: uppercase;
+    
     height:50px;
     overflow:hidden;
 }
 
 #flip > div > div {
     color:#fff;
-    padding:4px 12px;
+    padding:4´px 12px;
     height:45px;
     margin-bottom:45px;
     display:inline-block;
@@ -59,13 +59,13 @@ top: 50px;
   }
 
   #flip div div {
-    background:#42c58a;
+    background:#F24968;
   }
   #flip div:first-child div {
-    background:#4ec7f3;
+    background:#0CC8F2;
   }
   #flip div:last-child div {
-    background:#DC143C;
+    background:#76BF6B;
   }
   
   @keyframes show {
