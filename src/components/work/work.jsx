@@ -5,6 +5,7 @@ import WorkImage from '../imgs/work-img.svg';
 import WorkVector from '../imgs/work-vector.svg';
 import './work.scss';
 import SquigglyLine from '../imgs/squiggly-line.svg';
+import SquigglyLineTwo from '../imgs/squiggly-line-two.svg';
 
 
 
@@ -20,8 +21,8 @@ export default class WorkView extends React.Component {
       <img id='work-img' src={WorkImage} alt=''/>
       <img id='work-vector' src={WorkVector} alt=''/>
       <div id='work-text'>
-      <img id='squiggly-line-1' src={SquigglyLine} alt=''/>
-      <img id='squiggly-line-2' src={SquigglyLine} alt=''/>
+      <img id='squiggly-line-one' src={SquigglyLine} alt=''/>
+      <img id='squiggly-line-two' src={SquigglyLineTwo} alt=''/>
       <p>Thanks for checking out 
         my portfolio. If you wish, you 
         may contact me <span id='contact-link'>here</span> or via 
