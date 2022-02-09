@@ -1,4 +1,4 @@
-#work-img {
+#contact-img {
     position: relative;
     z-index: 2;
     width: 550px;
@@ -7,7 +7,7 @@
     top: 150px;
     }
     
-    #work-vector {
+    #contact-vector {
       
     position: absolute;
     width: 936.84px;
@@ -25,7 +25,7 @@
         top: 1px;
     }
     
-    #work-text {
+    #contact-text {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -46,7 +46,7 @@
         z-index: 2;
         width: 100px;
         height: 10px;
-        left: 360px;
+        left: 410px;
         top: 115px;
     }
 
@@ -55,6 +55,6 @@
         z-index: 2;
         width: 70px;
         height: 10px;
-        left: 220px;
+        left: 265px;
         top: 105px;
     }

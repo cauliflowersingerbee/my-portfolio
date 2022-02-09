@@ -18,9 +18,9 @@ export default class ContactView extends React.Component {
       <div>
       <Navbar/>
       <img id='logo-img' src={LogoImage} alt=''/>
-      <img id='work-img' src={ContactImage} alt=''/>
-      <img id='work-vector' src={ContactVector} alt=''/>
-      <div id='work-text'>
+      <img id='contact-img' src={ContactImage} alt=''/>
+      <img id='contact-vector' src={ContactVector} alt=''/>
+      <div id='contact-text'>
       <img id='squiggly-line-one' src={SquigglyLine} alt=''/>
       <img id='squiggly-line-two' src={SquigglyLineTwo} alt=''/>
       <p>Thanks for checking out 
