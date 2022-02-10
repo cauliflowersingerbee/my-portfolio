@@ -7,16 +7,18 @@ import './contact.scss';
 import SquigglyLine from '../imgs/squiggly-line.svg';
 import SquigglyLineTwo from '../imgs/squiggly-line-two.svg';
 import MailTo from '../mailto/mailto';
-import LinkedIn from '../linkedin/linkedin';
+//import LinkedIn from '../linkedin/linkedin';
 
 
 
 
 export default class ContactView extends React.Component {  
-    
+  
   
     render() {
-    
+    const  handleClick = () => {
+      window.open("https://www.linkedin.com/in/okwiri-oduor-ab2010219/", '_blank');
+    };
       return (
       <div>
       <Navbar/>
@@ -27,12 +29,13 @@ export default class ContactView extends React.Component {
       <img id='squiggly-line-one' src={SquigglyLine} alt=''/>
       <img id='squiggly-line-two' src={SquigglyLineTwo} alt=''/>
      
-      <p>Thanks for checking out 
-        my portfolio. If you wish, you 
-        may contact me by  {<MailTo/>} or via {<LinkedIn/>}. </p>
+      <p>Thanks for checking out my portfolio. If you wish, you 
+        may contact me by  {<MailTo/>} or via 
+        <span id='linkedin-link' onClick={handleClick}> Linkedin</span>. </p>
         </div>
       </div>
       );
     }
   }
-  
+
+ 
