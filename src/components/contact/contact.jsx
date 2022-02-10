@@ -44,6 +44,7 @@ export default class ContactView extends React.Component {
       <img id='squiggly-line-one' src={SquigglyLine} alt=''/>
       <img id='squiggly-line-two' src={SquigglyLineTwo} alt=''/>
      
+      <div id='contact-me'>Contact Me</div>
       <p>Thanks for checking out my portfolio. If you wish, you 
         may contact me by  {<MailTo/>} or via 
         <span id='linkedin-link' onClick={handleClick} style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}> Linkedin</span>. </p>

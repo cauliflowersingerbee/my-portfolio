@@ -59,4 +59,19 @@
         top: 105px;
     }
 
+    #contact-me {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 2;
+        left: 200px;
+        top: auto;
+        color: #fff;
+        font-size: 32px;
+        font-family: 'Roboto', serif;
+        font-weight: 800;
+        width:40%;
+      bottom:auto;
+      line-height: 2.2rem;
+    }
 
