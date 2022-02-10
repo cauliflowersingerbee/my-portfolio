@@ -14,9 +14,11 @@ export default class MailTo extends React.Component {
             return <a href={`mailto:${email}${params}`}>{children}</a>;
           };
         return (
-            <Mailto email="okwiri.codes@gmail.com" subject="" body="" id='email-link'>
+            <span id='email-link'>
+            <Mailto email="okwiri.codes@gmail.com" subject="" body="">
                 email
             </Mailto>
+            </span>
           );
   
     }
