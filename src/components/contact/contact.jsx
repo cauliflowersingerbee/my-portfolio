@@ -12,6 +12,7 @@ import SquigglyLineTwo from '../imgs/squiggly-line-two.svg';
 
 export default class ContactView extends React.Component {  
     
+  
     render() {
     
       return (
