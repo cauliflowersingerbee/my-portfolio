@@ -7,6 +7,7 @@ import './contact.scss';
 import SquigglyLine from '../imgs/squiggly-line.svg';
 import SquigglyLineTwo from '../imgs/squiggly-line-two.svg';
 import MailTo from '../mailto/mailto';
+import LinkedIn from '../linkedin/linkedin';
 
 
 
@@ -28,7 +29,7 @@ export default class ContactView extends React.Component {
      
       <p>Thanks for checking out 
         my portfolio. If you wish, you 
-        may contact me by  {<MailTo/>} or via LinkedIn. </p>
+        may contact me by  {<MailTo/>} or via {<LinkedIn/>}. </p>
         </div>
       </div>
       );
