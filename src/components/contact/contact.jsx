@@ -14,11 +14,26 @@ import MailTo from '../mailto/mailto';
 
 export default class ContactView extends React.Component {  
   
+
   
-    render() {
+    render = () =>{
+
+      //adding external linkedin link
     const  handleClick = () => {
       window.open("https://www.linkedin.com/in/okwiri-oduor-ab2010219/", '_blank');
     };
+
+    //creating hover effect over linkedin link
+    //can't use hover in react so you create listeners for onMouseEnter and onMouseLeave
+    const changeTextColor = (e) => {
+      e.target.style.color = '#EF4B68';
+    }
+
+    const returnTextColor = (e) => {
+      e.target.style.color = 'white'
+    }
+
+
       return (
       <div>
       <Navbar/>
@@ -31,7 +46,7 @@ export default class ContactView extends React.Component {
      
       <p>Thanks for checking out my portfolio. If you wish, you 
         may contact me by  {<MailTo/>} or via 
-        <span id='linkedin-link' onClick={handleClick}> Linkedin</span>. </p>
+        <span id='linkedin-link' onClick={handleClick} style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}> Linkedin</span>. </p>
         </div>
       </div>
       );
