@@ -4,7 +4,7 @@ import HomeVector from '../imgs/home-vector.svg';
 import HomeImage from '../imgs/home-img.svg';
 import './home.scss';
 import LogoImage from '../imgs/portfolio-logo.svg';
-import { Link } from "react-router-dom";
+
 
 
 
@@ -32,8 +32,6 @@ export default class HomeView extends React.Component {
         
         
       </div>
-
-      //adding global navigation
       
       );
     }

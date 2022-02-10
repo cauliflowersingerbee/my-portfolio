@@ -7,10 +7,9 @@ export default class NavbarView extends React.Component {
     render() {
         return(
 
-<Navbar bg="primary" className='Navbar' expand="lg">
+<Navbar className='Navbar' >
   <Container>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
+   
       <Nav className="nav-link">
          
           <ul><Nav.Link href="/">HOME</Nav.Link></ul>
@@ -19,7 +18,6 @@ export default class NavbarView extends React.Component {
           <ul><Nav.Link href="contact" >CONTACT</Nav.Link></ul>
           
       </Nav>
-    </Navbar.Collapse>
   </Container>
 </Navbar>
         );
