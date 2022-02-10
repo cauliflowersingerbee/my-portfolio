@@ -20,7 +20,7 @@ export default class WorkView extends React.Component {
     render() {
 
       const handleClickWebDev = () => {
-        window.open(<LandingPage />, '_blank');
+        window.open('_blank');
       };
 
       const handleClickUXDesign = () => {
