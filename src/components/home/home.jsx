@@ -4,7 +4,7 @@ import HomeVector from '../imgs/home-vector.svg';
 import HomeImage from '../imgs/home-img.svg';
 import './home.scss';
 import LogoImage from '../imgs/portfolio-logo.svg';
-import { Link } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 
 
 
@@ -28,12 +28,6 @@ export default class HomeView extends React.Component {
                 </div>
                 <p>Welcome to my portfolio.</p>
             </div>
-
-        <Link to="/home">home</Link> |{" "}
-        <Link to="/about">about</Link>
-        <Link to="/work">work</Link>
-        <Link to="/contact">contact</Link>
-        <Link to="/landing page">landing page</Link>
         
       </div>
 
