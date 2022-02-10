@@ -1,14 +1,24 @@
 import React from "react";
+import './mailto.scss';
 
 export default class MailTo extends React.Component {  
 
-    
-Mailto({ email, subject, body, ...props }) {
-  return (
-    <a href={`mailto:${email}?subject=${subject || ""}&body=${body || ""}`}>
-      {props.children}
-    </a>
-  );
+    //code to add mailto to contact form
+
+    render () {
+        const Mailto = ({ email, subject = '', body = '', children }) => {
+            let params = subject || body ? '?' : '';
+            if (subject) params += `subject=${encodeURIComponent(subject)}`;
+            if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
+          
+            return <a href={`mailto:${email}${params}`}>{children}</a>;
+          };
+        return (
+            <Mailto email="okwiri.codes@gmail.com" subject="" body="" id='email-link'>
+                email
+            </Mailto>
+          );
+  
+    }
 }
 
-}
