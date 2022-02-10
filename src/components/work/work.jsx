@@ -8,6 +8,7 @@ import SquigglyLine from '../imgs/squiggly-line.svg';
 import SquigglyLineOne from '../imgs/squiggly-line.svg';
 import SquigglyLineTwo from '../imgs/squiggly-line.svg';
 import SquigglyLineThree from '../imgs/squiggly-line.svg';
+import LandingPage from '../landing-page/landing-page';
 
 //import { Router } from 'react-router-dom';
 
@@ -19,7 +20,7 @@ export default class WorkView extends React.Component {
     render() {
 
       const handleClickWebDev = () => {
-        window.open('_blank');
+        window.open(<LandingPage />, '_blank');
       };
 
       const handleClickUXDesign = () => {
