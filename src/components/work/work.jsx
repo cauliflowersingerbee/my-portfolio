@@ -1,17 +1,25 @@
 import React from 'react';
 import Navbar from '../navbar/navbar';
+import LogoImage from '../imgs/portfolio-logo.svg';
+import './work.scss'
+import WorkImage from '../imgs/work-img.svg';
+import WorkVector from '../imgs/work-vector.svg';
+
 //import { Router } from 'react-router-dom';
 
 
 
 
-export default class ContactView extends React.Component {  
+export default class WorkView extends React.Component {  
     
     render() {
     
       return (
       <div>
       <Navbar/>
+      <img id='logo-img' src={LogoImage} alt=''/>
+      <img id='work-vector' src={WorkVector} alt=''/>
+      <img id='work-img' src={WorkImage} alt=''/>
       
       </div>
       );
