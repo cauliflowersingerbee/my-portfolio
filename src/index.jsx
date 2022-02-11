@@ -6,7 +6,10 @@ import HomeView from './components/home/home';
 import AboutView from './components/about/about'
 import WorkView from './components/work/work'
 import ContactView from './components/contact/contact'
-import LandingPage from './components/landing-page/landing-page';
+import WritingView from './components/writing/writing';
+import WebDevView from './components/webdev/webdev';
+import UXDesignView from './components/uxdesign/uxdesign';
+
 
 
 
@@ -20,6 +23,9 @@ ReactDOM.render(
         <Route path="about" element={<AboutView />} />
         <Route path="work" element={<WorkView />} />
         <Route path="contact" element={<ContactView />} />
+        <Route path="web development" element={<WebDevView />} />
+        <Route path="ux design" element={<UXDesignView />} />
+        <Route path="writing" element={<WritingView />} />
     
     </Routes>
     </BrowserRouter>
