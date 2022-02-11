@@ -97,30 +97,31 @@
             top: 500px;
         }
 
-        #squiggly-line-one {
-            position: absolute;
-            z-index: 2;
-            width: 500px;
-            height: 5px;
-            left:10px ;
-            top: 500px;
-        } 
     
        
-        #squiggly-line-two {
+        #squiggly-line-four {
             position: absolute;
             z-index: 2;
             width: 100px;
             height: 5px;
-            left: 380px;
+            left: 550px;
             top: 550px;
         }
 
         #squiggly-line-three {
             position: absolute;
             z-index: 2;
-            width: 350px;
-            height: 4px;
-            left: 400px;
+            width: 300px;
+            height: 3.5px;
+            left: 430px;
             top: 600px;
+        }
+
+        #squiggly-five {
+            position: absolute;
+            z-index: 2;
+            width: 280px;
+            height: 5px;
+            left: 540px;
+            top: 500px;
         }
