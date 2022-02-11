@@ -5,7 +5,7 @@ import './work.scss'
 import WorkImage from '../imgs/work-img.svg';
 import WorkVector from '../imgs/work-vector.svg';
 import SquigglyLine from '../imgs/squiggly-line.svg';
-import SquigglyLineOne from '../imgs/squiggly-line-one.svg';
+import SquigglyLineOne from '../imgs/squiggly-line.svg';
 import SquigglyLineTwo from '../imgs/squiggly-line.svg';
 import SquigglyLineThree from '../imgs/squiggly-line.svg';
 import LandingPage from '../landing-page/landing-page';
