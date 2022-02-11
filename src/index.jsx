@@ -21,11 +21,11 @@ ReactDOM.render(
     <Routes>
     <Route path="/" element={<HomeView />} />
         <Route path="about" element={<AboutView />} />
-        <Route path="work" element={<WorkView />} />
+        <Route path="work/" element={<WorkView />} />
         <Route path="contact" element={<ContactView />} />
-        <Route path="web development" element={<WebDevView />} />
-        <Route path="ux design" element={<UXDesignView />} />
-        <Route path="writing" element={<WritingView />} />
+        <Route path="work/webdev" element={<WebDevView />} />
+        <Route path="work/uxdesign" element={<UXDesignView />} />
+        <Route path="work/writing" element={<WritingView />} />
     
     </Routes>
     </BrowserRouter>

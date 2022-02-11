@@ -12,10 +12,10 @@ export default class NavbarView extends React.Component {
    
       <Nav className="nav-link">
          
-          <ul><Nav.Link href="/">HOME</Nav.Link></ul>
-          <ul><Nav.Link href="about" >ABOUT</Nav.Link></ul>
-          <ul><Nav.Link href="work" >WORK</Nav.Link></ul>
-          <ul><Nav.Link href="contact" >CONTACT</Nav.Link></ul>
+          <ul><Nav.Link activeClassName="active" href="/">HOME</Nav.Link></ul>
+          <ul><Nav.Link activeClassName="active" href="about" >ABOUT</Nav.Link></ul>
+          <ul><Nav.Link activeClassName="active" href="work" >WORK</Nav.Link></ul>
+          <ul><Nav.Link activeClassName="active" href="contact" >CONTACT</Nav.Link></ul>
           
       </Nav>
   </Container>

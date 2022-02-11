@@ -6,7 +6,10 @@ import WorkImage from '../imgs/work-img.svg';
 import WorkVector from '../imgs/work-vector.svg';
 import SquigglyLine from '../imgs/squiggly-line.svg';
 import SquigglyLineThree from '../imgs/squiggly-line.svg';
-import LandingPage from '../landing-page/landing-page';
+import WebDevView from '../webdev/webdev';
+import WritingView from '../writing/writing';
+import UXDesignView from '../uxdesign/uxdesign';
+import { Routes, Route, Link } from 'react-router-dom';
 
 //import { Router } from 'react-router-dom';
 
@@ -17,16 +20,39 @@ export default class WorkView extends React.Component {
     
     render() {
 
+      //const {WebDevView, WritingView, UXDesignView} = this.props.children;
+      //const WebDevView = props => <span>{WebDevView}</span>
+
+      
+
       const handleClickWebDev = () => {
-        window.open('_blank');
+        const webdev = () => {
+          return (
+            <WebDevView />
+          )
+        };
+        
+        window.open(webdev, '_blank');
       };
 
       const handleClickUXDesign = () => {
-        window.open('_blank');
+        const uxdesign = () => {
+          return (
+            <UXDesignView />
+          )
+        };
+
+        window.open(uxdesign, '_blank');
       };
 
       const handleClickWriting = () => {
-        window.open('_blank');
+        const writing = () => {
+          return (
+            <WritingView />
+          )
+        };
+        
+        window.open(writing, '_blank');
       };
     
       //creating hover effect over linkedin link
@@ -49,14 +75,29 @@ export default class WorkView extends React.Component {
       <img id='squiggly-five' src={SquigglyLine} alt=''/>
       <img id='squiggly-line-three' src={SquigglyLineThree} alt=''/>
       <img id='squiggly-line-four' src={SquigglyLineThree} alt=''/>
-      <p id='work-text'>My work</p>
-      <div id='web-dev'onClick={handleClickWebDev} style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Web Development</div>
-      <div id='ux-design' onClick={handleClickUXDesign} style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>UX Design</div>
-      <div id='writing' onClick={handleClickWriting} style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Writing</div>
-
       
+      <p id='work-text'>My work</p>
+      
+      <div id='work-links'>
+          <Link to="webdev" id='webdev' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Web Development</Link>
+    
+          <Link to="uxdesign" id='uxdesign' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>UX Design</Link>
+      
+          <Link to="writing" id='writing' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Writing</Link>
+     
+      <div className="work-link-routes">
+        <Routes>
+          <Route path="webdev" element={<WebDevView />}></Route>
+          <Route path="uxdesign" element={<UXDesignView />}></Route>
+          <Route path="writing" element={<WritingView />}></Route>
+        </Routes>
+      </div>
+    </div>
+     
       </div>
       );
     }
   }
+  
+
   
