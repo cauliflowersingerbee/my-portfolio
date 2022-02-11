@@ -10,16 +10,16 @@ export default class WebDevView extends React.Component {
     render() {
 
       return (
-      <div>
+      <div id='navbar'>
       <Navbar/>
       <img id='logo-img' src={LogoImage} alt=''/>
       
-    <div>
+    <div className='work-cards' >
       <div>
-      <Card style={{ width: '18rem' }}>
+      <Card >
   <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>MyFlix Angular</Card.Title>
     <Card.Text>
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
@@ -38,10 +38,10 @@ export default class WebDevView extends React.Component {
       </div>
 
       <div>
-      <Card style={{ width: '18rem' }}>
+      <Card >
   <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>Titbit</Card.Title>
     <Card.Text>
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
@@ -60,10 +60,10 @@ export default class WebDevView extends React.Component {
       </div>
 
       <div>
-      <Card style={{ width: '18rem' }}>
+      <Card >
   <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>Aptly</Card.Title>
     <Card.Text>
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
@@ -82,10 +82,10 @@ export default class WebDevView extends React.Component {
       </div>
       
       <div>
-      <Card style={{ width: '18rem' }}>
+      <Card >
   <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>MyFlix React</Card.Title>
     <Card.Text>
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
@@ -104,10 +104,10 @@ export default class WebDevView extends React.Component {
       </div>
 
       <div>
-      <Card style={{ width: '18rem' }}>
+      <Card>
   <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>MyFlix API</Card.Title>
     <Card.Text>
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
@@ -126,10 +126,10 @@ export default class WebDevView extends React.Component {
       </div>
 
       <div>
-      <Card style={{ width: '18rem' }}>
+      <Card >
   <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>Pokedex App</Card.Title>
     <Card.Text>
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
@@ -148,7 +148,7 @@ export default class WebDevView extends React.Component {
       </div>
 
       </div>
-      
+
       </div>
       );
     }
