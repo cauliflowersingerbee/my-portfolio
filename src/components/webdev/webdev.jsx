@@ -3,6 +3,7 @@ import Navbar from '../navbar/navbar';
 import './webdev.scss'
 import LogoImage from '../imgs/portfolio-logo.svg';
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 export default class WebDevView extends React.Component {  
