@@ -17,6 +17,9 @@ export default class WebDevView extends React.Component {
       <div id='navbar'>
       <Navbar/>
       <img id='logo-img' src={LogoImage} alt=''/>
+      <img id='wwebdev-vector-img' src={WebDevVector} alt=''/>
+      <img id='webdev-img' src={WebDevImg} alt=''/>
+      
     </div>      );
     }
   }
