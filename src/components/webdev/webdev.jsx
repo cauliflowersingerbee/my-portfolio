@@ -20,12 +20,12 @@ export default class WebDevView extends React.Component {
       <div className='project-grid'>
             <div id='red' class="grid-item">1</div>
             <div class="grid-item">3</div>
-            <div  class="grid-item">4</div>
-            <div class="grid-item">5</div>
-            <div id='stool' class="grid-item">6</div>
-            <div class="grid-item">7</div>
+            <div id='red' class="grid-item">4</div>
+            <div id='red' class="grid-item">5</div>
+            <div id='red' class="grid-item">6</div>
+            <div id='red' class="grid-item">7</div>
             <div  class="grid-item">8</div>
-            <div id='stool' class="grid-item">9</div>
+            <div id='red' class="grid-item">9</div>
             <div class="grid-item">10</div>
             <div class="grid-item">11</div>
             <div id='stool' class="grid-item">12</div>
