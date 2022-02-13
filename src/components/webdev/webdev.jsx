@@ -10,8 +10,8 @@ import MyFlixApiImg from '../imgs/myflix-api-img.svg';
 import AptlyImg from '../imgs/aptly-img.svg';
 import TitbitImg from '../imgs/titbit-img.svg';
 import PokedexImg from '../imgs/pokedex-img.svg';
-//import WebDevImg from '../imgs/work-projects-img.svg';
-//import WebDevVector from '../imgs/work-projects-vector.svg';
+import WebDevImg from '../imgs/work-projects-img.svg';
+import WebDevVector from '../imgs/work-projects-vector.svg';
 
 
 export default class WebDevView extends React.Component {  
@@ -25,18 +25,19 @@ export default class WebDevView extends React.Component {
       <img id='logo-img' src={LogoImage} alt=''/>
       <div className='project-grid'>
              
-          
-                <img id='angular' src={MyFlixAngularImg} alt=''/>
-            
-                <img id='titbit' src={TitbitImg} alt=''/>
+                 <img id='webdev-vector' src={WebDevVector} alt=''/>
+                 <img id='webdev-vector2' src={WebDevVector} alt=''/>
 
+                <div className='project-images'>
+                <img id='angular' src={MyFlixAngularImg} alt=''/>
+                <img id='titbit' src={TitbitImg} alt=''/>
                 <img id='react' src={MyFlixReactImg} alt=''/>
-         
                 <img id='api' src={MyFlixApiImg} alt=''/>
-          
                <img id='aptly' src={AptlyImg} alt=''/>
-         
                 <img id='pokedex' src={PokedexImg} alt=''/>
+                </div>
+
+                <img id='webdev-img' src={WebDevImg} alt=''/>
            
            
             

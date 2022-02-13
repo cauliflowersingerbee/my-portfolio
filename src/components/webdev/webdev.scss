@@ -14,33 +14,31 @@ margin-bottom: 5rem;
     gap: 5rem;
 }
 
-#webdev-vector-img
+#webdev-vector
 {
     position: absolute;
-    width: 1000.84px;
-    height:800px;
-    left: 0px;
-    top: 55px;
+    width:1000.84px;
+    height:700px;
+    left: -100px;
+    top: 100px;
+}
+
+#webdev-vector2 {
+    position: absolute;
+    width:1000.84px;
+    height:700px;
+    left: 400px;
+    top: 100px;
 }
 
 #webdev-img {
     position: relative;
     z-index: 2;
-    width: 550px;
-    height: 400px;
-    left: 950px;
-    top: -200px;
+    width: 350px;
+    height: 350px;
+    left: 1050px;
+    top: 300px;
 }
-
-.project-grid {
-    margin-top: 5rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
-    padding: 10px;  
-    background-color: #F2CA52;
-   
-  }
 
   #my-projects-text {
     align-content: center;
@@ -58,15 +56,51 @@ margin-bottom: 5rem;
 
   }
   
-  .grid-item {
-   
-    font-size: 30px;
-    text-align: center;
-    width: auto;
-    height: auto;
-  }
 
-  .angular {
-    grid-column: span 2
-  }
 
+#angular {
+    width: 200px;
+    left: 10px;
+    top: 50px;
+    z-index: 2;
+    position: absolute;
+}
+
+#react {
+    width: 200px;
+    left: 30px;
+    top: 60px;
+    z-index: 2;
+    position: absolute;
+}
+#api {
+    width: 200px;
+    left: -600px;
+    top: 70px;
+    z-index: 2;
+    position: absolute;
+}
+
+#titbit {
+    width: 100px;
+    left: 70px;
+    top: 70px;
+    z-index: 2;
+    position: absolute;
+}
+
+#aptly {
+    width: 550px;
+    left: 900px;
+    top: -1450px;
+    z-index: 2;
+    position: absolute;
+}
+
+#pokedex {
+    width: 550px;
+    left: 1000px;
+    top: -1450px;
+    z-index: 2;
+    position: absolute;
+}
