@@ -48,10 +48,9 @@ margin-bottom: 5rem;
   font-size: 45px;
   font-family: 'Roboto', serif;
   font-weight: 800;
-  width: 550px;
-  left: 600px;
-  top: -1450px;
-  z-index: 2;
+  left: 850px;
+    top: -240px;
+    z-index: 2;
   position: relative;
 
   }
@@ -59,48 +58,49 @@ margin-bottom: 5rem;
 
 
 #angular {
-    width: 200px;
-    left: 10px;
-    top: 50px;
+    width: 220px;
+    left: 930px;
+    height: 250px;
+    top: 270px;
     z-index: 2;
     position: absolute;
 }
 
 #react {
-    width: 200px;
+    width: 300px;
     left: 30px;
     top: 60px;
     z-index: 2;
     position: absolute;
 }
 #api {
-    width: 200px;
-    left: -600px;
-    top: 70px;
+    width: 300px;
+    left: 100px;
+    top: 370px;
     z-index: 2;
     position: absolute;
 }
 
 #titbit {
-    width: 100px;
-    left: 70px;
-    top: 70px;
+    width: 270px;
+    left: 600px;
+    top: 170px;
     z-index: 2;
     position: absolute;
 }
 
 #aptly {
-    width: 550px;
-    left: 900px;
-    top: -1450px;
+    width: 200px;
+    left: 700px;
+    top: 550px;
     z-index: 2;
     position: absolute;
 }
 
 #pokedex {
-    width: 550px;
-    left: 1000px;
-    top: -1450px;
+    width: 250px;
+    left: 300px;
+    top: 600px;
     z-index: 2;
     position: absolute;
 }
