@@ -17,6 +17,7 @@ import WebDevVector from '../imgs/work-projects-vector.svg';
 export default class WebDevView extends React.Component {  
     
     render() {
+        
 
       return (
           <div className='container'>

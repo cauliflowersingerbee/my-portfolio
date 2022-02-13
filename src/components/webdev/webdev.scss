@@ -46,7 +46,7 @@ margin-bottom: 5rem;
   font-size: 55px;
   font-family: 'Roboto', serif;
   font-weight: 800;
-  left: 800px;
+  left: 750px;
     top: -240px;
     z-index: 2;
   position: relative;
@@ -63,6 +63,7 @@ margin-bottom: 5rem;
     position: absolute;
     border: 10px solid #fff;
     border-radius: 1%;
+    
 }
 
 #react {
@@ -114,3 +115,8 @@ margin-bottom: 5rem;
     border-radius: 1%;
 }
 
+.project-images {
+    :hover {cursor: pointer; opacity: 50%;}
+    
+    
+}
