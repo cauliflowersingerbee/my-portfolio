@@ -30,7 +30,7 @@ export default class WebDevView extends React.Component {
                  <img id='webdev-vector2' src={WebDevVector} alt=''/>
 
                 <div className='project-images'>
-                <img id='angular' src={MyFlixAngularImg} alt=''/>
+                <img id='angular' src={MyFlixAngularImg} alt='' />
                 <img id='titbit' src={TitbitImg} alt=''/>
                 <img id='react' src={MyFlixReactImg} alt=''/>
                 <img id='api' src={MyFlixApiImg} alt=''/>
