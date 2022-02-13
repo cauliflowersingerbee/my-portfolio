@@ -25,25 +25,18 @@ export default class WebDevView extends React.Component {
       <img id='logo-img' src={LogoImage} alt=''/>
       <div className='project-grid'>
              
-            <div class="grid-item">
-                <Card><img id='angular' src={MyFlixAngularImg} alt=''/></Card>
-            </div>
-            <div class="grid-item">
-                <Card><img id='titbit' src={TitbitImg} alt=''/></Card> 
-            </div>
-            <div class="grid-item">
-                <Card><img id='react' src={MyFlixReactImg} alt=''/></Card>
-            </div>
-            <div class="grid-item">
-                <Card><img id='api' src={MyFlixApiImg} alt=''/></Card>
-            </div>
-           
-            <div class="grid-item">
-                <Card><img id='aptly' src={AptlyImg} alt=''/></Card>
-            </div>
-            <div class="grid-item">
-                <Card><img id='pokedex' src={PokedexImg} alt=''/></Card>
-            </div>
+          
+                <img id='angular' src={MyFlixAngularImg} alt=''/>
+            
+                <img id='titbit' src={TitbitImg} alt=''/>
+
+                <img id='react' src={MyFlixReactImg} alt=''/>
+         
+                <img id='api' src={MyFlixApiImg} alt=''/>
+          
+               <img id='aptly' src={AptlyImg} alt=''/>
+         
+                <img id='pokedex' src={PokedexImg} alt=''/>
            
            
             
