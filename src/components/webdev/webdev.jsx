@@ -28,6 +28,20 @@ export default class WebDevView extends React.Component {
 
 
     render() {
+  //changing text color over side links
+  const changeTextColor = (e) => {
+    e.target.style.color = '#EF4B68';
+  }
+
+  const returnTextColor = (e) => {
+    e.target.style.color = '#F2CA52'
+  }
+
+  const handleClickReact = () => {
+    window.scroll("myflix-react");
+  };
+
+  
 
       return (
     <div className='container'>
@@ -38,12 +52,13 @@ export default class WebDevView extends React.Component {
 
       <div id='webdev-links'>
         <ul>
-          <li>MyFlix Angular</li>
-          <li>MyFlix React</li>
-          <li>MyFlix API</li>
-          <li>Titbit</li>
-          <li>Aptly</li>
-          <li>Pokedex</li>
+        
+          <li style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>MyFlix Angular</li>
+          <span id='myflix-react' onClick={handleClickReact} style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}> MyFlixReact</span>
+          <li style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>MyFlix API</li>
+          <li style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Titbit</li>
+          <li style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Aptly</li>
+          <li style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Pokedex</li>
         </ul>
       </div>
       <div>
