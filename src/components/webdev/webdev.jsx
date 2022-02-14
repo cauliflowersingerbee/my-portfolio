@@ -29,22 +29,22 @@ export default class WebDevView extends React.Component {
         <img id='logo-img' src={LogoImage} alt=''/>
       <div>
      
-      <div className='project-grid' >
+      <div className='project-grid' style={{marginTop: '4rem'}}>
         
         <div className='angular' >
-           <Card style={{background: '#F2CA52',}}>
+           <Card style={{background: '#F2CA52', width: '60rem'}}>
             <Card.Title style={{margin: '2rem', marginLeft: '30rem', lineHeight: '2.2rem', color: '#fff', fontSize: '3rem', fontFamily: 'Roboto', fontWeight: '800'}}>
                 MyFlix Angular
             </Card.Title>
                 <Row>
-                        <Col style={{margin: '1rem', marginRight: '8rem'}}>
+                        <Col style={{margin: '1rem', marginRight: '2rem'}}>
           
                               <p><h6>About App</h6></p>
                           
                               <img alt='' src={MyFlixAngularImg} style={{ width: '15rem', height: 'auto', }}/>
                               
                             
-                                <p>This is a single-page, responsive movie app built with Angular, with routing and several
+                                <p style={{marginTop: '3rem'}}>This is a single-page, responsive movie app built with Angular, with routing and several
                               interface views. The client-side is an Angular rendition of a previous project that was built 
                               with React. </p>
           
@@ -63,7 +63,7 @@ export default class WebDevView extends React.Component {
                 <Row>
 
                      <Col  style={{margin: '1rem', marginRight: '8rem'}}>
-                       <p><h6 style={{lineHeight: '3rem'}}>Technical information</h6></p>
+                       <p><h6 >Technical information</h6></p>
                           <ul>
                             <li>Written in Angular</li>
                             <li>Contains user registration and login forms</li>
@@ -76,8 +76,8 @@ export default class WebDevView extends React.Component {
                     <Row>
                     <p><h6>Kanban Board</h6> </p>
                     <p>I worked with a kanban board to keep track of the project from start to finish.</p>
-                      <Col><img alt='' src={KanbanImgOne} style={{ width: '16rem', height: 'auto', }}/></Col>
-                      <Col><img alt='' src={KanbanImgTwo} style={{ width: '16rem', height: 'auto', }}/></Col>
+                      <Col><img alt='' src={KanbanImgOne} style={{ width: '20rem', height: 'auto', }}/></Col>
+                      <Col><img alt='' src={KanbanImgTwo} style={{ width: '20rem', height: 'auto', }}/></Col>
                           
                           
                     </Row>
