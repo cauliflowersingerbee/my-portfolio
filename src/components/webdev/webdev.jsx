@@ -31,44 +31,32 @@ export default class WebDevView extends React.Component {
         
         <div className='angular' >
            <Card style={{background: '#F2CA52',}}>
-                <Card.Title style={{margin: '2rem', marginLeft: '30rem', lineHeight: '2.2rem', color: '#fff', fontSize: '3rem', fontFamily: 'Roboto',
-  fontWeight: '800'}} >MyFlix Angular</Card.Title>
+            <Card.Title style={{margin: '2rem', marginLeft: '30rem', lineHeight: '2.2rem', color: '#fff', fontSize: '3rem', fontFamily: 'Roboto', fontWeight: '800'}}>
+                MyFlix Angular
+            </Card.Title>
                 <Row>
-                <Col>
-                <Card.Img variant="top" src={MyFlixAngularImg} style={{ width: '20rem', height: 'auto', margin: '1rem', float: 'left', border: '10px solid #fff'}}/>
+                  <Col style={{margin: '1rem', marginRight: '8rem'}}>
+                        <p><h6>About App</h6></p>
+                        <img alt='' src={MyFlixAngularImg} style={{ width: '20rem', height: 'auto', margin: '1rem', float: 'left', border: '10px solid #fff'}}/>
+                        This is a single-page, responsive movie app built with Angular, with routing and several
+                        interface views. The client-side is an Angular rendition of a previous project that was built 
+                        with React. 
+                 </Col>
+                </Row>
+                <Row>
+                 <Col>
+                 <p><h6>User Flows and User Stories</h6></p>
+                    <Card style={{margin: '2rem'}}>
+                    <img id='user-flows' src={UserFlows} alt='' style={{margin: '2rem'}}/>
+                    </Card>    
                 </Col>
+               
                 <Col>
-                <p>
-                    <h6>User Flows and User Stories</h6>
-                    </p>
-                    <img id='user-flows' src={UserFlows} alt=''/>
+                    <p><h6>Kanban Board</h6> </p>
                 </Col>
-                <Card.Body> 
-                                  
-                    <Card.Text >
-                        <Row>
-                    
-                    <Col style={{margin: '1rem', marginRight: '8rem'}}>
-                    <p>
-                    <h6>About App</h6>
-                    </p>
-                    
-                    This is a single-page, responsive movie app built with Angular, with routing and several
-                    interface views. The client-side is an Angular rendition of a previous project that was built 
-                    with React. 
-                    
-                    
-                    </Col>
-                    <Col>
-                    <p>
-                    <h6>Kanban Board</h6>
-                    </p>
-                    
-
-                 
-                    </Col>
-                    </Row>
-                    <Row>
+                </Row>
+              
+                <Row>
                     <Col  style={{margin: '1rem', marginRight: '8rem'}}>
                     <p>
                     <h6 style={{lineHeight: '3rem'}}>Technical information</h6>
@@ -81,15 +69,14 @@ export default class WebDevView extends React.Component {
                     </ul>
                    
                     </Col>
-                    </Row>
-                    </Card.Text>
-                </Card.Body>
+                </Row>
+                <Row>
                
 
-                <Card.Body>
+                
                     <Card.Link href="#">Card Link</Card.Link>
                     <Card.Link href="#">Another Link</Card.Link>
-                </Card.Body>
+                
                 </Row>
                 </Card>
       </div>
