@@ -28,6 +28,18 @@ export default class WebDevView extends React.Component {
         <Navbar/>
         <img id='logo-img' src={LogoImage} alt=''/>
       <div>
+
+      <div id='webdev-links'>
+        <ul>
+          <li>MyFlix Angular</li>
+          <li>MyFlix React</li>
+          <li>MyFlix API</li>
+          <li>Titbit</li>
+          <li>Aptly</li>
+          <li>Pokedex</li>
+        </ul>
+
+      </div>
      
       <div className='project-grid' style={{marginTop: '4rem'}}>
         

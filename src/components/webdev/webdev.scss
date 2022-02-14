@@ -39,19 +39,6 @@ margin-bottom: 5rem;
     left: 1050px;
     top: 300px;
 }
-
-  #my-projects-text {
-  line-height: 2.2rem;
-  color: #fff;
-  font-size: 55px;
-  font-family: 'Roboto', serif;
-  font-weight: 800;
-  left: 750px;
-    top: -240px;
-    z-index: 2;
-  position: relative;
-
-  }
   
 
 
@@ -124,4 +111,10 @@ margin-bottom: 5rem;
 #react-modal {
     z-index: 2;
     position: relative;
+}
+
+#webdev-links {
+    position: absolute;
+    left: 1200px;
+    top: 100px;
 }
