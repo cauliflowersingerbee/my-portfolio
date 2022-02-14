@@ -24,36 +24,6 @@ export default class WorkView extends React.Component {
       //const WebDevView = props => <span>{WebDevView}</span>
 
       
-
-      const handleClickWebDev = () => {
-        const webdev = () => {
-          return (
-            <WebDevView />
-          )
-        };
-        
-        window.open(webdev, '_blank');
-      };
-
-      const handleClickUXDesign = () => {
-        const uxdesign = () => {
-          return (
-            <UXDesignView />
-          )
-        };
-
-        window.open(uxdesign, '_blank');
-      };
-
-      const handleClickWriting = () => {
-        const writing = () => {
-          return (
-            <WritingView />
-          )
-        };
-        
-        window.open(writing, '_blank');
-      };
     
       //creating hover effect over linkedin link
     //can't use hover in react so you create listeners for onMouseEnter and onMouseLeave
