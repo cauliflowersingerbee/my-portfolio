@@ -9,6 +9,7 @@ import MyFlixApiImg from '../imgs/myflix-api-img.svg';
 import AptlyImg from '../imgs/aptly-img.svg';
 import TitbitImg from '../imgs/titbit-img.svg';
 import PokedexImg from '../imgs/pokedex-img.svg';
+import UserFlows from '../imgs/user-flows.svg';
 import { Card, ListGroup, ListGroupItem, Row, Col } from 'react-bootstrap';
 //import WebDevImg from '../imgs/work-projects-img.svg';
 //import WebDevVector from '../imgs/work-projects-vector.svg';
@@ -40,7 +41,7 @@ export default class WebDevView extends React.Component {
                 <p>
                     <h6>User Flows and User Stories</h6>
                     </p>
-                    
+                    <img id='user-flows' src={UserFlows} alt=''/>
                 </Col>
                 <Card.Body> 
                                   
