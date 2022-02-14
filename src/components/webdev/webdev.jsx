@@ -52,6 +52,7 @@ export default class WebDevView extends React.Component {
                  
                       <Col>
                       <p><h6>User Flows and User Stories</h6></p>
+                      <p>I created user stories and user flows to help guide me as I added features to the app.</p>
                       <Card style={{margin: '2rem'}}>
                       <img id='user-flows' src={UserFlows} alt='' style={{margin: '2rem'}}/>
                       </Card>    
@@ -74,8 +75,9 @@ export default class WebDevView extends React.Component {
                     <Col>
                     <Row>
                     <p><h6>Kanban Board</h6> </p>
-                      <Col><img alt='' src={KanbanImgOne} style={{ width: '15rem', height: 'auto', }}/></Col>
-                      <Col><img alt='' src={KanbanImgTwo} style={{ width: '15rem', height: 'auto', }}/></Col>
+                    <p>I worked with a kanban board to keep track of the project from start to finish.</p>
+                      <Col><img alt='' src={KanbanImgOne} style={{ width: '16rem', height: 'auto', }}/></Col>
+                      <Col><img alt='' src={KanbanImgTwo} style={{ width: '16rem', height: 'auto', }}/></Col>
                           
                           
                     </Row>
