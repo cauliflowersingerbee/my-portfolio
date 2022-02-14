@@ -35,50 +35,55 @@ export default class WebDevView extends React.Component {
                 MyFlix Angular
             </Card.Title>
                 <Row>
-                  <Col style={{margin: '1rem', marginRight: '8rem'}}>
-                        <p><h6>About App</h6></p>
-                        <img alt='' src={MyFlixAngularImg} style={{ width: '20rem', height: 'auto', margin: '1rem', float: 'left', border: '10px solid #fff'}}/>
-                        This is a single-page, responsive movie app built with Angular, with routing and several
-                        interface views. The client-side is an Angular rendition of a previous project that was built 
-                        with React. 
-                 </Col>
-                </Row>
-                <Row>
-                 <Col>
-                 <p><h6>User Flows and User Stories</h6></p>
-                    <Card style={{margin: '2rem'}}>
-                    <img id='user-flows' src={UserFlows} alt='' style={{margin: '2rem'}}/>
-                    </Card>    
-                </Col>
-               
-                <Col>
-                    <p><h6>Kanban Board</h6> </p>
-                </Col>
+                        <Col style={{margin: '1rem', marginRight: '8rem'}}>
+          
+                              <p><h6>About App</h6></p>
+                          
+                              <img alt='' src={MyFlixAngularImg} style={{ width: '15rem', height: 'auto', }}/>
+                              
+                            
+                                <p>This is a single-page, responsive movie app built with Angular, with routing and several
+                              interface views. The client-side is an Angular rendition of a previous project that was built 
+                              with React. </p>
+          
+                      </Col>
+                 
+                      <Col>
+                      <p><h6>User Flows and User Stories</h6></p>
+                      <Card style={{margin: '2rem'}}>
+                      <img id='user-flows' src={UserFlows} alt='' style={{margin: '2rem'}}/>
+                      </Card>    
+                      </Col>
+
                 </Row>
               
                 <Row>
-                    <Col  style={{margin: '1rem', marginRight: '8rem'}}>
-                    <p>
-                    <h6 style={{lineHeight: '3rem'}}>Technical information</h6>
-                    </p>
-                    <ul>
-                        <li>Written in Angular</li>
-                        <li>Contains user registration and login forms</li>
-                        <li>Designed using Angular Material</li>
-                        <li>Documentation created using Typedoc and JSDoc</li>
-                    </ul>
-                   
-                    </Col>
-                </Row>
-                <Row>
-               
 
-                
+                     <Col  style={{margin: '1rem', marginRight: '8rem'}}>
+                       <p><h6 style={{lineHeight: '3rem'}}>Technical information</h6></p>
+                          <ul>
+                            <li>Written in Angular</li>
+                            <li>Contains user registration and login forms</li>
+                            <li>Designed using Angular Material</li>
+                            <li>Documentation created using Typedoc and JSDoc</li>
+                         </ul>
+                    </Col>
+            
+                    <Col>
+                          <p><h6>Kanban Board</h6> </p>
+                    </Col>
+
+                </Row>
+              
+              
+                    
+              
+                <Row>
                     <Card.Link href="#">Card Link</Card.Link>
                     <Card.Link href="#">Another Link</Card.Link>
                 
                 </Row>
-                </Card>
+          </Card>
       </div>
 
      
