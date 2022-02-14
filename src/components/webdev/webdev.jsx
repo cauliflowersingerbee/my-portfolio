@@ -10,6 +10,8 @@ import AptlyImg from '../imgs/aptly-img.svg';
 import TitbitImg from '../imgs/titbit-img.svg';
 import PokedexImg from '../imgs/pokedex-img.svg';
 import UserFlows from '../imgs/user-flows.svg';
+import KanbanImgOne from '../imgs/kanban-img1.svg'
+import KanbanImgTwo from '../imgs/kanban-img2.svg'
 import { Card, ListGroup, ListGroupItem, Row, Col } from 'react-bootstrap';
 //import WebDevImg from '../imgs/work-projects-img.svg';
 //import WebDevVector from '../imgs/work-projects-vector.svg';
@@ -70,7 +72,13 @@ export default class WebDevView extends React.Component {
                     </Col>
             
                     <Col>
-                          <p><h6>Kanban Board</h6> </p>
+                    <Row>
+                    <p><h6>Kanban Board</h6> </p>
+                      <Col><img alt='' src={KanbanImgOne} style={{ width: '15rem', height: 'auto', }}/></Col>
+                      <Col><img alt='' src={KanbanImgTwo} style={{ width: '15rem', height: 'auto', }}/></Col>
+                          
+                          
+                    </Row>
                     </Col>
 
                 </Row>
