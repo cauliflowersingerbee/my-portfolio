@@ -114,7 +114,70 @@ margin-bottom: 5rem;
 }
 
 #webdev-links {
-    position: absolute;
-    left: 1200px;
-    top: 100px;
+    position: fixed;
+    left: 1100px;
+    top: 200px;
+    color: #F2CA52;
+    font-size: 32px;
+    font-family: 'Roboto';
+    line-height: 5rem;
+    font-weight: 800;
+    ul {
+        list-style-type: none;
+    }
 }
+
+#squiggly-one {
+    position: fixed;
+        z-index: 2;
+        width: 180px;
+        height: 10px;
+        left: 1150px;
+        top: 260px;
+}
+
+#squiggly-two {
+    position: fixed;
+        z-index: 2;
+        width: 150px;
+        height: 10px;
+        left: 1145px;
+        top: 340px;
+}
+
+#squiggly-three {
+    position: fixed;
+        z-index: 2;
+        width: 140px;
+        height: 10px;
+        left: 1140px;
+        top: 420px;
+}
+
+#squiggly-four {
+    position: fixed;
+        z-index: 2;
+        width: 90px;
+        height: 10px;
+        left: 1130px;
+        top: 500px;
+}
+
+#squiggly-five {
+    position: fixed;
+        z-index: 2;
+        width: 80px;
+        height: 10px;
+        left: 1130px;
+        top: 580px;
+}
+
+#squiggly-six {
+    position: fixed;
+        z-index: 2;
+        width: 120px;
+        height: 10px;
+        left: 1130px;
+        top: 660px;
+}
+

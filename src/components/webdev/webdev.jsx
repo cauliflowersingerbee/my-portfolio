@@ -13,6 +13,13 @@ import UserFlows from '../imgs/user-flows.svg';
 import KanbanImgOne from '../imgs/kanban-img1.svg'
 import KanbanImgTwo from '../imgs/kanban-img2.svg'
 import { Card, ListGroup, ListGroupItem, Row, Col } from 'react-bootstrap';
+import SquigglyLineOne from '../imgs/squiggly-line.svg';
+import SquigglyLineTwo from '../imgs/squiggly-line.svg';
+import SquigglyLineThree from '../imgs/squiggly-line.svg';
+import SquigglyLineFour from '../imgs/squiggly-line.svg';
+import SquigglyLineFive from '../imgs/squiggly-line.svg';
+import SquigglyLineSix from '../imgs/squiggly-line.svg';
+
 //import WebDevImg from '../imgs/work-projects-img.svg';
 //import WebDevVector from '../imgs/work-projects-vector.svg';
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -38,7 +45,14 @@ export default class WebDevView extends React.Component {
           <li>Aptly</li>
           <li>Pokedex</li>
         </ul>
-
+      </div>
+      <div>
+      <img id='squiggly-one' src={SquigglyLineOne} alt=''/> 
+      <img id='squiggly-two' src={SquigglyLineTwo} alt=''/> 
+      <img id='squiggly-three' src={SquigglyLineThree} alt=''/> 
+      <img id='squiggly-four' src={SquigglyLineFour} alt=''/> 
+      <img id='squiggly-five' src={SquigglyLineFive} alt=''/> 
+      <img id='squiggly-six' src={SquigglyLineSix} alt=''/> 
       </div>
      
       <div className='project-grid' style={{marginTop: '4rem'}}>
