@@ -211,10 +211,10 @@ export default class WebDevView extends React.Component {
 
       
       
-      <div id='myflix-react' style={{marginTop: '4rem'}}>
+      <div id='myflix-api' style={{marginTop: '4rem'}}>
            <Card style={{background: '#F2CA52', width: '50rem'}}>
             <Card.Title style={{margin: '2rem', marginLeft: '19rem', lineHeight: '2.2rem', color: '#fff', fontSize: '2rem', fontFamily: 'Roboto', fontWeight: '800'}}>
-                MyFlix React
+                MyFlix API
             </Card.Title>
                 <Row>
                         <Col style={{margin: '2rem', marginRight: '2rem'}}>
@@ -278,10 +278,10 @@ export default class WebDevView extends React.Component {
           </Card>
       </div>
 
-      <div id='myflix-react' style={{marginTop: '4rem'}}>
+      <div id='titbit' style={{marginTop: '4rem'}}>
            <Card style={{background: '#F2CA52', width: '50rem'}}>
             <Card.Title style={{margin: '2rem', marginLeft: '19rem', lineHeight: '2.2rem', color: '#fff', fontSize: '2rem', fontFamily: 'Roboto', fontWeight: '800'}}>
-                MyFlix React
+                Titbit
             </Card.Title>
                 <Row>
                         <Col style={{margin: '2rem', marginRight: '2rem'}}>
@@ -345,10 +345,10 @@ export default class WebDevView extends React.Component {
           </Card>
       </div>
 
-      <div id='myflix-react' style={{marginTop: '4rem'}}>
+      <div id='aptly' style={{marginTop: '4rem'}}>
            <Card style={{background: '#F2CA52', width: '50rem'}}>
             <Card.Title style={{margin: '2rem', marginLeft: '19rem', lineHeight: '2.2rem', color: '#fff', fontSize: '2rem', fontFamily: 'Roboto', fontWeight: '800'}}>
-                MyFlix React
+                Aptly
             </Card.Title>
                 <Row>
                         <Col style={{margin: '2rem', marginRight: '2rem'}}>
@@ -413,10 +413,10 @@ export default class WebDevView extends React.Component {
       </div>
 
 
-      <div id='myflix-react' style={{marginTop: '4rem'}}>
+      <div id='pokedex' style={{marginTop: '4rem'}}>
            <Card style={{background: '#F2CA52', width: '50rem'}}>
             <Card.Title style={{margin: '2rem', marginLeft: '19rem', lineHeight: '2.2rem', color: '#fff', fontSize: '2rem', fontFamily: 'Roboto', fontWeight: '800'}}>
-                MyFlix React
+                Pokedex
             </Card.Title>
                 <Row>
                         <Col style={{margin: '2rem', marginRight: '2rem'}}>
