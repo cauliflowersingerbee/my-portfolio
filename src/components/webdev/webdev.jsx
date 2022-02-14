@@ -29,7 +29,6 @@ export default class WebDevView extends React.Component {
       <div className='project-grid' >
         
         <div className='angular' >
-           <Card style={{background: '#F2CA52'}}>
            <Card style={{background: '#F2CA52',}}>
                 <Card.Title style={{margin: '2rem', marginLeft: '30rem', lineHeight: '2.2rem', color: '#fff', fontSize: '3rem', fontFamily: 'Roboto',
   fontWeight: '800'}} >MyFlix Angular</Card.Title>
