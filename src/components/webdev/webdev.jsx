@@ -26,54 +26,60 @@ export default class WebDevView extends React.Component {
         <img id='logo-img' src={LogoImage} alt=''/>
       <div>
      
-      <div className='project-grid'>
+      <div className='project-grid' >
         
         <div className='angular' >
            <Card style={{background: '#F2CA52'}}>
-                <Card.Title style={{margin: '1rem'}} >MyFlix Angular</Card.Title>
+           <Card style={{background: '#F2CA52',}}>
+                <Card.Title style={{margin: '2rem', marginLeft: '30rem', lineHeight: '2.2rem', color: '#fff', fontSize: '3rem', fontFamily: 'Roboto',
+  fontWeight: '800'}} >MyFlix Angular</Card.Title>
                 <Row>
                 <Col>
-                <Card.Img variant="top" src={MyFlixAngularImg} style={{ width: '20rem', height: 'auto', margin: '1rem', float: 'left'}}/>
+                <Card.Img variant="top" src={MyFlixAngularImg} style={{ width: '20rem', height: 'auto', margin: '1rem', float: 'left', border: '10px solid #fff'}}/>
                 </Col>
                 <Col>
                 <p>
                     <h6>User Flows and User Stories</h6>
                     </p>
-                    <Card>
-                        
-                    </Card>
+                    
                 </Col>
                 <Card.Body> 
                                   
                     <Card.Text >
                         <Row>
-                    <Col>This is a single-page, responsive movie app built with Angular, with routing and several
+                    
+                    <Col style={{margin: '1rem', marginRight: '8rem'}}>
+                    <p>
+                    <h6>About App</h6>
+                    </p>
+                    
+                    This is a single-page, responsive movie app built with Angular, with routing and several
                     interface views. The client-side is an Angular rendition of a previous project that was built 
-                    with React.  It facilitates user requests and renders the response from the server-side via 
-                    a number of different interface views. 
+                    with React. 
+                    
+                    
                     </Col>
                     <Col>
                     <p>
                     <h6>Kanban Board</h6>
                     </p>
-                    <Card>
+                    
 
-                    </Card>
+                 
                     </Col>
                     </Row>
                     <Row>
-                    <Col>
+                    <Col  style={{margin: '1rem', marginRight: '8rem'}}>
                     <p>
-                    <h6>Technical information</h6>
+                    <h6 style={{lineHeight: '3rem'}}>Technical information</h6>
+                    </p>
                     <ul>
                         <li>Written in Angular</li>
-                        <li>Uses Node.js and npm package</li>
-                        <li>Contains user registration and login forms</li>
                         <li>Contains user registration and login forms</li>
                         <li>Designed using Angular Material</li>
                         <li>Documentation created using Typedoc and JSDoc</li>
                     </ul>
-                    </p>
+                   
                     </Col>
                     </Row>
                     </Card.Text>
