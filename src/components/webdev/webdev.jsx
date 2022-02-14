@@ -29,19 +29,40 @@ export default class WebDevView extends React.Component {
       <div className='project-grid'>
         
         <div className='angular' >
-           <Card>
-                <Card.Img variant="top" src={MyFlixAngularImg} style={{ width: '35rem', height: '15rem', float: 'left'}}/>
-                <Card.Body>
-                    <Card.Title>MyFlix Angular</Card.Title>
-                    <Card.Text style={{display:'flex'}}>
-                    <Row>
+           <Card style={{background: '#F2CA52'}}>
+                <Card.Title style={{margin: '1rem'}} >MyFlix Angular</Card.Title>
+                <Row>
+                <Col>
+                <Card.Img variant="top" src={MyFlixAngularImg} style={{ width: '20rem', height: 'auto', margin: '1rem', float: 'left'}}/>
+                </Col>
+                <Col>
+                <p>
+                    <h6>User Flows and User Stories</h6>
+                    </p>
+                    <Card>
+                        
+                    </Card>
+                </Col>
+                <Card.Body> 
+                                  
+                    <Card.Text >
+                        <Row>
                     <Col>This is a single-page, responsive movie app built with Angular, with routing and several
                     interface views. The client-side is an Angular rendition of a previous project that was built 
                     with React.  It facilitates user requests and renders the response from the server-side via 
-                    a number of different interface views. The app is accompanied by relevant documentation and 
-                    handoff deliverables, including a kanban board containing user stories and story points.
+                    a number of different interface views. 
+                    </Col>
+                    <Col>
+                    <p>
+                    <h6>Kanban Board</h6>
+                    </p>
+                    <Card>
+
+                    </Card>
                     </Col>
                     </Row>
+                    <Row>
+                    <Col>
                     <p>
                     <h6>Technical information</h6>
                     <ul>
@@ -53,16 +74,17 @@ export default class WebDevView extends React.Component {
                         <li>Documentation created using Typedoc and JSDoc</li>
                     </ul>
                     </p>
-                    <p>
-                    <h6>User Flows and User Stories</h6>
-                    </p>
-
+                    </Col>
+                    </Row>
                     </Card.Text>
                 </Card.Body>
+               
+
                 <Card.Body>
                     <Card.Link href="#">Card Link</Card.Link>
                     <Card.Link href="#">Another Link</Card.Link>
                 </Card.Body>
+                </Row>
                 </Card>
       </div>
 
