@@ -136,9 +136,7 @@ export default class WebDevView extends React.Component {
                             <img alt='' src={MyFlixReactImg} style={{ width: '15rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid 4px #fff'}}/>
                               
                             
-                              <p style={{marginTop: '1rem', color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab',}}>This is a single-page, responsive movie app built with Angular, with routing and several
-                            interface views. The client-side is an Angular rendition of a previous project that I built 
-                            with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc </p>
+                              <p style={{marginTop: '1rem', color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab',}}>This is the client-side of a movie API. It's built using the MERN tech stack (MongoDB, Express, React, and Node.js).  </p>
 
                             <Row>
                     <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://github.com/cauliflowersingerbee/MyFlixClient" target="_blank">Github</Card.Link></Col>
