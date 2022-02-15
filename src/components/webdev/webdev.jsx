@@ -292,8 +292,7 @@ export default class WebDevView extends React.Component {
                               <p style={{fontWeight: 'bold', color: '#000', fontSize: '20px', fontFamily: 'Roboto-Slab', lineHeight: '1px'}}>About the App</p>
                             
                             <div>
-                            <img alt='' src={AptlyImg} style={{ width: '15rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid 4px #fff'}}/>
-                              
+                               
                             
                               <p style={{marginTop: '1rem', color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab',}}>This is a single-page, responsive movie app built with Angular, with routing and several
                             interface views. The client-side is an Angular rendition of a previous project that I built 
@@ -311,11 +310,9 @@ export default class WebDevView extends React.Component {
                       </Col>
                  
                       <Col style={{marginRight:'2rem'}}>
-                      <Card style={{margin: '2rem'}}>
-                      <img id='user-flows' src={UserFlows} alt='' style={{margin: '.1rem', width: '600px',}}/>
+                      <Card style={{width: '26rem'}}>
+                      <img alt='' src={AptlyImg} style={{ width: '24rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid .1px #fff'}}/>
                       </Card>   
-                      <Row><p style={{color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab'}}>I created user stories and user flows on Adobe Illustrator. These were crucial in guiding me as I added features to the app. To keep track of the project, I used Kanban boards built with Trello. </p></Row>
-                     
                       </Col>
 
                 </Row>
