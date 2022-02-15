@@ -181,12 +181,27 @@ export default class WebDevView extends React.Component {
                               <p style={{fontWeight: 'bold', color: '#000', fontSize: '20px', fontFamily: 'Roboto-Slab', lineHeight: '1px'}}>About the App</p>
                             
                             <div>
-                            <img alt='' src={MyFlixApiImg} style={{ width: '15rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid 4px #fff'}}/>
                               
                             
-                              <p style={{marginTop: '1rem', color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab',}}>This is a single-page, responsive movie app built with Angular, with routing and several
-                            interface views. The client-side is an Angular rendition of a previous project that I built 
-                            with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc </p>
+                              <p style={{marginTop: '1rem', color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab',}}>
+                             This is the complete server-side of a movie web application, including the server, business logic, 
+                             and business layers of the application. It consists of a well-designed REST API and architected 
+                             database built using JavaScript, Node.js, Express, and MongoDB. The REST API is accessed via commonly 
+                             used HTTP methods like GET and POST. 
+                             <ul>
+                             <li>The API uses middleware modules such as the body-parser package for reading data from 
+                               requests and morgan for logging.</li>
+                             <li>The database is built using MongoDB.</li>
+                             <li>The business logic is modeled with Mongoose.</li>
+                             <li>The API provides movie information in JSON format.</li>
+                             <li>The API is tested in Postman.</li>
+                             <li>The API includes user authentication and authorization code.</li>
+                             <li>The API includes data validation logic.</li>
+                             <li>The API meets data security regulations.</li>
+                             <li>The API is deployed to Heroku.</li>
+                             </ul>
+
+                              </p>
 
                             <Row>
                     <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://github.com/cauliflowersingerbee/MyFlix-Movie-API" target="_blank">Github</Card.Link></Col>
@@ -200,10 +215,9 @@ export default class WebDevView extends React.Component {
                  
                       <Col style={{marginRight:'2rem'}}>
                       <Card style={{margin: '2rem'}}>
-                      <img id='user-flows' src={UserFlows} alt='' style={{margin: '.1rem', width: '600px',}}/>
-                      </Card>   
-                      <Row><p style={{color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab'}}>I created user stories and user flows on Adobe Illustrator. These were crucial in guiding me as I added features to the app. To keep track of the project, I used Kanban boards built with Trello. </p></Row>
-                     
+                      <img alt='' src={MyFlixApiImg} style={{ width: '15rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid 4px #fff'}}/>
+                     </Card>   
+                      
                       </Col>
 
                 </Row>
