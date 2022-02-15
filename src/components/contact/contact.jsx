@@ -7,8 +7,6 @@ import './contact.scss';
 import SquigglyLine from '../imgs/squiggly-line.svg';
 import SquigglyLineTwo from '../imgs/squiggly-line-two.svg';
 import MailTo from '../mailto/mailto';
-//import LinkedIn from '../linkedin/linkedin';
-import ReactModal from '../modal/modal';
 
 
 
