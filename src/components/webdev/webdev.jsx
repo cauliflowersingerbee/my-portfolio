@@ -215,7 +215,7 @@ export default class WebDevView extends React.Component {
                  
                       <Col style={{marginRight:'2rem'}}>
                       <Card style={{margin: '2rem'}}>
-                      <img alt='' src={MyFlixApiImg} style={{ width: '15rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid 4px #fff'}}/>
+                      <img alt='' src={MyFlixApiImg} style={{ width: '30rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid 4px #fff'}}/>
                      </Card>   
                       
                       </Col>
