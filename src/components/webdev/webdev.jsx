@@ -38,10 +38,6 @@ export default class WebDevView extends React.Component {
     e.target.style.color = '#F2CA52'
   }
 
-  const handleClickReact = () => {
-    window.scroll("myflix-react");
-  };
-
   
 
       return (
@@ -54,8 +50,8 @@ export default class WebDevView extends React.Component {
       <div id='webdev-links'>
         <ul>
         
-          <li style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>MyFlix Angular</li>
-          <Link to='#myflix-react' onClick={handleClickReact} style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}> MyFlixReact</Link>
+          <Link to='#myflix-angular' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>MyFlix Angular</Link>
+          <Link to='#myflix-react' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}> MyFlixReact</Link>
           <li style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor} >MyFlix API</li>
           <li style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Titbit</li>
           <li style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Aptly</li>
@@ -73,9 +69,8 @@ export default class WebDevView extends React.Component {
       </div>
      
     
-        <div className='project-cards'>
-          <Row>
-            <Col>
+        <div className='project-cards' style={{display: 'block'}}>
+         
         <div id='myflix-angular' >
            <Card style={{background: '#F2CA52', width: '70rem', height: '40rem', marginTop: '2rem'}}>
             <Card.Title style={{margin: '2rem', marginLeft: '19rem', lineHeight: '2.2rem', color: '#000', fontSize: '24px', fontFamily: 'Roboto', fontWeight: '800'}}>
@@ -99,14 +94,9 @@ export default class WebDevView extends React.Component {
                     <Col><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
                    <Col></Col>
                    <Col></Col>
-                   
-                
+                 
                 </Row>
-                            </div>
-
-
-                          
-                             
+                            </div>      
           
                       </Col>
                  
@@ -125,12 +115,242 @@ export default class WebDevView extends React.Component {
           
           
       </div>
-      </Col>
+     
+     
 
-     
-  </Row>
-     
+      <div id='myflix-react' >
+           <Card style={{background: '#F2CA52', width: '70rem', height: '40rem', marginTop: '2rem'}}>
+            <Card.Title style={{margin: '2rem', marginLeft: '19rem', lineHeight: '2.2rem', color: '#000', fontSize: '24px', fontFamily: 'Roboto', fontWeight: '800'}}>
+                MyFlix React
+            </Card.Title>
+                <Row>
+                        <Col style={{margin: '2rem', marginRight: '0.5rem'}}>
+          
+                              <p style={{fontWeight: 'bold', color: '#000', fontSize: '20px', fontFamily: 'Roboto-Slab', lineHeight: '1px'}}>About the App</p>
+                            
+                            <div>
+                            <img alt='' src={MyFlixAngularImg} style={{ width: '15rem', height: 'auto', float: 'left', margin: '1rem'}}/>
+                              
+                            
+                              <p style={{marginTop: '1rem', color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab',}}>This is a single-page, responsive movie app built with Angular, with routing and several
+                            interface views. The client-side is an Angular rendition of a previous project that I built 
+                            with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc </p>
+
+                            <Row>
+                    <Col><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
+                    <Col><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
+                   <Col></Col>
+                   <Col></Col>
+                 
+                </Row>
+                            </div>      
+          
+                      </Col>
+                 
+                      <Col style={{marginRight:'2rem'}}>
+                      <Card style={{margin: '2rem'}}>
+                      <img id='user-flows' src={UserFlows} alt='' style={{margin: '.1rem', width: '600px',}}/>
+                      </Card>   
+                      <Row><p style={{color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab'}}>I created user stories and user flows on Adobe Illustrator. These were crucial in guiding me as I added features to the app. To keep track of the project, I used Kanban boards built with Trello. </p></Row>
+                     
+                      </Col>
+
+                </Row>
+              
+               
+          </Card> 
+          
+          
       </div>
+
+
+      <div id='titbit' >
+           <Card style={{background: '#F2CA52', width: '70rem', height: '40rem', marginTop: '2rem'}}>
+            <Card.Title style={{margin: '2rem', marginLeft: '19rem', lineHeight: '2.2rem', color: '#000', fontSize: '24px', fontFamily: 'Roboto', fontWeight: '800'}}>
+                Titbit
+            </Card.Title>
+                <Row>
+                        <Col style={{margin: '2rem', marginRight: '0.5rem'}}>
+          
+                              <p style={{fontWeight: 'bold', color: '#000', fontSize: '20px', fontFamily: 'Roboto-Slab', lineHeight: '1px'}}>About the App</p>
+                            
+                            <div>
+                            <img alt='' src={MyFlixAngularImg} style={{ width: '15rem', height: 'auto', float: 'left', margin: '1rem'}}/>
+                              
+                            
+                              <p style={{marginTop: '1rem', color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab',}}>This is a single-page, responsive movie app built with Angular, with routing and several
+                            interface views. The client-side is an Angular rendition of a previous project that I built 
+                            with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc </p>
+
+                            <Row>
+                    <Col><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
+                    <Col><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
+                   <Col></Col>
+                   <Col></Col>
+                 
+                </Row>
+                            </div>      
+          
+                      </Col>
+                 
+                      <Col style={{marginRight:'2rem'}}>
+                      <Card style={{margin: '2rem'}}>
+                      <img id='user-flows' src={UserFlows} alt='' style={{margin: '.1rem', width: '600px',}}/>
+                      </Card>   
+                      <Row><p style={{color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab'}}>I created user stories and user flows on Adobe Illustrator. These were crucial in guiding me as I added features to the app. To keep track of the project, I used Kanban boards built with Trello. </p></Row>
+                     
+                      </Col>
+
+                </Row>
+              
+               
+          </Card> 
+          
+          
+      </div>
+
+
+      <div id='myflix-api' >
+           <Card style={{background: '#F2CA52', width: '70rem', height: '40rem', marginTop: '2rem'}}>
+            <Card.Title style={{margin: '2rem', marginLeft: '19rem', lineHeight: '2.2rem', color: '#000', fontSize: '24px', fontFamily: 'Roboto', fontWeight: '800'}}>
+                MyFlix API
+            </Card.Title>
+                <Row>
+                        <Col style={{margin: '2rem', marginRight: '0.5rem'}}>
+          
+                              <p style={{fontWeight: 'bold', color: '#000', fontSize: '20px', fontFamily: 'Roboto-Slab', lineHeight: '1px'}}>About the App</p>
+                            
+                            <div>
+                            <img alt='' src={MyFlixAngularImg} style={{ width: '15rem', height: 'auto', float: 'left', margin: '1rem'}}/>
+                              
+                            
+                              <p style={{marginTop: '1rem', color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab',}}>This is a single-page, responsive movie app built with Angular, with routing and several
+                            interface views. The client-side is an Angular rendition of a previous project that I built 
+                            with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc </p>
+
+                            <Row>
+                    <Col><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
+                    <Col><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
+                   <Col></Col>
+                   <Col></Col>
+                 
+                </Row>
+                            </div>      
+          
+                      </Col>
+                 
+                      <Col style={{marginRight:'2rem'}}>
+                      <Card style={{margin: '2rem'}}>
+                      <img id='user-flows' src={UserFlows} alt='' style={{margin: '.1rem', width: '600px',}}/>
+                      </Card>   
+                      <Row><p style={{color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab'}}>I created user stories and user flows on Adobe Illustrator. These were crucial in guiding me as I added features to the app. To keep track of the project, I used Kanban boards built with Trello. </p></Row>
+                     
+                      </Col>
+
+                </Row>
+              
+               
+          </Card> 
+          
+          
+      </div>
+
+
+      <div id='aptly' >
+           <Card style={{background: '#F2CA52', width: '70rem', height: '40rem', marginTop: '2rem'}}>
+            <Card.Title style={{margin: '2rem', marginLeft: '19rem', lineHeight: '2.2rem', color: '#000', fontSize: '24px', fontFamily: 'Roboto', fontWeight: '800'}}>
+                Aptly
+            </Card.Title>
+                <Row>
+                        <Col style={{margin: '2rem', marginRight: '0.5rem'}}>
+          
+                              <p style={{fontWeight: 'bold', color: '#000', fontSize: '20px', fontFamily: 'Roboto-Slab', lineHeight: '1px'}}>About the App</p>
+                            
+                            <div>
+                            <img alt='' src={MyFlixAngularImg} style={{ width: '15rem', height: 'auto', float: 'left', margin: '1rem'}}/>
+                              
+                            
+                              <p style={{marginTop: '1rem', color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab',}}>This is a single-page, responsive movie app built with Angular, with routing and several
+                            interface views. The client-side is an Angular rendition of a previous project that I built 
+                            with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc </p>
+
+                            <Row>
+                    <Col><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
+                    <Col><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
+                   <Col></Col>
+                   <Col></Col>
+                 
+                </Row>
+                            </div>      
+          
+                      </Col>
+                 
+                      <Col style={{marginRight:'2rem'}}>
+                      <Card style={{margin: '2rem'}}>
+                      <img id='user-flows' src={UserFlows} alt='' style={{margin: '.1rem', width: '600px',}}/>
+                      </Card>   
+                      <Row><p style={{color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab'}}>I created user stories and user flows on Adobe Illustrator. These were crucial in guiding me as I added features to the app. To keep track of the project, I used Kanban boards built with Trello. </p></Row>
+                     
+                      </Col>
+
+                </Row>
+              
+               
+          </Card> 
+          
+          
+      </div>
+
+
+      <div id='pokedex' >
+           <Card style={{background: '#F2CA52', width: '70rem', height: '40rem', marginTop: '2rem'}}>
+            <Card.Title style={{margin: '2rem', marginLeft: '19rem', lineHeight: '2.2rem', color: '#000', fontSize: '24px', fontFamily: 'Roboto', fontWeight: '800'}}>
+                Pokedex
+            </Card.Title>
+                <Row>
+                        <Col style={{margin: '2rem', marginRight: '0.5rem'}}>
+          
+                              <p style={{fontWeight: 'bold', color: '#000', fontSize: '20px', fontFamily: 'Roboto-Slab', lineHeight: '1px'}}>About the App</p>
+                            
+                            <div>
+                            <img alt='' src={MyFlixAngularImg} style={{ width: '15rem', height: 'auto', float: 'left', margin: '1rem'}}/>
+                              
+                            
+                              <p style={{marginTop: '1rem', color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab',}}>This is a single-page, responsive movie app built with Angular, with routing and several
+                            interface views. The client-side is an Angular rendition of a previous project that I built 
+                            with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc </p>
+
+                            <Row>
+                    <Col><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
+                    <Col><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
+                   <Col></Col>
+                   <Col></Col>
+                 
+                </Row>
+                            </div>      
+          
+                      </Col>
+                 
+                      <Col style={{marginRight:'2rem'}}>
+                      <Card style={{margin: '2rem'}}>
+                      <img id='user-flows' src={UserFlows} alt='' style={{margin: '.1rem', width: '600px',}}/>
+                      </Card>   
+                      <Row><p style={{color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab'}}>I created user stories and user flows on Adobe Illustrator. These were crucial in guiding me as I added features to the app. To keep track of the project, I used Kanban boards built with Trello. </p></Row>
+                     
+                      </Col>
+
+                </Row>
+              
+               
+          </Card> 
+          
+          
+      </div>
+       
+      
+      </div>
+
+
 
 
       </div>
