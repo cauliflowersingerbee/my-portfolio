@@ -133,10 +133,12 @@ export default class WebDevView extends React.Component {
                               <p style={{fontWeight: 'bold', color: '#000', fontSize: '20px', fontFamily: 'Roboto-Slab', lineHeight: '1px'}}>About the App</p>
                             
                             <div>
-                            <img alt='' src={MyFlixReactImg} style={{ width: '15rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid 4px #fff'}}/>
-                              
+                            <img alt='' src={MyFlixReactImg} style={{ width: '40rem', height: 'auto', float: 'right', margin: '1rem', border: 'solid 4px #fff'}}/>
+                     
                             
-                              <p style={{marginTop: '1rem', color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab',}}>This is the client-side of a movie API. It's built using the MERN tech stack (MongoDB, Express, React, and Node.js).  </p>
+                              <p style={{marginTop: '1rem', color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab',}}>This is the client-side of a movie API. It's built using the MERN tech stack (MongoDB, Express, React, and Node.js). It’s a single-page application (SPA). It uses routing to navigate between views and share URLs. It uses Parcel as its build tool.
+The user interface is made up of a number of views e.g. the main view (returns a list of all movies to the user), the  single movie view (returns data about a single movie to the user and allows users to add a movie to their list of favorites), the login view (allows users to log in with a username and password), the registration view (allows new users to register) and the profile view (allows users to update their user info, deregister, access and edit their list of favorite movies.
+ </p>
 
                             <Row>
                     <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://github.com/cauliflowersingerbee/MyFlixClient" target="_blank">Github</Card.Link></Col>
@@ -149,13 +151,7 @@ export default class WebDevView extends React.Component {
           
                       </Col>
                  
-                      <Col style={{marginRight:'2rem'}}>
-                      <Card style={{margin: '2rem'}}>
-                      <img id='user-flows' src={UserFlows} alt='' style={{margin: '.1rem', width: '600px',}}/>
-                      </Card>   
-                      <Row><p style={{color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab'}}>I created user stories and user flows on Adobe Illustrator. These were crucial in guiding me as I added features to the app. To keep track of the project, I used Kanban boards built with Trello. </p></Row>
                      
-                      </Col>
 
                 </Row>
               
