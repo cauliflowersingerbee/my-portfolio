@@ -18,12 +18,21 @@ import SquigglyLineFour from '../imgs/squiggly-line.svg';
 import SquigglyLineFive from '../imgs/squiggly-line.svg';
 import SquigglyLineSix from '../imgs/squiggly-line.svg';
 import { HashLink } from 'react-router-hash-link';
+import HomeView from '../home/home';
+import AboutView from '../about/about';
+import WorkView from '../work/work';
+import ContactView from '../contact/contact';
 //import WebDevImg from '../imgs/work-projects-img.svg';
 //import WebDevVector from '../imgs/work-projects-vector.svg';
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Link, Routes, Route, BrowserRouter } from 'react-router-dom';
+
+import * as ReactDOMServer from "react-dom/server";
+import { StaticRouter } from "react-router-dom/server";
 
 export default class WebDevView extends React.Component {  
-
+  
+ 
 
     render() {
   //changing text color over side links
@@ -56,7 +65,6 @@ export default class WebDevView extends React.Component {
            <li><HashLink to="#top" id='to-top' >Back to Top</HashLink></li>
           </ul>
       </div>
-    
 
       <div>
       <img id='squiggly-one' src={SquigglyLineOne} alt=''/> 
@@ -380,7 +388,7 @@ export default class WebDevView extends React.Component {
           
       </div>
        
-      
+
       </div>
 
 
