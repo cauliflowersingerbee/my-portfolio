@@ -26,7 +26,7 @@ ReactDOM.render(
         <Route path="work/webdev" element={<WebDevView />} />
         <Route path="work/uxdesign" element={<UXDesignView />} />
         <Route path="work/writing" element={<WritingView />} />
-    
+
     </Routes>
     </BrowserRouter>
   </React.StrictMode>,

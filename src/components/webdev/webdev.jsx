@@ -10,18 +10,14 @@ import AptlyImg from '../imgs/aptly-img.svg';
 import TitbitImg from '../imgs/titbit-img.svg';
 import PokedexImg from '../imgs/pokedex-img.svg';
 import UserFlows from '../imgs/user-flows.svg';
-import KanbanImgOne from '../imgs/kanban-img1.svg'
-import KanbanImgTwo from '../imgs/kanban-img2.svg'
-import { Card, ListGroup, ListGroupItem, Row, Col } from 'react-bootstrap';
+import { Card, Row, Col } from 'react-bootstrap';
 import SquigglyLineOne from '../imgs/squiggly-line.svg';
 import SquigglyLineTwo from '../imgs/squiggly-line.svg';
 import SquigglyLineThree from '../imgs/squiggly-line.svg';
 import SquigglyLineFour from '../imgs/squiggly-line.svg';
 import SquigglyLineFive from '../imgs/squiggly-line.svg';
 import SquigglyLineSix from '../imgs/squiggly-line.svg';
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-
 //import WebDevImg from '../imgs/work-projects-img.svg';
 //import WebDevVector from '../imgs/work-projects-vector.svg';
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -187,8 +183,8 @@ export default class WebDevView extends React.Component {
                              This is the complete server-side of a movie web application, including the server, business logic, 
                              and business layers of the application. It consists of a well-designed REST API and architected 
                              database built using JavaScript, Node.js, Express, and MongoDB. The REST API is accessed via commonly 
-                             used HTTP methods like GET and POST. 
-                             <ul>
+                             used HTTP methods like GET and POST.  </p>
+                             <ul style={{marginTop: '1rem', color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab',}}>
                              <li>The API uses middleware modules such as the body-parser package for reading data from 
                                requests and morgan for logging.</li>
                              <li>The database is built using MongoDB.</li>
@@ -201,7 +197,7 @@ export default class WebDevView extends React.Component {
                              <li>The API is deployed to Heroku.</li>
                              </ul>
 
-                              </p>
+                             
 
                             <Row>
                     <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://github.com/cauliflowersingerbee/MyFlix-Movie-API" target="_blank">Github</Card.Link></Col>
@@ -296,8 +292,9 @@ export default class WebDevView extends React.Component {
                             
                               <p style={{marginTop: '1rem', color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab',}}>
                               This is a serverless, progressive web application (PWA) built with React using a test-driven development 
-                              (TDD) technique. It uses the Google Calendar API to fetch upcoming events. 
+                              (TDD) technique. It uses the Google Calendar API to fetch upcoming events.  </p>
 
+                              <ul style={{marginTop: '1rem', color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab',}}>
                               <li>Uses the Google Calendar API and OAuth2 authentication flow.</li>
                               <li>Uses serverless functions (AWS lambda) for the authorization server 
                                 instead of using a traditional server.</li>
@@ -306,8 +303,11 @@ export default class WebDevView extends React.Component {
                               <li>The API calls use React axios and async/await.</li>
                               <li>Implements an alert system using an OOP approach to show information to the user.</li>
                               <li>Makes use of data visualization (using recharts).</li>
+                              </ul>
+
+                             
   
-                              </p>
+                             
 
                             <Row>
                     <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://github.com/cauliflowersingerbee/aptly" target="_blank">Github</Card.Link></Col>
@@ -380,7 +380,6 @@ export default class WebDevView extends React.Component {
           
       </div>
        
-       
       
       </div>
 
@@ -390,7 +389,8 @@ export default class WebDevView extends React.Component {
       </div>
             
       </div>
-         
+     
+    
     </div>);
     }
   }
