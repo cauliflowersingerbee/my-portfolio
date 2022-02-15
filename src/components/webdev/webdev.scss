@@ -39,84 +39,107 @@ margin-bottom: 5rem;
     left: 1050px;
     top: 300px;
 }
-
-  #my-projects-text {
-  line-height: 2.2rem;
-  color: #fff;
-  font-size: 55px;
-  font-family: 'Roboto', serif;
-  font-weight: 800;
-  left: 750px;
-    top: -240px;
-    z-index: 2;
-  position: relative;
-
-  }
   
 
-
-#angular {
-    width: 220px;
-    left: 850px;
-    top: 270px;
-    z-index: 2;
-    position: absolute;
-    border: 10px solid #fff;
-    border-radius: 1%;
-    
-}
-
-#react {
-    width: 350px;
-    left: 90px;
-    top: 200px;
-    z-index: 2;
-    position: absolute;
-    border: 10px solid #fff;
-    border-radius: 1%;
-}
-#api {
-    width: 280px;
-    left: 50px;
-    top: 450px;
-    z-index: 2;
-    position: absolute;
-    border: 10px solid #fff;
-    border-radius: 1%;
-}
-
-#titbit {
-    width: 270px;
-    left: 500px;
-    top: 170px;
-    z-index: 2;
-    position: absolute;
-    border: 10px solid #fff;
-    border-radius: 1%;
-}
-
-#aptly {
-    width: 210px;
-    left: 700px;
-    top: 550px;
-    z-index: 2;
-    position: absolute;
-    border: 10px solid #fff;
-    border-radius: 1%;
-}
-
-#pokedex {
-    width: 300px;
-    left: 360px;
-    top: 570px;
-    z-index: 2;
-    position: absolute;
-    border: 10px solid #fff;
-    border-radius: 1%;
-}
 
 .project-images {
     :hover {cursor: pointer; opacity: 50%;}
     
     
+}
+
+#react-modal {
+    z-index: 2;
+    position: relative;
+}
+
+#to-top {
+    margin-top: 5rem;
+    font-size: medium;
+    border: 1px solid #F2CA52;
+    padding: 3px;
+    color: #000;
+
+}
+
+#webdev-links {
+    a:link { text-decoration: none; color: #F2CA52 }
+        a:visited { text-decoration: none; color: #F2CA52}
+        a:hover { text-decoration: none; color: #EF4B68}
+        a:active { text-decoration: none; color: #EF4B68}
+    position: fixed;
+    left: 1180px;
+    top: 150px;
+    color: #F2CA52;
+    font-size: 28px;
+    font-family: 'Roboto';
+    line-height: 5rem;
+    font-weight: 800;
+    ul {
+        list-style-type: none;
+    }
+}
+
+#squiggly-one {
+    position: fixed;
+        z-index: 2;
+        width: 170px;
+        height: 10px;
+        left: 1210px;
+        top: 210px;
+}
+
+#squiggly-two {
+    position: fixed;
+        z-index: 2;
+        width: 150px;
+        height: 10px;
+        left: 1210px;
+        top: 290px;
+}
+
+#squiggly-three {
+    position: fixed;
+        z-index: 2;
+        width: 140px;
+        height: 10px;
+        left: 1210px;
+        top: 370px;
+}
+
+#squiggly-four {
+    position: fixed;
+        z-index: 2;
+        width: 80px;
+        height: 10px;
+        left: 1210px;
+        top: 450px;
+}
+
+#squiggly-five {
+    position: fixed;
+        z-index: 2;
+        width: 80px;
+        height: 10px;
+        left: 1210px;
+        top: 530px;
+}
+
+#squiggly-six {
+    position: fixed;
+        z-index: 2;
+        width: 120px;
+        height: 10px;
+        left: 1210px;
+        top: 610px;
+}
+
+
+#site-links {
+    a:link { text-decoration: none; color: #fff }
+    a:visited { text-decoration: none; color: #fff}
+    a:hover { text-decoration: none; color: #EF4B68}
+    a:active { text-decoration: none; color: #EF4B68}
+    font-size: small;
+    margin: 3px;
 }
