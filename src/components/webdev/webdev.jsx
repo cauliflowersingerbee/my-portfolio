@@ -76,7 +76,7 @@ export default class WebDevView extends React.Component {
          
         <div id='myflix-angular' >
            <Card style={{background: '#F2CA52', width: '70rem', height: '40rem', marginTop: '2rem'}}>
-            <Card.Title style={{margin: '2rem', marginLeft: '19rem', lineHeight: '2.2rem', color: '#000', fontSize: '24px', fontFamily: 'Roboto', fontWeight: '800'}}>
+            <Card.Title style={{margin: '2rem', marginLeft: '27rem', lineHeight: '2.2rem', color: '#fff', fontSize: '30px', fontFamily: 'Roboto', fontWeight: '800'}}>
                 MyFlix Angular
             </Card.Title>
                 <Row>
@@ -93,8 +93,8 @@ export default class WebDevView extends React.Component {
                             with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc </p>
 
                             <Row>
-                    <Col><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
-                    <Col><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
+                    <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
+                    <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
                    <Col></Col>
                    <Col></Col>
                  
@@ -123,7 +123,7 @@ export default class WebDevView extends React.Component {
 
       <div id='myflix-react' >
            <Card style={{background: '#F2CA52', width: '70rem', height: '40rem', marginTop: '2rem'}}>
-            <Card.Title style={{margin: '2rem', marginLeft: '19rem', lineHeight: '2.2rem', color: '#000', fontSize: '24px', fontFamily: 'Roboto', fontWeight: '800'}}>
+            <Card.Title style={{margin: '2rem', marginLeft: '27rem', lineHeight: '2.2rem', color: '#fff', fontSize: '30px', fontFamily: 'Roboto', fontWeight: '800'}}>
                 MyFlix React
             </Card.Title>
                 <Row>
@@ -140,8 +140,8 @@ export default class WebDevView extends React.Component {
                             with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc </p>
 
                             <Row>
-                    <Col><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
-                    <Col><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
+                    <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
+                    <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
                    <Col></Col>
                    <Col></Col>
                  
@@ -169,7 +169,7 @@ export default class WebDevView extends React.Component {
 
       <div id='titbit' >
            <Card style={{background: '#F2CA52', width: '70rem', height: '40rem', marginTop: '2rem'}}>
-            <Card.Title style={{margin: '2rem', marginLeft: '19rem', lineHeight: '2.2rem', color: '#000', fontSize: '24px', fontFamily: 'Roboto', fontWeight: '800'}}>
+            <Card.Title style={{margin: '2rem', marginLeft: '27rem', lineHeight: '2.2rem', color: '#fff', fontSize: '30px', fontFamily: 'Roboto', fontWeight: '800'}}>
                 Titbit
             </Card.Title>
                 <Row>
@@ -186,8 +186,8 @@ export default class WebDevView extends React.Component {
                             with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc </p>
 
                             <Row>
-                    <Col><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
-                    <Col><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
+                    <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
+                    <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
                    <Col></Col>
                    <Col></Col>
                  
@@ -215,7 +215,7 @@ export default class WebDevView extends React.Component {
 
       <div id='myflix-api' >
            <Card style={{background: '#F2CA52', width: '70rem', height: '40rem', marginTop: '2rem'}}>
-            <Card.Title style={{margin: '2rem', marginLeft: '19rem', lineHeight: '2.2rem', color: '#000', fontSize: '24px', fontFamily: 'Roboto', fontWeight: '800'}}>
+            <Card.Title style={{margin: '2rem', marginLeft: '27rem', lineHeight: '2.2rem', color: '#fff', fontSize: '30px', fontFamily: 'Roboto', fontWeight: '800'}}>
                 MyFlix API
             </Card.Title>
                 <Row>
@@ -232,8 +232,8 @@ export default class WebDevView extends React.Component {
                             with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc </p>
 
                             <Row>
-                    <Col><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
-                    <Col><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
+                    <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
+                    <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
                    <Col></Col>
                    <Col></Col>
                  
@@ -261,7 +261,7 @@ export default class WebDevView extends React.Component {
 
       <div id='aptly' >
            <Card style={{background: '#F2CA52', width: '70rem', height: '40rem', marginTop: '2rem'}}>
-            <Card.Title style={{margin: '2rem', marginLeft: '19rem', lineHeight: '2.2rem', color: '#000', fontSize: '24px', fontFamily: 'Roboto', fontWeight: '800'}}>
+            <Card.Title style={{margin: '2rem', marginLeft: '27rem', lineHeight: '2.2rem', color: '#fff', fontSize: '30px', fontFamily: 'Roboto', fontWeight: '800'}}>
                 Aptly
             </Card.Title>
                 <Row>
@@ -278,8 +278,8 @@ export default class WebDevView extends React.Component {
                             with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc </p>
 
                             <Row>
-                    <Col><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
-                    <Col><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
+                    <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
+                    <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
                    <Col></Col>
                    <Col></Col>
                  
@@ -307,7 +307,7 @@ export default class WebDevView extends React.Component {
 
       <div id='pokedex' >
            <Card style={{background: '#F2CA52', width: '70rem', height: '40rem', marginTop: '2rem'}}>
-            <Card.Title style={{margin: '2rem', marginLeft: '19rem', lineHeight: '2.2rem', color: '#000', fontSize: '24px', fontFamily: 'Roboto', fontWeight: '800'}}>
+            <Card.Title style={{margin: '2rem', marginLeft: '27rem', lineHeight: '2.2rem', color: '#fff', fontSize: '30px', fontFamily: 'Roboto', fontWeight: '800'}}>
                 Pokedex
             </Card.Title>
                 <Row>
@@ -324,8 +324,8 @@ export default class WebDevView extends React.Component {
                             with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc </p>
 
                             <Row>
-                    <Col><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
-                    <Col><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
+                    <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
+                    <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
                    <Col></Col>
                    <Col></Col>
                  
