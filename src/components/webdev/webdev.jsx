@@ -20,6 +20,7 @@ import SquigglyLineFour from '../imgs/squiggly-line.svg';
 import SquigglyLineFive from '../imgs/squiggly-line.svg';
 import SquigglyLineSix from '../imgs/squiggly-line.svg';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 //import WebDevImg from '../imgs/work-projects-img.svg';
 //import WebDevVector from '../imgs/work-projects-vector.svg';
