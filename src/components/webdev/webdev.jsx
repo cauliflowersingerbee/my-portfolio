@@ -57,8 +57,10 @@ export default class WebDevView extends React.Component {
           <li><HashLink to='#titbit'style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Titbit</HashLink></li>
           <li><HashLink to='#aptly' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Aptly</HashLink></li>
           <li><HashLink to='#pokedex' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Pokedex</HashLink></li>
+           <li><HashLink to="#top" id='to-top' >Back to Top</HashLink></li>
           </ul>
       </div>
+    
 
       <div>
       <img id='squiggly-one' src={SquigglyLineOne} alt=''/> 
@@ -347,6 +349,7 @@ export default class WebDevView extends React.Component {
           
           
       </div>
+       
        
       
       </div>
