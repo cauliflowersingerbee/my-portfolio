@@ -294,9 +294,20 @@ export default class WebDevView extends React.Component {
                             <div>
                                
                             
-                              <p style={{marginTop: '1rem', color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab',}}>This is a single-page, responsive movie app built with Angular, with routing and several
-                            interface views. The client-side is an Angular rendition of a previous project that I built 
-                            with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc </p>
+                              <p style={{marginTop: '1rem', color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab',}}>
+                              This is a serverless, progressive web application (PWA) built with React using a test-driven development 
+                              (TDD) technique. It uses the Google Calendar API to fetch upcoming events. 
+
+                              <li>Uses the Google Calendar API and OAuth2 authentication flow.</li>
+                              <li>Uses serverless functions (AWS lambda) for the authorization server 
+                                instead of using a traditional server.</li>
+                              <li>Passes Lighthouse’s PWA checklist.</li>
+                              <li>Works offline or in slow network conditions with the help of a service worker.</li>
+                              <li>The API calls use React axios and async/await.</li>
+                              <li>Implements an alert system using an OOP approach to show information to the user.</li>
+                              <li>Makes use of data visualization (recharts preferred).</li>
+  
+                              </p>
 
                             <Row>
                     <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://github.com/cauliflowersingerbee/aptly" target="_blank">Github</Card.Link></Col>
