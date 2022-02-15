@@ -23,9 +23,15 @@ ReactDOM.render(
         <Route path="about" element={<AboutView />} />
         <Route path="work/" element={<WorkView />} />
         <Route path="contact" element={<ContactView />} />
+
         <Route path="work/webdev" element={<WebDevView />} />
+              <Route path="work/about" element={<AboutView />}></Route>
+              <Route path="work/work" element={<WorkView />}></Route>
+              <Route path="work/contact" element={<ContactView />}></Route>
         <Route path="work/uxdesign" element={<UXDesignView />} />
         <Route path="work/writing" element={<WritingView />} />
+
+        
 
     </Routes>
     </BrowserRouter>
