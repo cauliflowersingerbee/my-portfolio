@@ -41,6 +41,7 @@ export default class WorkView extends React.Component {
       <img id='squiggly-line-three' src={SquigglyLineThree} alt=''/>
       <img id='squiggly-line-four' src={SquigglyLineThree} alt=''/>
       
+      
       <p id='work-text'>My work</p>
       
       <div id='work-links'>
