@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.5819be4c.css",
-    "main.js": "/my-portfolio/static/js/main.0192d89e.js",
+    "main.css": "/my-portfolio/static/css/main.175dd784.css",
+    "main.js": "/my-portfolio/static/js/main.10d1afaa.js",
     "static/media/myflix-angular-img.svg": "/my-portfolio/static/media/myflix-angular-img.e54fe093487bb42ebc9481d72524f436.svg",
     "static/media/myflix-react-img.svg": "/my-portfolio/static/media/myflix-react-img.ce914c01621367f7f2e3f3412acb6dae.svg",
     "static/media/titbit-img.svg": "/my-portfolio/static/media/titbit-img.3851dc1a6b748d4fc4198da050a735bd.svg",
@@ -22,11 +22,11 @@
     "static/media/home-vector.svg": "/my-portfolio/static/media/home-vector.cbcdc3ba271f60ba08154ddc8b9c8427.svg",
     "static/media/work-vector.svg": "/my-portfolio/static/media/work-vector.32a6255341ceeab4cf1ad98987d17603.svg",
     "static/media/squiggly-line.svg": "/my-portfolio/static/media/squiggly-line.5255fcbd469268abf43fe9534c6a7df9.svg",
-    "main.5819be4c.css.map": "/my-portfolio/static/css/main.5819be4c.css.map",
-    "main.0192d89e.js.map": "/my-portfolio/static/js/main.0192d89e.js.map"
+    "main.175dd784.css.map": "/my-portfolio/static/css/main.175dd784.css.map",
+    "main.10d1afaa.js.map": "/my-portfolio/static/js/main.10d1afaa.js.map"
   },
   "entrypoints": [
-    "static/css/main.5819be4c.css",
-    "static/js/main.0192d89e.js"
+    "static/css/main.175dd784.css",
+    "static/js/main.10d1afaa.js"
   ]
 }
