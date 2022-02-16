@@ -17,9 +17,9 @@ ReactDOM.render(
 
   //wrapping whole app in browser router to connect browser URL 
   <React.StrictMode>
-    <BrowserRouter >
+    <BrowserRouter basename="/my-portfolio">
     <Routes>
-    <Route path="/" element={<HomeView />} />
+        <Route path="/" element={<HomeView />} />
         <Route path="about" element={<AboutView />} />
         <Route path="work/" element={<WorkView />} />
         <Route path="contact" element={<ContactView />} />
