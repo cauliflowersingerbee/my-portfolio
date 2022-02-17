@@ -9,7 +9,8 @@ import SquigglyLineThree from '../imgs/squiggly-line.svg';
 import WebDevView from '../webdev/webdev';
 import WritingView from '../writing/writing';
 import UXDesignView from '../uxdesign/uxdesign';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
+import { Switch } from 'react-router';
 
 //import { Router } from 'react-router-dom';
 
@@ -52,11 +53,11 @@ export default class WorkView extends React.Component {
           <Link to="writing" id='writing' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Writing</Link>
      
       <div className="work-link-routes">
-        <Routes>
+        <Switch>
           <Route path="webdev" element={<WebDevView />}></Route>
           <Route path="uxdesign" element={<UXDesignView />}></Route>
           <Route path="writing" element={<WritingView />}></Route>
-        </Routes>
+        </Switch>
       </div>
     </div>
      
