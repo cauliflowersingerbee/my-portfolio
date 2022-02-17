@@ -92,6 +92,7 @@ export default class WebDevView extends React.Component {
                             <Row>
                     <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
                     <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
+                    <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Case Study</Card.Link></Col>
                    <Col></Col>
                    <Col></Col>
                  
@@ -147,6 +148,7 @@ export default class WebDevView extends React.Component {
                             <Row>
                     <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://github.com/cauliflowersingerbee/MyFlixClient" target="_blank">Github</Card.Link></Col>
                     <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://kino-noir.herokuapp.com/" target="_blank">Live Site</Card.Link></Col>
+                    <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Case Study</Card.Link></Col><Col></Col>
                    <Col></Col>
                  
                 </Row>
@@ -200,6 +202,7 @@ export default class WebDevView extends React.Component {
 
                             <Row>
                     <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://github.com/cauliflowersingerbee/MyFlix-Movie-API" target="_blank">Github</Card.Link></Col>
+                    <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Case Study</Card.Link></Col><Col></Col>
                    <Col></Col>
                  
                 </Row>
@@ -251,6 +254,7 @@ export default class WebDevView extends React.Component {
 
                             <Row>
                     <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://github.com/cauliflowersingerbee/titbit" target="_blank">Github</Card.Link></Col>
+                    <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Case Study</Card.Link></Col>
                     <Col></Col>
                    <Col></Col>
                  
@@ -309,6 +313,7 @@ export default class WebDevView extends React.Component {
                             <Row>
                     <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://github.com/cauliflowersingerbee/aptly" target="_blank">Github</Card.Link></Col>
                     <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://cauliflowersingerbee.github.io/aptly/" target="_blank">Live Site</Card.Link></Col>
+                    <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Case Study</Card.Link></Col><Col></Col>
                    <Col></Col>
                  
                 </Row>
@@ -353,6 +358,7 @@ export default class WebDevView extends React.Component {
 
                             <Row>
                     <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://github.com/cauliflowersingerbee/pokedex-app" target="_blank">Github</Card.Link></Col>
+                    <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Case Study</Card.Link></Col><Col></Col>
                    <Col></Col>
                  
                 </Row>
