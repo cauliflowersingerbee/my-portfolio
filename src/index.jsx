@@ -4,6 +4,7 @@ import './index.css';
 import { Routes } from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
 import { Route } from 'react-router';
+import { Switch } from 'react-router';
 import HomeView from './components/home/home';
 import AboutView from './components/about/about'
 import WorkView from './components/work/work'
@@ -20,7 +21,7 @@ ReactDOM.render(
   //wrapping whole app in browser router to connect browser URL 
   <React.StrictMode>
     <BrowserRouter basename={`${process.env.PUBLIC_URL}/`}>
-    <Routes>
+    <Switch>
         <Route exact path="/" ><HomeView /></Route>
         <Route path="about"><AboutView /></Route>
         <Route path="work/"><WorkView /></Route>
@@ -33,7 +34,7 @@ ReactDOM.render(
         <Route path="work/uxdesign"><UXDesignView /></Route>
         <Route path="work/writing"><WritingView /></Route>
 
-    </Routes>
+    </Switch>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
