@@ -46,13 +46,13 @@ export default class WorkView extends React.Component {
       <p id='work-text'>My work</p>
       
       <div id='work-links'>
-        <ul>
-          <li><Link to="/work/webdev" id='webdev' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Web Development</Link></li>
+        
+         <Link to="/work/webdev" id='webdev' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Web Development</Link>
     
-          <li><Link to="/work/uxdesign" id='uxdesign' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>UX Design</Link></li>
+          <Link to="/work/uxdesign" id='uxdesign' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>UX Design</Link>
       
-          <li><Link to="/work/writing" id='writing' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Writing</Link></li>
-     </ul>
+        <Link to="/work/writing" id='writing' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Writing</Link>
+     
       <div className="work-link-routes">
        
         <Switch>

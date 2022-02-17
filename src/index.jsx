@@ -20,7 +20,7 @@ ReactDOM.render(
     <Router basename={`${process.env.PUBLIC_URL}/`}>
       <div>
     <Switch>
-        <Route exact path="/" ><HomeView /></Route>
+        <Route exact path="/home" ><HomeView /></Route>
         <Route path="/about"><AboutView /></Route>
         <Route path="/work/"><WorkView /></Route>
         <Route path="/contact"><ContactView /></Route>
