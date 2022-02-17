@@ -1,0 +1,136 @@
+#logo-img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 10px;
+    top: 1px;
+}
+
+#work-img {
+    position: relative;
+    z-index: 2;
+    width: 550px;
+    height: 300px;
+    left: 10px;
+    top: 350px;
+    }
+    
+    #work-vector {
+      
+    position: absolute;
+    width: 1000.84px;
+    height:750px;
+    left: 250px;
+    top: 55px;
+    }
+ 
+    #work-text {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 2;
+        left: 500px;
+        top: auto;
+        color: #fff;
+        font-size: 32px;
+        font-family: 'Roboto', serif;
+        font-weight: 400;
+        width:40%;
+      bottom:auto;
+      line-height: 3rem;
+        }
+
+        #webdev {
+            
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            z-index: 2;
+            left: 540px;
+            top: 460px;
+            color: #fff;
+        font-size: 28px;
+        font-family: 'Roboto', serif;
+        font-weight: 400;
+        width:40%;
+      
+      line-height: 2.5rem;
+        }
+
+        #uxdesign {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            z-index: 2;
+            left: 540px;
+            top: 510px;
+            color: #fff;
+        font-size: 28px;
+        font-family: 'Roboto', serif;
+        font-weight: 400;
+        width:40%;
+     
+      line-height: 2.5rem;
+        }
+
+        #writing {
+            
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            z-index: 2;
+            left: 540px;
+            top: 560px;
+            color: #fff;
+        font-size: 28px;
+        font-family: 'Roboto', serif;
+        font-weight: 400;
+        width:40%;
+     
+      line-height: 2.5rem;
+        }
+
+        #squiggly-line-writing {
+            position: absolute;
+            z-index: 3;
+            width: 520px;
+            height: 7px;
+            left: 370px;
+            top: 445px;
+        }
+
+    
+       
+        #squiggly-line-four {
+            position: absolute;
+            z-index: 2;
+            width: 100px;
+            height: 5px;
+            left: 550px;
+            top: 550px;
+        }
+
+        #squiggly-line-three {
+            position: absolute;
+            z-index: 2;
+            width: 300px;
+            height: 3.5px;
+            left: 430px;
+            top: 600px;
+        }
+
+        #squiggly-five {
+            position: absolute;
+            z-index: 2;
+            width: 280px;
+            height: 5px;
+            left: 540px;
+            top: 500px;
+        }
+
+        #work-links {
+        a:link { text-decoration: none; color: #fff }
+        a:visited { text-decoration: none; color: #fff}
+        a:hover { text-decoration: none; color: #EF4B68}
+        a:active { text-decoration: none; color: #EF4B68}
+        }

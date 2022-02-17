@@ -1,20 +1,54 @@
 .Navbar {
     width: auto;
     align-items: right;
+
+    margin-bottom: 60px;
 }
 
 .nav-link {
+    a:hover { text-decoration: none; color: #EF4B68}
+    a:active { text-decoration: none; color: #EF4B68}
+    z-index: 2;
     font-family: 'Roboto Slab';
     font-size: medium;
     display: flex;
-    font-weight: 800;
+    font-weight: bold;
     flex-direction: row;
-    color: #000;
+    color: #EF4B68;
     margin: auto;
-    width: 30px;
+    width: 20px;
     justify-content: space-between; 
-    gap: 70px;
+    gap: 50px;
     text-decoration: none;
- 
+    
 }
 
+#home-link {
+    position: absolute;
+    left: 600px;
+}
+
+#about-link {
+    position: absolute;
+    left: 700px;
+}
+
+#webdev-link {
+    position: absolute;
+    left: 800px;
+}
+
+#ux-link {
+    position: absolute;
+    left: 950px;
+}
+
+#writing-link {
+    position: absolute;
+    left: 1050px;
+}
+
+#contact-link {
+    position: absolute;
+    left: 1150px;
+}

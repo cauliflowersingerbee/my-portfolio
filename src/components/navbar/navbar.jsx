@@ -12,10 +12,12 @@ export default class NavbarView extends React.Component {
    
       <Nav className="nav-link">
          
-          <ul><Nav.Link href="/my-portfolio/home">HOME</Nav.Link></ul>
-          <ul><Nav.Link href="/my-portfolio/about" >ABOUT</Nav.Link></ul>
-          <ul><Nav.Link href="/my-portfolio/work" >WORK</Nav.Link></ul>
-          <ul><Nav.Link href="/my-portfolio/contact" >CONTACT</Nav.Link></ul>
+          <ul ><Nav.Link href="/" id='home-link'>home</Nav.Link></ul>
+          <ul><Nav.Link href="/my-portfolio/about" id='about-link'>about</Nav.Link></ul>
+          <ul><Nav.Link href="/my-portfolio/webdevelopment" id='webdev-link'>web development</Nav.Link></ul>
+          <ul><Nav.Link href="/my-portfolio/uxdesign" id='ux-link'>ux design</Nav.Link></ul>
+          <ul><Nav.Link href="/my-portfolio/writing" id='writing-link'>writing</Nav.Link></ul>
+          <ul><Nav.Link href="/my-portfolio/contact" id='contact-link'>contact</Nav.Link></ul>
           
       </Nav>
   </Container>
