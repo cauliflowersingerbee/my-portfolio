@@ -9,7 +9,7 @@ import SquigglyLineThree from '../imgs/squiggly-line.svg';
 import WebDevView from '../webdev/webdev';
 import WritingView from '../writing/writing';
 import UXDesignView from '../uxdesign/uxdesign';
-import { BrowserRouter as Route, Link, Router } from 'react-router-dom';
+import { BrowserRouter as Route, Link } from 'react-router-dom';
 import { Switch } from 'react-router';
 
 //import { Router } from 'react-router-dom';
