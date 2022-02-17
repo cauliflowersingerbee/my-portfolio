@@ -9,7 +9,6 @@ import ContactView from './components/contact/contact'
 import WritingView from './components/writing/writing';
 import WebDevView from './components/webdev/webdev';
 import UXDesignView from './components/uxdesign/uxdesign';
-import { Switch } from 'react-router-dom';
 
 
 
