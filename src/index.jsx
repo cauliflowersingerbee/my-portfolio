@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { Routes } from 'react-router';
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter } from 'react-router-dom';
+import { Route } from 'react-router';
 import HomeView from './components/home/home';
 import AboutView from './components/about/about'
 import WorkView from './components/work/work'
