@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { BrowserRouter } from 'react-router-dom';
-import { Route } from 'react-router';
-import { Switch } from 'react-router';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import HomeView from './components/home/home';
 import AboutView from './components/about/about'
 import WorkView from './components/work/work'
