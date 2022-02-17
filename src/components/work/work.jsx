@@ -9,7 +9,8 @@ import SquigglyLineThree from '../imgs/squiggly-line.svg';
 import WebDevView from '../webdev/webdev';
 import WritingView from '../writing/writing';
 import UXDesignView from '../uxdesign/uxdesign';
-import { Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Route, Link, Router } from 'react-router-dom';
+import { Switch } from 'react-router';
 
 //import { Router } from 'react-router-dom';
 
@@ -45,18 +46,29 @@ export default class WorkView extends React.Component {
       <p id='work-text'>My work</p>
       
       <div id='work-links'>
-          <Link to="webdev" id='webdev' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Web Development</Link>
+        <ul>
+          <li><Link to="/work/webdev" id='webdev' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Web Development</Link></li>
     
-          <Link to="uxdesign" id='uxdesign' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>UX Design</Link>
+          <li><Link to="/work/uxdesign" id='uxdesign' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>UX Design</Link></li>
       
-          <Link to="writing" id='writing' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Writing</Link>
-     
+          <li><Link to="/work/writing" id='writing' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Writing</Link></li>
+     </ul>
       <div className="work-link-routes">
-        <Routes>
-          <Route path="webdev" element={<WebDevView />}></Route>
-          <Route path="uxdesign" element={<UXDesignView />}></Route>
-          <Route path="writing" element={<WritingView />}></Route>
-        </Routes>
+       
+        <Switch>
+          <Route exact path="/work/webdev">
+             <WebDevView/> 
+          </Route>
+          <Route path="/work/uxdesign">
+             <UXDesignView/> 
+          </Route>
+          <Route path="/work/writing">
+             <WritingView/> 
+          </Route>
+        </Switch>
+
+        
+        
       </div>
     </div>
      
