@@ -19,7 +19,7 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter basename={`${process.env.PUBLIC_URL}/`}>
     <Routes>
-        <Route path="/" ><HomeView /></Route>
+        <Route exact path="/" ><HomeView /></Route>
         <Route path="about"><AboutView /></Route>
         <Route path="work/"><WorkView /></Route>
         <Route path="contact"><ContactView /></Route>
