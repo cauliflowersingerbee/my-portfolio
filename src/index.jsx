@@ -32,6 +32,8 @@ ReactDOM.render(
         <Route path="/work/uxdesign"><UXDesignView /></Route>
         <Route path="/work/writing"><WritingView /></Route>
 
+        
+
     </Switch>
     </div>
     </Router>
