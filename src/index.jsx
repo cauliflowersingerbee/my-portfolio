@@ -21,16 +21,16 @@ ReactDOM.render(
       <div>
     <Switch>
         <Route exact path="/" ><HomeView /></Route>
-        <Route path="about"><AboutView /></Route>
-        <Route path="work/"><WorkView /></Route>
-        <Route path="contact"><ContactView /></Route>
+        <Route path="/about"><AboutView /></Route>
+        <Route path="/work/"><WorkView /></Route>
+        <Route path="/contact"><ContactView /></Route>
 
-        <Route path="work/webdev"><WebDevView /></Route>
-              <Route path="work/about"><AboutView /></Route>
-              <Route path="work/work" ><WorkView /></Route>
-              <Route path="work/contact"><ContactView /></Route>
-        <Route path="work/uxdesign"><UXDesignView /></Route>
-        <Route path="work/writing"><WritingView /></Route>
+        <Route path="/work/webdev"><WebDevView /></Route>
+              <Route path="/work/about"><AboutView /></Route>
+              <Route path="/work/work" ><WorkView /></Route>
+              <Route path="/work/contact"><ContactView /></Route>
+        <Route path="/work/uxdesign"><UXDesignView /></Route>
+        <Route path="/work/writing"><WritingView /></Route>
 
     </Switch>
     </div>
