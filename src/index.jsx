@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import HomeView from './components/home/home';
 import AboutView from './components/about/about'
 import WorkView from './components/work/work'
@@ -17,24 +17,26 @@ ReactDOM.render(
 
   //wrapping whole app in browser router to connect browser URL 
   <React.StrictMode>
-    <BrowserRouter basename={`${process.env.PUBLIC_URL}/`}>
-    <Routes>
-        <Route path="/" element={<HomeView />} />
-        <Route path="about" element={<AboutView />} />
-        <Route path="work/" element={<WorkView />} />
-        <Route path="contact" element={<ContactView />} />
+    <Router basename={`${process.env.PUBLIC_URL}/`}>
+      <div>
+    <Switch>
+        <Route exact path="/" ><HomeView /></Route>
+        <Route path="/about"><AboutView /></Route>
+        <Route path="/work/"><WorkView /></Route>
+        <Route path="/contact"><ContactView /></Route>
 
-        <Route path="work/webdev" element={<WebDevView />} />
-              <Route path="work/about" element={<AboutView />}></Route>
-              <Route path="work/work" element={<WorkView />}></Route>
-              <Route path="work/contact" element={<ContactView />}></Route>
-        <Route path="work/uxdesign" element={<UXDesignView />} />
-        <Route path="work/writing" element={<WritingView />} />
+        <Route path="/work/webdev"><WebDevView /></Route>
+              <Route path="/work/about"><AboutView /></Route>
+              <Route path="/work/work" ><WorkView /></Route>
+              <Route path="/work/contact"><ContactView /></Route>
+        <Route path="/work/uxdesign"><UXDesignView /></Route>
+        <Route path="/work/writing"><WritingView /></Route>
 
         
 
-    </Routes>
-    </BrowserRouter>
+    </Switch>
+    </div>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
