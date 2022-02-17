@@ -17,7 +17,7 @@ ReactDOM.render(
 
   //wrapping whole app in browser router to connect browser URL 
   <React.StrictMode>
-    <Router >
+    <Router basename={`${process.env.PUBLIC_URL}/`}>
       <div>
     <Switch>
         <Route exact path="/" ><HomeView /></Route>
