@@ -59,20 +59,12 @@ export default class WebDevView extends React.Component {
           </ul>
       </div>
 
-      <div>
-      <img id='squiggly-one' src={SquigglyLineOne} alt=''/> 
-      <img id='squiggly-two' src={SquigglyLineTwo} alt=''/> 
-      <img id='squiggly-three' src={SquigglyLineThree} alt=''/> 
-      <img id='squiggly-four' src={SquigglyLineFour} alt=''/> 
-      <img id='squiggly-line-five' src={SquigglyLineFive} alt=''/> 
-      <img id='squiggly-six' src={SquigglyLineSix} alt=''/> 
-      </div>
      
     
         <div className='project-cards' style={{display: 'block'}}>
          
         <div id='myflix-angular' >
-           <Card style={{background: '#F2CA52', width: '65rem', height: '40rem', marginTop: 'rem'}}>
+           <Card style={{background: '#F2CA52', width: '65rem', height: '45rem', marginTop: 'rem'}}>
             <Card.Title style={{margin: '2rem', marginLeft: '27rem', lineHeight: '2.2rem', color: '#fff', fontSize: '30px', fontFamily: 'Roboto', fontWeight: '800'}}>
                 MyFlix Angular
             </Card.Title>
@@ -168,7 +160,7 @@ export default class WebDevView extends React.Component {
 
 
       <div id='myflix-api' >
-           <Card style={{background: '#F2CA52', width: '65rem', height: '40rem', marginTop: '2rem'}}>
+           <Card style={{background: '#F2CA52', width: '65rem', height: '35rem', marginTop: '2rem'}}>
             <Card.Title style={{margin: '2rem', marginLeft: '27rem', lineHeight: '2.2rem', color: '#fff', fontSize: '30px', fontFamily: 'Roboto', fontWeight: '800'}}>
                 MyFlix API
             </Card.Title>
@@ -185,20 +177,6 @@ export default class WebDevView extends React.Component {
                              and business layers of the application. It consists of a well-designed REST API and architected 
                              database built using JavaScript, Node.js, Express, and MongoDB. The REST API is accessed via commonly 
                              used HTTP methods like GET and POST.  </p>
-                             <ul style={{marginTop: '1rem', color: '#000', fontSize: '16px', fontFamily: 'Roboto-Slab',}}>
-                             <li>The API uses middleware modules such as the body-parser package for reading data from 
-                               requests and morgan for logging.</li>
-                             <li>The database is built using MongoDB.</li>
-                             <li>The business logic is modeled with Mongoose.</li>
-                             <li>The API provides movie information in JSON format.</li>
-                             <li>The API is tested in Postman.</li>
-                             <li>The API includes user authentication and authorization code.</li>
-                             <li>The API includes data validation logic.</li>
-                             <li>The API meets data security regulations.</li>
-                             <li>The API is deployed to Heroku.</li>
-                             </ul>
-
-                             
 
                             <Row>
                     <Col id='site-links' style={{border:'2px solid #fff', margin:'1px'}}><Card.Link href="https://github.com/cauliflowersingerbee/MyFlix-Movie-API" target="_blank">Github</Card.Link></Col>
