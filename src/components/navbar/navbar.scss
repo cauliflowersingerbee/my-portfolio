@@ -11,9 +11,9 @@
     z-index: 2;
     font-family: 'Roboto Slab';
     font-size: medium;
-    display: flex;
+    display: grid;
     font-weight: bold;
-    flex-direction: row;
+    flex-direction: column;
     color: #EF4B68;
     margin: auto;
     width: 20px;
@@ -58,10 +58,7 @@
 
     .nav-link { 
         font-size: 12px;
-        left: -30rem;
-        position: absolute;
-        z-index: 1;
-        gap: 10px;
+        display: inline-block;
         
     }
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Navbar, Container, Nav, NavDropdown} from 'react-bootstrap';
+import {Navbar, Container, Nav, } from 'react-bootstrap';
 import './navbar.scss';
 import LogoImage from '../imgs/portfolio-logo.svg';
 
@@ -8,16 +8,14 @@ export default class NavbarView extends React.Component {
     render() {
         return(
 
-<Navbar className='Navbar' collapseOnSelect expand="lg">
-  <Container>
+<Navbar collapseOnSelect expand="lg" fixed='top'>
+  <Container >
   <Navbar.Brand href="#home">
-      <img id='logo-img' src={LogoImage} alt='' className='image' style={{width: '8rem', height:'auto'}}/>
+      <img id='logo-img' src={LogoImage} alt=''  className="d-inline-block align-top" style={{width: '8rem', height:'auto'}}/>
       </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
-      <Nav className="me-auto my-2 my-lg-0"
-        style={{ maxHeight: '100px' }}
-        navbarScroll>
+      <Nav className="me-auto my-2 my-lg-0 nav-link">
          
           <Nav.Link href="/" id='home-link'>home</Nav.Link>
           <Nav.Link href="/my-portfolio/about" id='about-link'>about</Nav.Link>
