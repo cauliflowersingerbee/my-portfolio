@@ -82,13 +82,32 @@ top: 50px;
 @media only screen and (max-width: 600px) {
 .container {
   display: flex;
-  .image {
-    max-width: 100%;
+ #logo-img {
+    max-width: 20%;
   }
-  .hometext{
+  #home-img {
+    max-width: 30%;
     position: fixed;
-    font-size: small;
+z-index: 2;
+height: 300px;
+left: 17rem;
+top: 15rem;
+
   }
+  #home-vector {
+    max-width: 70%;
+    left: 2rem;
+  }
+  #home-text  {
+    position: fixed;
+    line-height: .5px;
+    z-index: 2;
+    left: 8rem;
+    top: 27rem;
+    font-size: 14px;
+
+  }
+ 
 }
 }
 
