@@ -3,7 +3,6 @@ import NavbarView from '../navbar/navbar';
 import HomeVector from '../imgs/home-vector.svg';
 import HomeImage from '../imgs/home-img.svg';
 import './home.scss';
-import LogoImage from '../imgs/portfolio-logo.svg';
 
 
 
@@ -16,7 +15,7 @@ export default class HomeView extends React.Component {
       return (
       <div className='container'>
       <NavbarView className='nav'/>
-      <img id='logo-img' src={LogoImage} alt='' className='image'/>
+      
       <img id='home-img' src={HomeImage} alt='' className='image'/>
       <img id='home-vector' src={HomeVector} alt='' className='image'/>
       <div id='home-text'>
