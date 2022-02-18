@@ -14,12 +14,12 @@ export default class HomeView extends React.Component {
     render() {
     
       return (
-      <div>
-      <NavbarView className='primary'/>
-      <img id='logo-img' src={LogoImage} alt='' className='primary'/>
-      <img id='home-img' src={HomeImage} alt='' className='primary'/>
-      <img id='home-vector' src={HomeVector} alt='' className='primary'/>
-      <div id='home-text' className='primary'>
+      <div className='container'>
+      <NavbarView className='nav'/>
+      <img id='logo-img' src={LogoImage} alt='' className='image'/>
+      <img id='home-img' src={HomeImage} alt='' className='image'/>
+      <img id='home-vector' src={HomeVector} alt='' className='image'/>
+      <div id='home-text'>
             <p>Hi, I'm Okwiri.</p>
                 <div id='flip'>
                     <div><div>Writer</div></div>
