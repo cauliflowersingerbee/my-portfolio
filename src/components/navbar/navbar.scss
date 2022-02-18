@@ -52,3 +52,16 @@
     position: absolute;
     left: 1150px;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .nav-link { 
+        font-size: 12px;
+        left: -30rem;
+        position: absolute;
+        z-index: 1;
+        gap: 10px;
+        
+    }
+}
