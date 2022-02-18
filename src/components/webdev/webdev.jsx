@@ -64,7 +64,7 @@ export default class WebDevView extends React.Component {
       <img id='squiggly-two' src={SquigglyLineTwo} alt=''/> 
       <img id='squiggly-three' src={SquigglyLineThree} alt=''/> 
       <img id='squiggly-four' src={SquigglyLineFour} alt=''/> 
-      <img id='squiggly-five' src={SquigglyLineFive} alt=''/> 
+      <img id='squiggly-line-five' src={SquigglyLineFive} alt=''/> 
       <img id='squiggly-six' src={SquigglyLineSix} alt=''/> 
       </div>
      
@@ -72,7 +72,7 @@ export default class WebDevView extends React.Component {
         <div className='project-cards' style={{display: 'block'}}>
          
         <div id='myflix-angular' >
-           <Card style={{background: '#F2CA52', width: '70rem', height: '40rem', marginTop: 'rem'}}>
+           <Card style={{background: '#F2CA52', width: '65rem', height: '40rem', marginTop: 'rem'}}>
             <Card.Title style={{margin: '2rem', marginLeft: '27rem', lineHeight: '2.2rem', color: '#fff', fontSize: '30px', fontFamily: 'Roboto', fontWeight: '800'}}>
                 MyFlix Angular
             </Card.Title>
@@ -120,7 +120,7 @@ export default class WebDevView extends React.Component {
      
 
       <div id='myflix-react' >
-           <Card style={{background: '#F2CA52', width: '70rem', height: '40rem', marginTop: '2rem'}}>
+           <Card style={{background: '#F2CA52', width: '65rem', height: '40rem', marginTop: '2rem'}}>
             <Card.Title style={{margin: '2rem', marginLeft: '27rem', lineHeight: '2.2rem', color: '#fff', fontSize: '30px', fontFamily: 'Roboto', fontWeight: '800'}}>
                 MyFlix React
             </Card.Title>
@@ -168,7 +168,7 @@ export default class WebDevView extends React.Component {
 
 
       <div id='myflix-api' >
-           <Card style={{background: '#F2CA52', width: '70rem', height: '40rem', marginTop: '2rem'}}>
+           <Card style={{background: '#F2CA52', width: '65rem', height: '40rem', marginTop: '2rem'}}>
             <Card.Title style={{margin: '2rem', marginLeft: '27rem', lineHeight: '2.2rem', color: '#fff', fontSize: '30px', fontFamily: 'Roboto', fontWeight: '800'}}>
                 MyFlix API
             </Card.Title>
@@ -227,7 +227,7 @@ export default class WebDevView extends React.Component {
 
 
       <div id='titbit' >
-           <Card style={{background: '#F2CA52', width: '70rem', height: '40rem', marginTop: '2rem'}}>
+           <Card style={{background: '#F2CA52', width: '65rem', height: '40rem', marginTop: '2rem'}}>
             <Card.Title style={{margin: '2rem', marginLeft: '27rem', lineHeight: '2.2rem', color: '#fff', fontSize: '30px', fontFamily: 'Roboto', fontWeight: '800'}}>
                 Titbit
             </Card.Title>
@@ -279,7 +279,7 @@ export default class WebDevView extends React.Component {
       </div>
 
       <div id='aptly' >
-           <Card style={{background: '#F2CA52', width: '70rem', height: '40rem', marginTop: '2rem'}}>
+           <Card style={{background: '#F2CA52', width: '65rem', height: '40rem', marginTop: '2rem'}}>
             <Card.Title style={{margin: '2rem', marginLeft: '27rem', lineHeight: '2.2rem', color: '#fff', fontSize: '30px', fontFamily: 'Roboto', fontWeight: '800'}}>
                 Aptly
             </Card.Title>
@@ -337,7 +337,7 @@ export default class WebDevView extends React.Component {
 
 
       <div id='pokedex' >
-           <Card style={{background: '#F2CA52', width: '70rem', height: '40rem', marginTop: '2rem'}}>
+           <Card style={{background: '#F2CA52', width: '65rem', height: '40rem', marginTop: '2rem'}}>
             <Card.Title style={{margin: '2rem', marginLeft: '27rem', lineHeight: '2.2rem', color: '#fff', fontSize: '30px', fontFamily: 'Roboto', fontWeight: '800'}}>
                 Pokedex
             </Card.Title>

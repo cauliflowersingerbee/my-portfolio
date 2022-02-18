@@ -71,13 +71,17 @@ margin-bottom: 5rem;
     left: 1180px;
     top: 150px;
     color: #F2CA52;
-    font-size: 28px;
+    font-size: 24px;
     font-family: 'Roboto';
     line-height: 5rem;
     font-weight: 800;
+    width: 13.5rem;
     ul {
         list-style-type: none;
     }
+    border: solid 1px #EF4B68 ;
+    
+    
 }
 
 #squiggly-one {
@@ -116,7 +120,7 @@ margin-bottom: 5rem;
         top: 450px;
 }
 
-#squiggly-five {
+#squiggly-line-five {
     position: fixed;
         z-index: 2;
         width: 80px;
