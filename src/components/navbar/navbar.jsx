@@ -16,7 +16,7 @@ export default class NavbarView extends React.Component {
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="me-auto">
-      <Nav.Link href="/my-portfolio/home" id='home-link'>home</Nav.Link>
+      <Nav.Link href="/" id='home-link'>home</Nav.Link>
           <Nav.Link href="/my-portfolio/about" id='about-link'>about</Nav.Link>
           <Nav.Link href="/my-portfolio/webdevelopment" id='webdev-link'>web development</Nav.Link>
           <Nav.Link href="/my-portfolio/uxdesign" id='ux-link'>ux design</Nav.Link>
