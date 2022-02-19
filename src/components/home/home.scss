@@ -25,15 +25,16 @@ top: 90px;
 
 
 #home-text {
-    position: absolute;
-    z-index: 2;
-    left: 20rem;
-    bottom: -50px;
+    
     color: #fff;
     font-size: 30px;
     font-family: 'Roboto-Slab', serif;
     font-weight: 400;
     width:100%;
+    top: 70px;
+    position: relative;
+    z-index: 3;
+    left: 20rem;
     }
 
 #flip {
@@ -149,7 +150,7 @@ top: 90px;
     left: 1.5rem;
     top: 3rem;
   }
-  #home-text  {
+  #home-text {
     position: relative;
     z-index: 3;
     left: -4rem;
@@ -241,9 +242,3 @@ top: 90px;
 }
 
 
-
-
-       
-  
-            
- 
