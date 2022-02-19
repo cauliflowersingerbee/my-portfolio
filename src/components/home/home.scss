@@ -1,85 +1,3 @@
-#home-img {
-position: relative;
-z-index: 2;
-width: 900px;
-height: 300px;
-left: 500px;
-top: 150px;
-}
-
-#home-vector {
-position: absolute;
-width: 800px;
-height: 750px;
-left: 100px;
-top: 90px;
-}
-
-
-#logo-img {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 5px;
-}
-
-
-#home-text {
-    
-    color: #fff;
-    font-size: 30px;
-    font-family: 'Roboto-Slab', serif;
-    font-weight: 400;
-    width:100%;
-    top: 70px;
-    position: relative;
-    z-index: 3;
-    left: 20rem;
-    }
-
-#flip {
-    
-    height:50px;
-    overflow:hidden;
-}
-
-#flip > div > div {
-    color:#fff;
-    padding:8px 12px;
-    height:45px;
-    margin-bottom:45px;
-    display:inline-block;
-  }
-  
-  #flip div:first-child {
-    animation: show 5s linear infinite;
-  }
-
-  #flip div div {
-    background:#F24968;
-  }
-  #flip div:first-child div {
-    background:#0CC8F2;
-  }
-  #flip div:last-child div {
-    background:#000;
-  }
-  
-  @keyframes show {
-    0% {margin-top:-270px;}
-    5% {margin-top:-180px;}
-    33% {margin-top:-180px;}
-    38% {margin-top:-90px;}
-    66% {margin-top:-90px;}
-    71% {margin-top:0px;}
-    99.99% {margin-top:0px;}
-    100% {margin-top:-270px;}
-  }
-  
-
-  @media only screen and (max-width: 320px) {
-      .container {
-        display: flex;
        
         #home-img {
           max-width: 30%;
@@ -90,27 +8,33 @@ top: 90px;
           top: 15rem;
       
         }
+
         #home-vector {
           max-width: 70%;
           left: 2rem;
+          top: 180px;
+          position: absolute;
+          z-index: 1;
+          height: 500px;
         }
+
         #home-text  {
           position: relative;
-          line-height: inherit;
           z-index: 3;
-          left: -4rem;
-          top: 27rem;
-          font-size: 12px;
+          left: 70px;
+          top: 150px;
+          font-size: 20px;
           font-family: 'Roboto', serif;
           font-weight: 400;
           width:100%;
-        bottom:auto;
-        display:block; 
+          bottom:auto;
+          display:block; 
+          color: #fff;
       
         }
        
         #flip {
-          
+            
           height:30px;
           overflow:hidden;
       }
@@ -122,123 +46,28 @@ top: 90px;
         margin-bottom:45px;
         display:inline-block;
         }
-      
         
-        
-      }
-      }
-  
-
-  /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-.container {
-  display: flex;
- #logo-img {
-    max-width: 15%;
-  }
-  #home-img {
-    max-width: 30%;
-    position: relative;
-    z-index: 2;
-    height: 300px;
-    left: 15rem;
-    top: 15rem;
-
-  }
-  #home-vector {
-    max-width: 85%;
-    left: 1.5rem;
-    top: 3rem;
-  }
-  #home-text {
-    position: relative;
-    z-index: 3;
-    left: -4rem;
-    top: 30rem;
-    font-size: 20px;
-    font-family: 'Roboto', serif;
-    font-weight: 400;
-    width:100%;
-  bottom:auto;
-  display:block; 
-
-  }
- 
-  #flip {
-    
-    height:34px;
-    overflow:hidden;
-}
-
-#flip > div > div {
-  color:#fff;
-  padding:4px 12px;
-  height:50px;
-  margin-bottom:45px;
-  display:inline-block;
-  }
-
-  
-  
-}
-}
-
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 518px ) {
-  .container {
-    display: flex;
-   #logo-img {
-      max-width: 15%;
-    }
-    #home-img {
-      max-width: 30%;
-      position: relative;
-      z-index: 2;
-      height: 300px;
-      left: 23rem;
-      top: 18rem;
-  
-    }
-    #home-vector {
-      max-width: 70%;
-      left: 2rem;
-      top: 8rem;
-    }
-    #home-text  {
-      position: relative;
-      line-height: inherit;
-      z-index: 3;
-      left: -18rem;
-      top: 32rem;
-      font-size: 30px;
-      font-family: 'Roboto', serif;
-      font-weight: 400;
-      width:100%;
-    bottom:auto;
-    display:block; 
-  
-    }
-   
-    #flip {
+        #flip div:first-child {
+          animation: show 5s linear infinite;
+        }
       
-      height:45px;
-      overflow:hidden;
-  }
-  
-  #flip > div > div {
-    color:#fff;
-    padding:4px 12px;
-    height:50px;
-    margin-bottom:45px;
-    display:inline-block;
-    }
-  
-    
-    
-  }
-
-}
-
-
+        #flip div div {
+          background:#F24968;
+        }
+        #flip div:first-child div {
+          background:#0CC8F2;
+        }
+        #flip div:last-child div {
+          background:#000;
+        }
+        
+        @keyframes show {
+          0% {margin-top:-270px;}
+          5% {margin-top:-180px;}
+          33% {margin-top:-180px;}
+          38% {margin-top:-90px;}
+          66% {margin-top:-90px;}
+          71% {margin-top:0px;}
+          99.99% {margin-top:0px;}
+          100% {margin-top:-270px;}
+        }
