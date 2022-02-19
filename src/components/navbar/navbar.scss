@@ -1,7 +1,7 @@
 .Navbar {
     width: auto;
     align-items: right;
-
+    a:active { text-decoration: none; color: #EF4B68}
     margin-bottom: 60px;
 }
 
@@ -27,8 +27,19 @@
 @media only screen and (max-width: 600px) {
 
     .nav-link { 
-        font-size: 12px;
     
-        
+
+            a:hover { text-decoration: none; color: #EF4B68}
+            a:active { text-decoration: none; color: #EF4B68}
+            z-index: 2;
+            font-family: 'Roboto Slab';
+            font-size: small;
+            font-weight: bold;
+            color: #EF4B68;
+            margin-left: 24rem;
+            width: 1px;
+            justify-content: right; 
+            text-decoration: none;
+     
     }
 }
