@@ -11,7 +11,7 @@ export default class NavbarView extends React.Component {
 <Navbar expand="lg" fixed='top' className='Navbar'>
   <Container>
   <Navbar.Brand href="#home">
-      <img id='logo-img' src={LogoImage} alt=''  className="d-inline-block align-top" style={{width: '9rem', height:'auto'}}/>
+      <img id='logo-img' src={LogoImage} alt=''  className="d-inline-block align-top" style={{width: '13rem', height:'auto'}}/>
   </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
