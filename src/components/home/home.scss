@@ -25,18 +25,15 @@ top: 90px;
 
 
 #home-text {
-    position: relative;
+    position: absolute;
     z-index: 2;
-    left: 300px;
+    left: 20rem;
     bottom: -50px;
     color: #fff;
     font-size: 30px;
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto-Slab', serif;
     font-weight: 400;
     width:100%;
-  bottom:auto;
-  display:block; 
-
     }
 
 #flip {
@@ -47,7 +44,7 @@ top: 90px;
 
 #flip > div > div {
     color:#fff;
-    padding:4px 12px;
+    padding:8px 12px;
     height:45px;
     margin-bottom:45px;
     display:inline-block;
