@@ -16,12 +16,12 @@ export default class NavbarView extends React.Component {
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
       <Nav className="me-auto navbar-nav ms-auto" >
-          <Nav.Link href="/" id='home-link' style={{marginLeft: '350px', marginRight: '60px', color: '#F2CA52', fontWeight: 'bold', textTransform: 'capitalize', fontFamily: 'Roboto-Slab', fontSize: '20px' }}>home</Nav.Link>
-          <Nav.Link href="/my-portfolio/about" id='about-link' style={{marginRight: '60px', color: '#F2CA52', fontWeight: 'bold', textTransform: 'capitalize', fontFamily: 'Roboto-Slab', fontSize: '20px' }}>about</Nav.Link>
-          <Nav.Link href="/my-portfolio/webdevelopment" id='webdev-link' style={{marginRight: '50px', color: '#F2CA52', fontWeight: 'bold', textTransform: 'capitalize', fontFamily: 'Roboto-Slab', fontSize: '20px' }}>web development</Nav.Link>
-          <Nav.Link href="/my-portfolio/uxdesign" id='ux-link' style={{marginRight: '60px', color: '#F2CA52', fontWeight: 'bold', textTransform: 'capitalize', fontFamily: 'Roboto-Slab', fontSize: '20px' }}>ux design</Nav.Link>
-          <Nav.Link href="/my-portfolio/writing" id='writing-link' style={{marginRight: '60px', color: '#F2CA52', fontWeight: 'bold', textTransform: 'capitalize', fontFamily: 'Roboto-Slab', fontSize: '20px' }}>writing</Nav.Link>
-          <Nav.Link href="/my-portfolio/contact" id='contact-link' style={{marginRight: '60px', color: '#F2CA52', fontWeight: 'bold', textTransform: 'capitalize', fontFamily: 'Roboto-Slab', fontSize: '20px' }}>contact</Nav.Link>
+          <Nav.Link href="/" id='home-link' style={{ marginRight: '60px', color: '#EF4B68', fontWeight: 'bold', textTransform: 'capitalize', fontFamily: 'Roboto-Slab', fontSize: '16px' }}>HOME</Nav.Link>
+          <Nav.Link href="/my-portfolio/about" id='about-link' style={{marginRight: '60px', color: '#EF4B68', fontWeight: 'bold', textTransform: 'capitalize', fontFamily: 'Roboto-Slab', fontSize: '16px' }}>ABOUT</Nav.Link>
+          <Nav.Link href="/my-portfolio/webdevelopment" id='webdev-link' style={{marginRight: '50px', color: '#EF4B68', fontWeight: 'bold', textTransform: 'capitalize', fontFamily: 'Roboto-Slab', fontSize: '16px' }}>WEB DEVELOPMENT</Nav.Link>
+          <Nav.Link href="/my-portfolio/uxdesign" id='ux-link' style={{marginRight: '60px', color: '#EF4B68', fontWeight: 'bold', textTransform: 'capitalize', fontFamily: 'Roboto-Slab', fontSize: '16px' }}>UX DESIGN</Nav.Link>
+          <Nav.Link href="/my-portfolio/writing" id='writing-link' style={{marginRight: '60px', color: '#EF4B68', fontWeight: 'bold', textTransform: 'capitalize', fontFamily: 'Roboto-Slab', fontSize: '16px' }}>WRITING</Nav.Link>
+          <Nav.Link href="/my-portfolio/contact" id='contact-link' style={{marginRight: '60px', color: '#EF4B68', fontWeight: 'bold', textTransform: 'capitalize', fontFamily: 'Roboto-Slab', fontSize: '16px' }}>CONTACT</Nav.Link>
   
           
 
