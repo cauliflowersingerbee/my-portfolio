@@ -1,0 +1,91 @@
+
+/* Mobile first styling for small devices 
+    (320px) */
+
+
+    #home-img {
+      max-width: 60%;
+      position: fixed;
+      z-index: 2;
+      height: auto;
+      left: 12rem;
+      top: 30rem;
+  
+    }
+
+    #home-vector {
+      max-width: 100%;
+      left: 0.5rem;
+      top: 290px;
+      position: fixed;
+      z-index: 1;
+      height: 500px;
+    }
+
+    #home-text  {
+      display: block;
+      margin-top: 60px;
+      flex-direction: column;
+      position: absolute;
+      z-index: 2;
+      left: 50px;
+      top: 100px;
+      color: #000;
+      text-decoration: #fff;
+      font-size: 32px;
+      font-family: 'Roboto-Slab', serif;
+      font-weight: 400;
+      width:60%;
+    bottom:auto;
+    line-height: 2.2rem;
+    text-shadow: 1px 1px #fff;
+    }
+     
+    @media only screen and (min-width: 600px)  {
+      #home-img {
+        max-width: 40%;
+        position: fixed;
+        z-index: 2;
+        height: auto;
+        left: 55%;
+        top: 20rem;
+    
+      }
+  
+      #home-vector {
+        max-width: 100%;
+        left: 30%;
+        top: 290px;
+        position: fixed;
+        z-index: 1;
+        height: 500px;
+      }
+  
+      #home-text  {
+        display: block;
+        margin-top: 60px;
+        flex-direction: column;
+        position: absolute;
+        z-index: 2;
+        left: 50px;
+        top: 100px;
+        color: #000;
+        text-decoration: #fff;
+        font-size: 32px;
+        font-family: 'Roboto-Slab', serif;
+        font-weight: 400;
+        width:60%;
+      bottom:auto;
+      line-height: 3rem;
+      text-shadow: 1px 1px #fff;
+      margin-bottom: auto;
+
+    }
+
+
+  }
+    
+    
+    
+   
+    
