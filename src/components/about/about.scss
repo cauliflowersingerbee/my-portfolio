@@ -1,3 +1,6 @@
+
+
+
 #about-img {
     position: relative;
     z-index: 2;
@@ -25,7 +28,8 @@
     }
     
     #about-text {
-    display: flex;
+    display: block;
+    margin-top: 60px;
     flex-direction: column;
     position: absolute;
     z-index: 2;
@@ -33,7 +37,7 @@
     top: auto;
     color: #fff;
     font-size: 28px;
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto-Slab', serif;
     font-weight: 400;
     width:60%;
   bottom:auto;
@@ -48,10 +52,9 @@
       left: 550px;
       top: 300px;
       color: #fff;
-      font-size: 32px;
-      font-family: 'Roboto', serif;
+      font-size: 28px;
+      font-family: 'Roboto-Slab', serif;
       font-weight: 800;
       width:40%;
-    bottom:auto;
     line-height: 2.2rem;
     }
