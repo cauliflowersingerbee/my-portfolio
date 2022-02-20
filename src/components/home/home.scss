@@ -1,21 +1,21 @@
-       
+
         
     /* Mobile first styling for small devices 
     (320px) */
 
 
         #home-img {
-          max-width: 30%;
+          max-width: 40%;
           position: relative;
           z-index: 2;
           height: 300px;
-          left: 10rem;
-          top: 15rem;
+          left: 15rem;
+          top: 14rem;
       
         }
 
         #home-vector {
-          max-width: 70%;
+          max-width: 80%;
           left: 2rem;
           top: 180px;
           position: absolute;
@@ -28,13 +28,13 @@
           z-index: 3;
           left: 60px;
           top: 150px;
-          font-size: 12px;
+          font-size: 14px;
           font-family: 'Roboto', serif;
           font-weight: 400;
           width:100%;
           bottom:auto;
           display:block; 
-          color: #000;
+          color: #fff;
       
         }
        
@@ -115,13 +115,13 @@
        
         #flip {
             
-          height:30px;
+          height:25px;
           overflow:hidden;
       }
       
       #flip > div > div {
         color:#fff;
-        padding:4px 12px;
+        padding:2px 8px;
         height:50px;
         margin-bottom:45px;
         display:inline-block;
@@ -153,28 +153,93 @@
         }
         }
 
-
-        @media only screen and (min-width: 480px) and (max-width: 768px)  {
+        @media only screen and (min-width: 566px) {
 
           #home-img {
             max-width: 30%;
             position: relative;
             z-index: 2;
             height: 300px;
-            left: 15rem;
-            top: 15rem;
+            left: 17rem;
+            top: 7rem;
         
           }
           #home-vector {
-            max-width: 85%;
-            left: 1.5rem;
+             max-width: 55%;
+            left: 4rem;
+            top: 3rem;
+          }
+
+          #home-text {
+            position: relative;
+            z-index: 3;
+            left: 4rem;
+            top: auto;
+            font-size: 20px;
+            font-family: 'Roboto', serif;
+            font-weight: 400;
+            width:100%;
+          bottom:auto;
+          display:block; }
+      
+
+        }   
+
+
+      
+
+        @media only screen and (min-width: 768px)  {
+
+          #home-img {
+            max-width: 30%;
+            position: relative;
+            z-index: 2;
+            height: 300px;
+            left: 17rem;
+            top: 7rem;
+        
+          }
+          #home-vector {
+            max-width: 55%;
+            left: 4rem;
             top: 3rem;
           }
           #home-text {
             position: relative;
             z-index: 3;
-            left: -4rem;
-            top: 30rem;
+            left: 4rem;
+            top: auto;
+            font-size: 20px;
+            font-family: 'Roboto', serif;
+            font-weight: 400;
+            width:100%;
+          bottom:auto;
+          display:block; }
+        
+        }   
+
+
+        @media only screen and (min-width: 826px)  {
+
+          #home-img {
+            max-width: 30%;
+            position: relative;
+            z-index: 2;
+            height: 300px;
+            left: 17rem;
+            top: 7rem;
+        
+          }
+          #home-vector {
+            max-width: 45%;
+            left: 4rem;
+            top: 3rem;
+          }
+          #home-text {
+            position: relative;
+            z-index: 3;
+            left: 4rem;
+            top: auto;
             font-size: 20px;
             font-family: 'Roboto', serif;
             font-weight: 400;
@@ -198,6 +263,88 @@
           display:inline-block;
           }
         
-        }    
-        
-       
+        }   
+
+
+
+        @media only screen and (min-width: 1024px)  {
+
+          #home-img {
+            position: relative;
+            z-index: 2;
+            width: 900px;
+            height: 300px;
+            left: 500px;
+            top: 150px;
+            }
+            
+            #home-vector {
+            position: absolute;
+            width: auto;
+            height: 750px;
+            left: 200px;
+            top: 50px;
+            }
+            
+            
+            #logo-img {
+                position: absolute;
+                width: 150px;
+                height: 150px;
+                left: 5px;
+            }
+            
+            
+            #home-text {
+                position: fixed;
+                z-index: 2;
+                left: 300px;
+                color: #fff;
+                font-size: 30px;
+                font-family: 'Roboto-Slab', serif;
+                font-weight: 400;
+                width:100%;
+              top: 28rem;
+              display:block; 
+            
+                }
+            
+            #flip {
+                
+                height:50px;
+                overflow:hidden;
+            }
+            
+            #flip > div > div {
+                color:#fff;
+                padding:4px 12px;
+                height:45px;
+                margin-bottom:45px;
+                display:inline-block;
+              }
+              
+              #flip div:first-child {
+                animation: show 5s linear infinite;
+              }
+            
+              #flip div div {
+                background:#F24968;
+              }
+              #flip div:first-child div {
+                background:#0CC8F2;
+              }
+              #flip div:last-child div {
+                background:#000;
+              }
+              
+              @keyframes show {
+                0% {margin-top:-270px;}
+                5% {margin-top:-180px;}
+                33% {margin-top:-180px;}
+                38% {margin-top:-90px;}
+                66% {margin-top:-90px;}
+                71% {margin-top:0px;}
+                99.99% {margin-top:0px;}
+                100% {margin-top:-270px;}
+              }
+            }
