@@ -16,7 +16,7 @@ export default class NavbarView extends React.Component {
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
       <Nav className="me-auto navbar-nav ms-auto" style={{float: 'right'}}>
-          <Nav.Link href="/" id='home-link' style={{ marginLeft: '400px', marginRight: '30px', color: '#000', fontWeight: '400', textTransform: 'lowercase', fontFamily: 'Roboto-Slab', fontSize: '20px', lineHeight: '2px', marginTop:'10px' }}>HOME</Nav.Link>
+          <Nav.Link href="/" id='home-link' style={{  marginRight: '30px', color: '#000', fontWeight: '400', textTransform: 'lowercase', fontFamily: 'Roboto-Slab', fontSize: '20px', lineHeight: '2px', marginTop:'10px' }}>HOME</Nav.Link>
           <Nav.Link href="/my-portfolio/about" id='about-link' style={{marginRight: '30px', color: '#000', fontWeight: '400', textTransform: 'lowercase', fontFamily: 'Roboto-Slab', fontSize: '20px', lineHeight: '2px', marginTop:'10px' }}>ABOUT</Nav.Link>
           <Nav.Link href="/my-portfolio/webdevelopment" id='webdev-link' style={{marginRight: '30px', color: '#000', fontWeight: '400', textTransform: 'lowercase', fontFamily: 'Roboto-Slab', fontSize: '20px', lineHeight: '2px', marginTop:'10px' }}>WEB DEVELOPMENT</Nav.Link>
           <Nav.Link href="/my-portfolio/uxdesign" id='ux-link' style={{marginRight: '30px', color: '#000', fontWeight: '400', textTransform: 'lowercase', fontFamily: 'Roboto-Slab', fontSize: '20px', lineHeight: '2px', marginTop:'10px' }}>UX DESIGN</Nav.Link>
