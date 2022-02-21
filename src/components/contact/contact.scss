@@ -1,77 +1,91 @@
-#contact-img {
-    position: relative;
-    z-index: 2;
-    width: 550px;
-    height: 300px;
-    left: 100px;
-    top: 150px;
+
+/* Mobile first styling for small devices 
+    (320px) */
+
+
+    #contact-img {
+      max-width: 60%;
+      position: fixed;
+      z-index: 2;
+      height: auto;
+      left: 12rem;
+      top: 30rem;
+  
     }
-    
+
     #contact-vector {
-      
-    position: absolute;
-    width: 936.84px;
-    height:750px;
-    left: 350px;
-    top: 55px;
-    }
- 
-    
-    #logo-img {
-        position: absolute;
-        width: 150px;
-        height: 150px;
-        left: 10px;
-        top: 1px;
-    }
-    
-    #contact-text {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    z-index: 2;
-    left: 550px;
-    top: auto;
-    color: #fff;
-    font-size: 28px;
-    font-family: 'Roboto', serif;
-    font-weight: 400;
-    width:40%;
-  bottom:auto;
-  line-height: 3.5rem;
+      max-width: 100%;
+      left: 0.5rem;
+      top: 290px;
+      position: fixed;
+      z-index: 1;
+      height: 500px;
     }
 
-    #squiggly-line-one {
-        position: relative;
+    #contact-text  {
+      display: block;
+      margin-top: 60px;
+      flex-direction: column;
+      position: absolute;
+      z-index: 2;
+      left: 50px;
+      top: 100px;
+      color: #000;
+      text-decoration: #fff;
+      font-size: 32px;
+      font-family: 'Roboto-Slab', serif;
+      font-weight: 400;
+      width:60%;
+    bottom:auto;
+    line-height: 2.2rem;
+    text-shadow: 1px 1px #fff;
+    }
+     
+    @media only screen and (min-width: 600px)  {
+      #about-img {
+        max-width: 40%;
+        position: fixed;
         z-index: 2;
-        width: 100px;
-        height: 10px;
-        left: 410px;
-        top: 115px;
-    }
-
-    #squiggly-line-two {
-        position: relative;
-        z-index: 2;
-        width: 70px;
-        height: 10px;
-        left: 265px;
-        top: 105px;
-    }
-
-    #contact-me {
-        display: flex;
+        height: auto;
+        left: 55%;
+        top: 20rem;
+    
+      }
+  
+      #about-vector {
+        max-width: 100%;
+        left: 30%;
+        top: 290px;
+        position: fixed;
+        z-index: 1;
+        height: 500px;
+      }
+  
+      #about-text  {
+        display: block;
+        margin-top: 60px;
         flex-direction: column;
         position: absolute;
         z-index: 2;
-        left: 200px;
-        top: -50px;
-        color: #fff;
+        left: 50px;
+        top: 100px;
+        color: #000;
+        text-decoration: #fff;
         font-size: 32px;
-        font-family: 'Roboto', serif;
-        font-weight: 800;
-        width:40%;
+        font-family: 'Roboto-Slab', serif;
+        font-weight: 400;
+        width:60%;
       bottom:auto;
-      line-height: 3.5rem;
+      line-height: 3rem;
+      text-shadow: 1px 1px #fff;
+      margin-bottom: auto;
+
     }
 
+
+  }
+    
+    
+    
+   
+    

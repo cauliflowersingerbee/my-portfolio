@@ -59,10 +59,10 @@
     }
   
     #flip div div {
-      background:#F24968;
+      background:#000;
     }
     #flip div:first-child div {
-      background:#0CC8F2;
+      background:#000;
     }
     #flip div:last-child div {
       background:#000;
@@ -117,8 +117,6 @@
         width:60%;
       bottom:auto;
       line-height: 3rem;
-      text-shadow: 1px 1px #fff;
-      margin-bottom: auto;
 
     }
 
@@ -147,17 +145,17 @@
   @media only screen and (min-width: 900px)  {
       
     #home-img {
-      max-width: 20%;
+      max-width: 18%;
       position: fixed;
       z-index: 2;
       height: auto;
-      left: 65%;
-      top: 60%;
+      left: 55%;
+      top: 45%;
   
     }
 
     #home-vector {
-      max-width: 60%;
+      max-width: 50%;
       left: 25%;
       top: 25%;
       position: fixed;
@@ -167,22 +165,19 @@
 
   #home-text  {
     display: block;
-    margin-top: 60px;
     flex-direction: column;
     position: absolute;
     z-index: 2;
-    left: 15%;
-    top: 30%;
+    left: 5%;
+    top: 20%;
     color: #000;
     text-decoration: #fff;
     font-size: 50px;
     font-family: 'Roboto-Slab', serif;
     font-weight: 400;
-    width:60%;
+    width:40%;
   bottom:auto;
   line-height: 3rem;
-  text-shadow: 1px 1px #fff;
-  margin-bottom: auto;
 
 }
 

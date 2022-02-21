@@ -25,7 +25,7 @@ export default class HomeView extends React.Component {
                     <div><div>Web developer</div></div>
                     <div><div>UX designer</div></div>     
                 </div>
-                <p>Welcome to my portfolio.</p>
+                <p>Welcome to my <span style={{color:'#F24968'}}>portfolio.</span></p>
             </div>
 
         
