@@ -26,8 +26,7 @@ export default class ContactView extends React.Component {
       <img id='contact-vector' src={ContactVector} alt=''/>
       <div id='contact-text'>
      
-      <div id='contact-me'>CONTACT ME</div>
-      <p>Thanks for checking out my portfolio. If you wish, you 
+      <p id='contact-me'>Thanks for checking out my portfolio. If you wish, you 
         may contact me by  {<MailTo/>} or via 
         <span id='linkedin-link' onClick={handleClick} style={{cursor:'pointer', color:'#EF4B68'}}> Linkedin</span>. </p>
         </div>
