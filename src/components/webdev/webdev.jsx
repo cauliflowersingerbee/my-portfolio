@@ -32,22 +32,22 @@ export default class WebDevView extends React.Component {
       <div>
       <img alt='' src={WebDevImg} id='webdev-vector'/>            
       </div>
-      <div>
-        </div>
-        <Card style={{border: '1 px solid #F2CA52', maxWidth: '60%',}} >
+
       <div id='myflix-angular' >
-                             
-        <p className='webdev-text'>KINO NOIR ANGULAR</p>
-        <p>This is a single-page, responsive movie app built with Angular, with routing and several
-         interface views. The client-side is an Angular rendition of a previous project that I built 
-          with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc. </p>
 
-          <img alt='' src={MyFlixAngularImg} id='webdev-img-angular'/>
-      
-
-
+        <div>
+        <img alt='' src={MyFlixAngularImg} id='webdev-img-angular'/>
         </div>
-        </Card>
+        <div className='webdev-text'>
+          
+                            KINO NOIR ANGULAR
+        
+                            <p>This is a single-page, responsive movie app built with Angular, with routing and several
+                            interface views. The client-side is an Angular rendition of a previous project that I built 
+                            with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc. </p>
+        </div>
+        
+        </div>
     </div>);
     }
   }

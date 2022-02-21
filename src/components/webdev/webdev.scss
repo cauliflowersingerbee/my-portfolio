@@ -31,10 +31,6 @@ margin-bottom: 5rem;
     
 }
 
-#react-modal {
-    z-index: 2;
-    position: relative;
-}
 
 #to-top {
     margin-top: 5rem;
@@ -69,9 +65,9 @@ margin-bottom: 5rem;
 
 #webdev-vector{
     position: fixed;
-    width: 80%;
-    top: 40%;
-    left: 10%;
+    width: 60%;
+    top: 60%;
+    left: 5%;
     z-index: 1;
 }
 
@@ -94,7 +90,7 @@ margin-bottom: 5rem;
     position: relative;
         display: block;
         flex-direction: column;
-        left: 8%;
+        left: 1%;
         margin-top: 8%;
         color: #000;
         line-height: 3px;
@@ -102,7 +98,7 @@ margin-bottom: 5rem;
         font-size: 28px;
         font-family: 'Roboto-Slab', serif;
         font-weight: 400;
-        width:40%;
+        width:50%;
       line-height: 2rem;
       text-shadow: 1px 1px #fff;
 }
@@ -110,11 +106,32 @@ margin-bottom: 5rem;
     #webdev-img-angular {
         max-width: 80%;
         position: relative;
-        z-index: 2;
+        z-index: 3;
         height: auto;
-        left: 99%;
         top: 5%;
         margin: 1rem; 
         border: solid 4px #fff;
-        float: left;
+       left: 1%;
+}
+
+.title {
+    left: 50%;
+    margin-top: 15%;
+}
+
+#user-flows {
+    max-width: 40%;
+        position: relative;
+        z-index: 2;
+        height: auto;
+        top: 5%;
+        margin: 1rem; 
+        border: solid 4px #fff;
+        left: 50%;
+        background-color: #fff;
+}
+
+#myflix-react {
+    position: relative;
+    z-index: 2;
 }
