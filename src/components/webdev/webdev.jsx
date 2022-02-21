@@ -11,15 +11,7 @@ import TitbitImg from '../imgs/titbit-img.svg';
 import PokedexImg from '../imgs/pokedex-img.svg';
 import UserFlows from '../imgs/user-flows.svg';
 import { Card, Row, Col } from 'react-bootstrap';
-import SquigglyLineOne from '../imgs/squiggly-line.svg';
-import SquigglyLineTwo from '../imgs/squiggly-line.svg';
-import SquigglyLineThree from '../imgs/squiggly-line.svg';
-import SquigglyLineFour from '../imgs/squiggly-line.svg';
-import SquigglyLineFive from '../imgs/squiggly-line.svg';
-import SquigglyLineSix from '../imgs/squiggly-line.svg';
 import { HashLink } from 'react-router-hash-link';
-//import WebDevImg from '../imgs/work-projects-img.svg';
-//import WebDevVector from '../imgs/work-projects-vector.svg';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -43,7 +35,6 @@ export default class WebDevView extends React.Component {
     <div className='container'>
       <div id='navbar'>
         <Navbar/>
-        <img id='logo-img' src={LogoImage} alt=''/>
       <div>
 
       <div id='webdev-links'>
