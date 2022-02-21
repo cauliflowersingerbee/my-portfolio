@@ -52,7 +52,7 @@ export default class WebDevView extends React.Component {
 
      
     
-        <div className='project-cards' style={{display: 'block'}}>
+        <div className='project-cards' style={{display: 'block', marginTop: '70px'}}>
          
         <div id='myflix-angular' >
            <Card style={{background: '#F2CA52', width: '65rem', height: '45rem', marginTop: 'rem'}}>
