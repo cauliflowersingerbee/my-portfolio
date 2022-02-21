@@ -124,8 +124,7 @@
 
 
   }
-    
- 
+
   @media only screen and (min-width: 600px)  {
       
     #home-img {
@@ -134,12 +133,31 @@
       z-index: 2;
       height: auto;
       left: 65%;
-      top: 40%;
+      top: 60%;
+  
+    }
+
+
+
+}
+
+
+    
+ 
+  @media only screen and (min-width: 900px)  {
+      
+    #home-img {
+      max-width: 20%;
+      position: fixed;
+      z-index: 2;
+      height: auto;
+      left: 65%;
+      top: 60%;
   
     }
 
     #home-vector {
-      max-width: 80%;
+      max-width: 60%;
       left: 25%;
       top: 25%;
       position: fixed;
