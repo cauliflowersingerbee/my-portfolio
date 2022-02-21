@@ -40,6 +40,80 @@
       }
  
     
+    @media only screen and (min-width: 600px) {
+      #contact-img {
+        max-width: 30%;
+        position: fixed;
+        z-index: 2;
+        height: auto;
+        left: 58%;
+        top: 20%;
     
-     
+      }
+  
+      #contact-vector {
+        max-width: 80%;
+        left: 30%;
+        top:40%;
+        position: fixed;
+        z-index: 1;
+        height: 500px;
+      }
+      #contact-text {
+        position: relative;
+        display: block;
+        margin-top: 60px;
+        flex-direction: column;
+        left: 8%;
+        top: 18%;
+        color: #000;
+        line-height: 3px;
+        z-index: 2;
+        font-size: 40px;
+        font-family: 'Roboto-Slab', serif;
+        font-weight: 400;
+        width:45%;
+      line-height: 3rem;
+      text-shadow: 1px 1px #fff;
+        }
    
+    }
+   
+
+    @media only screen and (min-width: 900px) {
+      #contact-img {
+        max-width: 20%;
+        position: fixed;
+        z-index: 2;
+        height: auto;
+        left: 58%;
+        top: 15%;
+    
+      }
+  
+      #contact-vector {
+        max-width: 100%;
+        left: 50%;
+        top:40%;
+        position: fixed;
+        z-index: 1;
+        height: 500px;
+      }
+      #contact-text {
+        position: relative;
+        display: block;
+        flex-direction: column;
+        left: 8%;
+        margin-top: 8%;
+        color: #000;
+        line-height: 3px;
+        z-index: 2;
+        font-size: 50px;
+        font-family: 'Roboto-Slab', serif;
+        font-weight: 400;
+        width:40%;
+      line-height: 4rem;
+      text-shadow: 1px 1px #fff;
+        }
+   
+    }
