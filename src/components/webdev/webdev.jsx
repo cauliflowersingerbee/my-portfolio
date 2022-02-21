@@ -13,6 +13,8 @@ import UserFlows from '../imgs/user-flows.svg';
 import { Card, Row, Col } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
 import "bootstrap/dist/css/bootstrap.min.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 export default class WebDevView extends React.Component {  
