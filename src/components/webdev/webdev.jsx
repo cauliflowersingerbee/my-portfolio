@@ -15,7 +15,7 @@ import { HashLink } from 'react-router-hash-link';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import Slider from "react-slick";
 
 export default class WebDevView extends React.Component {  
   
@@ -38,24 +38,9 @@ export default class WebDevView extends React.Component {
       <div id='navbar'>
         <Navbar/>
       <div>
-
-      <div id='webdev-links'>
-        
-        <ul>
-          <li><HashLink to='#myflix-angular' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>MyFlix Angular</HashLink></li>
-          <li><HashLink to='#myflix-react' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}> MyFlixReact</HashLink></li>
-          <li><HashLink to='#myflix-api' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor} >MyFlix API</HashLink></li>
-          <li><HashLink to='#titbit'style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Titbit</HashLink></li>
-          <li><HashLink to='#aptly' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Aptly</HashLink></li>
-          <li><HashLink to='#pokedex' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Pokedex</HashLink></li>
-           <li><HashLink to="#top" id='to-top' >Back to Top</HashLink></li>
-          </ul>
-      </div>
-
-     
     
         <div className='project-cards' style={{display: 'block'}}>
-         
+         <Slider>
         <div id='myflix-angular' >
            <Card style={{background: '#F2CA52', width: '65rem', height: '45rem', marginTop: 'rem'}}>
             <Card.Title style={{margin: '2rem', marginLeft: '27rem', lineHeight: '2.2rem', color: '#fff', fontSize: '30px', fontFamily: 'Roboto', fontWeight: '800'}}>
@@ -349,9 +334,9 @@ export default class WebDevView extends React.Component {
                
           </Card> 
           
-          
+         
       </div>
-       
+      </Slider>
 
       </div>
 
