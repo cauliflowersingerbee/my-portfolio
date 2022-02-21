@@ -77,8 +77,9 @@ margin-bottom: 5rem;
 }
 
 #site-links {
-    a:link { text-decoration: underline; color: #EF4B68}
+    a:link { text-decoration: none; color: #EF4B68}
     a:visited { text-decoration: none; color:#EF4B68}
+    a:hover { text-decoration: none; color: #000}
     a:active { text-decoration: none; color: #EF4B68}
     font-size: 28px;
     font-family: Roboto-Slab;

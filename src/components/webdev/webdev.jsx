@@ -44,7 +44,7 @@ export default class WebDevView extends React.Component {
                             <img alt='' src={MyFlixAngularImg} id='webdev-img-angular'/>
                             <p>This is a single-page, responsive movie app built with <span style={{color:'#F24968'}}>Angular</span>, with routing and several
                             interface views. The client-side is an Angular rendition of a previous project that I built 
-                            with React. It is designed using <span style={{color:'#F24968'}}>Angular Material</span>, with documentation created using <span style={{color:'#F24968'}}>Typedoc and JSDoc</span>. </p>
+                            with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc. </p>
 
                           
         
