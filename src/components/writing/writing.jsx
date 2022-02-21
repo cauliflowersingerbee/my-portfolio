@@ -16,11 +16,11 @@ export default class WritingView extends React.Component {
       return (
       <div>
       <Navbar/>
-      <img id='work-vector' src={WorkVector} alt=''/>
-      <img id='work-img' src={WorkImage} alt=''/>
+      <img id='writing-vector' src={WorkVector} alt=''/>
+      <img id='writing-img' src={WorkImage} alt=''/>
       
       
-      <p id='work-text'>My author page is still under construction. Please check back soon!</p>
+      <p id='writing-text'>My <span style={{color:'#F24968'}}> author page </span>is still under construction. Please check back soon!</p>
       
      
 

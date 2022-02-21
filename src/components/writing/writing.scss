@@ -3,153 +3,117 @@
     (320px) */
 
 
-    #work-img {
-        max-width: 40%;
-        position: fixed;
-        z-index: 2;
-        height: auto;
-        left: 12rem;
-        top: 60%;
-    
-      }
-  
-      #work-vector {
-        max-width: 80%;
-        left: 7.5%;
-        top: 25%;
-        position: fixed;
-        z-index: 1;
-        height: 500px;
-      }
-      #work-text {
-        position: fixed;
-        display: block;
-        margin-top: 60px;
-        flex-direction: column;
-        left: 15%;
-        top: 15%;
-        color: #000;
-        line-height: 3px;
-        z-index: 2;
-        font-size: 32px;
-        font-family: 'Roboto-Slab', serif;
-        font-weight: 400;
-        width:60%;
-      bottom:auto;
-      line-height: 2.2rem;
-    
-        }
-   
-       
-      @media only screen and (min-width: 522px)  {
-        
-          #work-img {
-            max-width: 30%;
-            position: fixed;
-            z-index: 2;
-            height: auto;
-            left: 45%;
-            top: 60%;
-        
-          }
-      
-          #work-vector {
-            max-width: 100%;
-            left: 15%;
-            top: 45%;
-            position: fixed;
-            z-index: 1;
-            height: 500px;
-          }
-    
-        #work-text  {
-          display: block;
-          margin-top: 60px;
-          flex-direction: column;
-          position: absolute;
-          z-index: 2;
-          left: 15%;
-          top: 100px;
-          color: #000;
-          text-decoration: #fff;
-          font-size: 42px;
-          font-family: 'Roboto-Slab', serif;
-          font-weight: 400;
-          width:60%;
-        bottom:auto;
-        line-height: 3rem;
-        text-shadow: 1px 1px #fff;
-        margin-bottom: auto;
-  
-      }
-  
+    #writing-img {
+      max-width: 40%;
+      position: fixed;
+      z-index: 2;
+      height: auto;
+      left: 8%;
+      top: 60%;
   
     }
-  
-    @media only screen and (min-width: 600px)  {
-        
-      #work-img {
+
+    #writing-vector {
+      max-width: 80%;
+      left: 30%;
+      top:30%;
+      position: fixed;
+      z-index: 1;
+      height: 500px;
+    }
+    #writing-text {
+      position: relative;
+      display: block;
+      margin-top: 60px;
+      flex-direction: column;
+      left: 52%;
+      top: 18%;
+      color: #000;
+      line-height: 3px;
+      z-index: 2;
+      font-size: 26px;
+      font-family: 'Roboto-Slab', serif;
+      font-weight: 400;
+      width:45%;
+    line-height: 2.2rem;
+    text-shadow: 1px 1px #fff;
+      }
+ 
+    
+    @media only screen and (min-width: 600px) {
+      #writing-img {
         max-width: 30%;
         position: fixed;
         z-index: 2;
         height: auto;
-        left: 65%;
-        top: 60%;
+        left: 58%;
+        top: 20%;
     
       }
   
-  
-  
-  }
-  
-  
-      
+      #writing-vector {
+        max-width: 80%;
+        left: 30%;
+        top:40%;
+        position: fixed;
+        z-index: 1;
+        height: 500px;
+      }
+      #writing-text {
+        position: relative;
+        display: block;
+        margin-top: 60px;
+        flex-direction: column;
+        left: 8%;
+        top: 18%;
+        color: #000;
+        line-height: 3px;
+        z-index: 2;
+        font-size: 40px;
+        font-family: 'Roboto-Slab', serif;
+        font-weight: 400;
+        width:45%;
+      line-height: 3rem;
+      text-shadow: 1px 1px #fff;
+        }
    
-    @media only screen and (min-width: 900px)  {
-        
-      #work-img {
+    }
+   
+
+    @media only screen and (min-width: 900px) {
+      #writing-img {
         max-width: 20%;
         position: fixed;
         z-index: 2;
         height: auto;
-        left: 65%;
-        top: 60%;
+        left: 45%;
+        top: 40%;
     
       }
   
-      #work-vector {
-        max-width: 60%;
-        left: 25%;
-        top: 25%;
+      #writing-vector {
+        max-width: 100%;
+        left: 50%;
+        top:40%;
         position: fixed;
         z-index: 1;
-        height: 700px;
+        height: 500px;
       }
-  
-    #work-text  {
-      display: block;
-      margin-top: 60px;
-      flex-direction: column;
-      position: absolute;
-      z-index: 2;
-      left: 15%;
-      top: 30%;
-      color: #000;
-      text-decoration: #fff;
-      font-size: 50px;
-      font-family: 'Roboto-Slab', serif;
-      font-weight: 400;
-      width:60%;
-    bottom:auto;
-    line-height: 3rem;
-    text-shadow: 1px 1px #fff;
-    margin-bottom: auto;
-  
-  }
-  
-  
-  
-  
-  }
-  
-  
+      #writing-text {
+        position: relative;
+        display: block;
+        flex-direction: column;
+        left: 8%;
+        margin-top: 8%;
+        color: #000;
+        line-height: 3px;
+        z-index: 2;
+        font-size: 50px;
+        font-family: 'Roboto-Slab', serif;
+        font-weight: 400;
+        width:40%;
+      line-height: 4rem;
+      text-shadow: 1px 1px #fff;
+        }
+   
+    }
