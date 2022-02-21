@@ -3,6 +3,7 @@ import Navbar from '../navbar/navbar';
 import './webdev.scss'
 import LogoImage from '../imgs/portfolio-logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import WebDevImg from '../imgs/webdev-page-vector.svg';
 import MyFlixAngularImg from '../imgs/myflix-angular-img.svg';
 import MyFlixReactImg from '../imgs/myflix-react-img.svg';
 import MyFlixApiImg from '../imgs/myflix-api-img.svg';
@@ -35,9 +36,10 @@ export default class WebDevView extends React.Component {
     <div className='container'>
       <div id='navbar'>
         <Navbar/>
-
-
-     
+      </div>
+      <div>
+      <img alt='' src={WebDevImg} />
+                    
       </div>
     </div>);
     }
