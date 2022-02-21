@@ -45,8 +45,19 @@ export default class WebDevView extends React.Component {
                             <p>This is a single-page, responsive movie app built with <span style={{color:'#F24968'}}>Angular</span>, with routing and several
                             interface views. The client-side is an Angular rendition of a previous project that I built 
                             with React. It is designed using <span style={{color:'#F24968'}}>Angular Material</span>, with documentation created using <span style={{color:'#F24968'}}>Typedoc and JSDoc</span>. </p>
-        </div>
+
+                            <Row>
+                    <Col id='site-links' style={{ margin:'1px', maxWidth: '50%'}}><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
+                    <Col id='site-links' style={{ margin:'1px'}}><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
+                    <Col id='site-links' style={{ margin:'1px'}}><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Case Study</Card.Link></Col>
+                   <Col></Col>
+                   <Col></Col>
+                 
+                </Row>
         
+        </div>
+
+       
         </div>
     </div>);
     }
