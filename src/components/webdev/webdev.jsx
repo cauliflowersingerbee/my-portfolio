@@ -20,7 +20,14 @@ export default class WebDevView extends React.Component {
  
 
     render() {
-  //changing text color over side links
+   //changing text color over side links
+   const changeTextColor = (e) => {
+    e.target.style.color = '#EF4B68';
+  }
+
+  const returnTextColor = (e) => {
+    e.target.style.color = '#F2CA52'
+  }
 
   
 
@@ -29,6 +36,19 @@ export default class WebDevView extends React.Component {
       <div id='navbar'>
         <Navbar/>
       </div>
+      <div id='webdev-links'>
+        
+        <ul>
+          <li><HashLink to='#myflix-angular' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>MyFlix Angular</HashLink></li>
+          <li><HashLink to='#myflix-react' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}> MyFlixReact</HashLink></li>
+          <li><HashLink to='#myflix-api' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor} >MyFlix API</HashLink></li>
+          <li><HashLink to='#titbit'style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Titbit</HashLink></li>
+          <li><HashLink to='#aptly' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Aptly</HashLink></li>
+          <li><HashLink to='#pokedex' style={{cursor:'pointer'}} onMouseEnter={changeTextColor} onMouseLeave={returnTextColor}>Pokedex</HashLink></li>
+           <li><HashLink to="#top" id='to-top' >Back to Top</HashLink></li>
+          </ul>
+      </div>
+
       <div>
       <img alt='' src={WebDevImg} id='webdev-vector'/>            
       </div>
