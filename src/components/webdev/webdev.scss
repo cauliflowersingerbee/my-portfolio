@@ -34,7 +34,7 @@ margin-bottom: 5rem;
 
 #to-top {
     margin-top: 5rem;
-    font-size: medium;
+    font-size: 20px;
     border: 1px solid #F2CA52;
     padding: 3px;
     color: #000;
@@ -42,24 +42,23 @@ margin-bottom: 5rem;
 }
 
 #webdev-links {
-    a:link { text-decoration: none; color: #F2CA52 }
-        a:visited { text-decoration: none; color: #F2CA52}
+    a:link { text-decoration: none; color: #000 }
+        a:visited { text-decoration: none; color: #000}
         a:hover { text-decoration: none; color: #EF4B68}
         a:active { text-decoration: none; color: #EF4B68}
     position: fixed;
-    left: 1180px;
-    top: 150px;
-    color: #F2CA52;
-    font-size: 20px;
+    left: 70%;
+    top: 30%;
+    color: #000;
+    font-size: 40px;
     font-family: 'Roboto-Slab';
-    line-height: 5rem;
-    font-weight: 800;
-    width: 13.5rem;
+    line-height: 4rem;
+    font-weight: 400;
+    max-width: 30%;
+    z-index: 2;
     ul {
         list-style-type: none;
     }
-    border: solid 1px #EF4B68 ;
-    
     
 }
 
