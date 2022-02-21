@@ -1,14 +1,8 @@
 import React from 'react';
 import Navbar from '../navbar/navbar';
-import LogoImage from '../imgs/portfolio-logo.svg';
 import './uxdesign.scss'
-import WorkImage from '../imgs/work-img.svg';
 import WorkVector from '../imgs/work-vector.svg';
-import SquigglyLine from '../imgs/squiggly-line.svg';
 import UXDesignImg from '../imgs/work-projects-img.svg';
-
-//import { Router } from 'react-router-dom';
-
 
 
 
@@ -20,13 +14,9 @@ export default class UXDesignView extends React.Component {
       return (
       <div>
       <Navbar/>
-      <img id='logo-img' src={LogoImage} alt=''/>
-      <img id='work-vector' src={WorkVector} alt=''/>
-      <img id='work-img' src={UXDesignImg} alt='' style={{width:'250px', height: 'auto', top: '300px'}}/>
-      <img id='squiggly-line' src={SquigglyLine} alt=''/>
-      
-      
-      <p id='work-text'>My UX Design page is still under construction. Please check back soon!</p>
+      <img id='ux-vector' src={WorkVector} alt=''/>
+      <img id='ux-img' src={UXDesignImg} alt='' style={{width:'250px', height: 'auto', top: '300px'}}/>
+      <p id='ux-text'>My <span style={{color:'#F24968'}}> UX Design</span> page is still under construction. Please check back soon!</p>
       
      
 
