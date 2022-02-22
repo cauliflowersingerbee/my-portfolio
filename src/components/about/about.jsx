@@ -18,13 +18,12 @@ export default class AboutView extends React.Component {
       <img id='about-vector' src={AboutVector} alt=''/>
         <div id='about-text'>
           <p>ABOUT ME</p>
-        <p>I am a <span style={{color:'#F24968'}}>fiction writer </span> 
-        who, after years of interest in programming, finally scratched 
+        <p>I am a fiction writer who, after years of interest in programming, finally scratched 
         the itch and ventured into tech. I now write both stories and 
-        code. I like designing <span style={{color:'#F24968'}}>user experience too.</span> </p>
-        <p>I am skilled in <span style={{color:'#F24968'}}>JavaScript, Node.js, React, React Native, and 
-          Angular</span>. I am also skilled in <span style={{color:'#F24968'}}>UX research, wireframing, prototyping, 
-          and usability testing</span>.</p>  
+        code. I like designing user experience too.
+        I am skilled in JavaScript, Node.js, React, React Native, and 
+          Angular. I am also skilled in UX research, wireframing, prototyping, 
+          and usability testing.</p>  
         <p>Designing and creating stories is an important part of my writing work, 
           something I approach with great care and thoughtfulness. I have found
            surprising similarities between story design and software design.</p>
@@ -32,8 +31,8 @@ export default class AboutView extends React.Component {
            now bring to my personas in the UX design process. The structure of 
            narrative and the meticulousness of grammar, I now bring to the 
            structure and syntax of code. </p>
-         <p>I am interested in building software that is<span style={{color:'#F24968'}}> human-centered, 
-           aesthetic, and useful</span>. </p>
+         <p>I am interested in building software that is human-centered, 
+           aesthetic, and useful. </p>
 
         </div>
       </div>
