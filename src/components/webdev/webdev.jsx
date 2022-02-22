@@ -53,7 +53,6 @@ export default class WebDevView extends React.Component {
       <img alt='' src={WebDevImg} id='webdev-vector'/>            
       </div>
 
-webdev-page
 
 
       <div id='myflix-angular' >
