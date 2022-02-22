@@ -65,7 +65,7 @@ export default class WebDevView extends React.Component {
           
                             <p className='title' >KINO NOIR ANGULAR</p>
                             <img alt='' src={MyFlixAngularImg} id='webdev-img-angular'/>
-                            <p>This is a single-page, responsive movie app built with <span style={{color:'#F24968'}}>Angular</span>, with routing and several
+                            <p>This is a single-page, responsive movie app built with Angular, with routing and several
                             interface views. The client-side is an Angular rendition of a previous project that I built 
                             with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc. </p>
 
@@ -257,7 +257,7 @@ export default class WebDevView extends React.Component {
   
                     <p className='title' >KINO NOIR ANGULAR</p>
                     <img alt='' src={MyFlixAngularImg} id='webdev-img-angular'/>
-                    <p>This is a single-page, responsive movie app built with <span style={{color:'#F24968'}}>Angular</span>, with routing and several
+                    <p>This is a single-page, responsive movie app built with Angular, with routing and several
                     interface views. The client-side is an Angular rendition of a previous project that I built 
                     with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc. </p>
 
