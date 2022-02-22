@@ -164,7 +164,7 @@ export default class WebDevView extends React.Component {
   
                     <p className='title' >TITBIT</p>
                     <img alt='' src={TitbitImg} style={{ width: '21.5rem', height: 'auto', float: 'left', margin: '.2rem', border: 'solid 2px #fff'}}/>
-                       <p>Titibit is a chat app for mobile 
+                       <p>This is a chat app for mobile 
                               devices, built using React Native. The app provides users with a chat interface and options to share images and their location.
                               The app is written in React Native. It's developed using Expo. Conversations are stored in Google Firestore Database.
                               The app authenticates users anonymously via Google Firebase authentication.
