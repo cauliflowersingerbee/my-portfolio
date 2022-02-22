@@ -23,7 +23,8 @@ export default class AboutView extends React.Component {
         code. I like designing user experience too.
         I am skilled in JavaScript, Node.js, React, React Native, and 
           Angular. I am also skilled in UX research, wireframing, prototyping, 
-          and usability testing.</p>  
+          and usability testing. I enjoy illustrating and using design tools such 
+          as Adobe Illustrator and Figma.</p>  
         <p>Designing and creating stories is an important part of my writing work, 
           something I approach with great care and thoughtfulness. I have found
            surprising similarities between story design and software design.</p>

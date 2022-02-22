@@ -11,7 +11,7 @@ export default class NavbarView extends React.Component {
 <Navbar expand="lg" className='justify-content-between' style={{zIndex: '2'}}>
   <Container>
   <Navbar.Brand href="/">
-      <img id='logo-img' src={LogoImage} alt=''  className="d-inline-block align-top" style={{width: '40%', height:'auto', margin:'0.5%'}}/>
+      <img id='logo-img' src={LogoImage} alt=''  className="d-inline-block align-top" style={{width: '50%', height:'auto', margin:'0.5%'}}/>
   </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
