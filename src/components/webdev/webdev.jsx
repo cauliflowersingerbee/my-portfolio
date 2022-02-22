@@ -54,6 +54,7 @@ export default class WebDevView extends React.Component {
       <img alt='' src={WebDevImg} id='webdev-vector'/>            
       </div>
 
+webdev-page
 
 
       <div id='myflix-angular' >
@@ -62,7 +63,7 @@ export default class WebDevView extends React.Component {
         
         </div>
         <div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}} >
-          
+
                             <p className='title' style={{marginTop: '0.5rem'}}>KINO NOIR ANGULAR</p>
                             <img alt='' src={MyFlixAngularImg} id='webdev-img-angular'/>
                             <p>This is a single-page, responsive movie app built with Angular, with routing and several
