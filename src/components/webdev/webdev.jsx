@@ -130,8 +130,8 @@ export default class WebDevView extends React.Component {
         <div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}}>
           
                             <p className='title'>KINO NOIR API</p>
-                            <img alt='' src={MyFlixAngularImg} id='webdev-img-angular'/>
-                            <p>This is the complete server-side of a movie web application, including the server, business logic, 
+                            <img alt='' src={MyFlixApiImg} style={{ width: '30rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid 4px #fff'}}/>
+                     <p>This is the complete server-side of a movie web application, including the server, business logic, 
                              and business layers of the application. It consists of a well-designed REST API and architected 
                              database built using JavaScript, Node.js, Express, and MongoDB. The REST API is accessed via commonly 
                              used HTTP methods like GET and POST.  </p>
@@ -163,8 +163,8 @@ export default class WebDevView extends React.Component {
 <div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}} >
   
                     <p className='title' >TITBIT</p>
-                    <img alt='' src={MyFlixAngularImg} id='webdev-img-angular'/>
-                    <p>Titibit is a chat app for mobile 
+                    <img alt='' src={TitbitImg} style={{ width: '21.5rem', height: 'auto', float: 'left', margin: '.2rem', border: 'solid 2px #fff'}}/>
+                       <p>Titibit is a chat app for mobile 
                               devices, built using React Native. The app provides users with a chat interface and options to share images and their location.
                               The app is written in React Native. It's developed using Expo. Conversations are stored in Google Firestore Database.
                               The app authenticates users anonymously via Google Firebase authentication.
@@ -201,8 +201,8 @@ export default class WebDevView extends React.Component {
 <div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}} >
   
                     <p className='title' >APTLY</p>
-                    <img alt='' src={MyFlixAngularImg} id='webdev-img-angular'/>
-                    <p>This is a serverless, progressive web application (PWA) built with React using a test-driven development 
+                    <img alt='' src={AptlyImg} style={{ width: '24rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid .1px #fff'}}/>
+                     <p>This is a serverless, progressive web application (PWA) built with React using a test-driven development 
                               (TDD) technique. It uses the Google Calendar API to fetch upcoming events. Features include: 
 
                               <ul >
@@ -243,8 +243,8 @@ export default class WebDevView extends React.Component {
 <div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}} >
   
                     <p className='title' >POKEDEX</p>
-                    <img alt='' src={MyFlixAngularImg} id='webdev-img-angular' />
-                    <p>This is a small web application with HTML, CSS, and JavaScript that loads data from an external 
+                    <img alt='' src={PokedexImg} style={{ width: '35rem', height: 'auto', margin: '1rem', border: 'solid 1px #fff'}}/>
+                      <p>This is a small web application with HTML, CSS, and JavaScript that loads data from an external 
                                API and enables the viewing of data points in detail. </p>
 
                   
