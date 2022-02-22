@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.4f980853.css",
-    "main.js": "/my-portfolio/static/js/main.329c06fe.js",
+    "main.css": "/my-portfolio/static/css/main.cccbbd45.css",
+    "main.js": "/my-portfolio/static/js/main.8ed1b862.js",
     "static/media/myflix-angular-img.svg": "/my-portfolio/static/media/myflix-angular-img.e54fe093487bb42ebc9481d72524f436.svg",
     "static/media/myflix-react-img.svg": "/my-portfolio/static/media/myflix-react-img.ce914c01621367f7f2e3f3412acb6dae.svg",
     "static/media/titbit-img.svg": "/my-portfolio/static/media/titbit-img.3851dc1a6b748d4fc4198da050a735bd.svg",
@@ -12,21 +12,19 @@
     "static/media/about-img.svg": "/my-portfolio/static/media/about-img.9961ab8e8a5eeb031789ab50e90c11c1.svg",
     "static/media/portfolio-logo.svg": "/my-portfolio/static/media/portfolio-logo.6097f6f71dd82fce6fa6609805ef3096.svg",
     "static/media/work-img.svg": "/my-portfolio/static/media/work-img.d65513fc392c9d4fe23a9126fb406cc9.svg",
-    "static/media/user-flows.svg": "/my-portfolio/static/media/user-flows.d78b0a2d32dc17982dc31fda0715d201.svg",
     "static/media/home-img.svg": "/my-portfolio/static/media/home-img.08270bc934c8c8e80440aaf2b5b951b6.svg",
     "static/media/contact-img.svg": "/my-portfolio/static/media/contact-img.da2170e40a2f0b5ab073badb1f73b678.svg",
     "index.html": "/my-portfolio/index.html",
-    "static/media/squiggly-line-two.svg": "/my-portfolio/static/media/squiggly-line-two.35d641e252122a865a25048adf5c17a7.svg",
     "static/media/about-vector.svg": "/my-portfolio/static/media/about-vector.f1006a94ca63bdb45906ef550b5d986c.svg",
     "static/media/contact-vector.svg": "/my-portfolio/static/media/contact-vector.c304b9e61dd7309dd3685d3ca9f39f7d.svg",
     "static/media/home-vector.svg": "/my-portfolio/static/media/home-vector.cbcdc3ba271f60ba08154ddc8b9c8427.svg",
     "static/media/work-vector.svg": "/my-portfolio/static/media/work-vector.32a6255341ceeab4cf1ad98987d17603.svg",
-    "static/media/squiggly-line.svg": "/my-portfolio/static/media/squiggly-line.5255fcbd469268abf43fe9534c6a7df9.svg",
-    "main.4f980853.css.map": "/my-portfolio/static/css/main.4f980853.css.map",
-    "main.329c06fe.js.map": "/my-portfolio/static/js/main.329c06fe.js.map"
+    "static/media/webdev-page-vector.svg": "/my-portfolio/static/media/webdev-page-vector.07a98595c1b2a987ee636857dce445f7.svg",
+    "main.cccbbd45.css.map": "/my-portfolio/static/css/main.cccbbd45.css.map",
+    "main.8ed1b862.js.map": "/my-portfolio/static/js/main.8ed1b862.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f980853.css",
-    "static/js/main.329c06fe.js"
+    "static/css/main.cccbbd45.css",
+    "static/js/main.8ed1b862.js"
   ]
 }
