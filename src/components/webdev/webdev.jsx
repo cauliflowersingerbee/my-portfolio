@@ -63,7 +63,7 @@ export default class WebDevView extends React.Component {
         </div>
         <div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}} >
           
-                            <p className='title' >KINO NOIR ANGULAR</p>
+                            <p className='title' style={{marginTop: '0.5rem'}}>KINO NOIR ANGULAR</p>
                             <img alt='' src={MyFlixAngularImg} id='webdev-img-angular'/>
                             <p>This is a single-page, responsive movie app built with Angular, with routing and several
                             interface views. The client-side is an Angular rendition of a previous project that I built 
@@ -95,7 +95,7 @@ export default class WebDevView extends React.Component {
         </div>
         <div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}}>
           
-                            <p className='title'>KINO NOIR REACT</p>
+                            <p className='title' style={{marginTop: '0.5rem'}}>KINO NOIR REACT</p>
                             <img alt='' src={MyFlixReactImg} id='webdev-img-react'/>
                             <p>This is the client-side of a movie API. It's built using the MERN tech stack 
                                 (MongoDB, Express, React, and Node.js). It’s a single-page application (SPA). 
@@ -129,7 +129,7 @@ export default class WebDevView extends React.Component {
         </div>
         <div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}}>
           
-                            <p className='title'>KINO NOIR API</p>
+                            <p className='title' style={{marginTop: '0.5rem'}}>KINO NOIR API</p>
                             <img id='webdev-img-api' alt='' src={MyFlixApiImg} style={{ width: '30rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid 4px #fff'}}/>
                      <p>This is the complete server-side of a movie web application, including the server, business logic, 
                              and business layers of the application. It consists of a well-designed REST API and architected 
@@ -162,7 +162,7 @@ export default class WebDevView extends React.Component {
 </div>
 <div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}} >
   
-                    <p className='title' >TITBIT</p>
+                    <p className='title' style={{marginTop: '0.5rem'}}>TITBIT</p>
                     <img id='webdev-img-titbit' alt='' src={TitbitImg} style={{ width: '21.5rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid 2px #fff'}}/>
                        <p>This is a chat app for mobile 
                               devices, built using React Native. The app provides users with a chat interface and options to share images and their location.
@@ -200,7 +200,7 @@ export default class WebDevView extends React.Component {
 </div>
 <div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}} >
   
-                    <p className='title' >APTLY</p>
+                    <p className='title' style={{marginTop: '0.5rem'}}>APTLY</p>
                     <img id='webdev-img-aptly' alt='' src={AptlyImg} style={{ width: '24rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid .1px #fff'}}/>
                      <p>This is a serverless, progressive web application (PWA) built with React using a test-driven development 
                               (TDD) technique. It uses the Google Calendar API to fetch upcoming events. Uses the Google Calendar API and OAuth2 authentication flow.
@@ -235,7 +235,7 @@ export default class WebDevView extends React.Component {
 </div>
 <div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}} >
   
-                    <p className='title' >POKEDEX</p>
+                    <p className='title' style={{marginTop: '0.5rem'}}>POKEDEX</p>
                     <img id='webdev-img-pokedex' alt='' src={PokedexImg} style={{ width: '35rem', height: 'auto', margin: '1rem', border: 'solid 1px #fff'}}/>
                       <p>This is a small web application with HTML, CSS, and JavaScript that loads data from an external 
                                API and enables the viewing of data points in detail. </p>
