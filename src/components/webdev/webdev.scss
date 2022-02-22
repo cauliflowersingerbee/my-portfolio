@@ -1,9 +1,5 @@
 
 
-#navbar {
-margin-bottom: 5rem;
-}
-
 .work-cards {
     width: 32rem;
     margin-top: 5rem;
@@ -14,47 +10,30 @@ margin-bottom: 5rem;
     gap: 5rem;
 }
 
-#webdev-img {
-    position: relative;
-    z-index: 2;
-    width: 350px;
-    height: 350px;
-    left: 1050px;
-    top: 300px;
-}
-  
-
-
-.project-images {
-    :hover {cursor: pointer; opacity: 50%;}
-    
-    
-}
-
 
 #to-top {
-    margin-top: 5rem;
-    font-size: 20px;
+    margin-top: 7rem;
+    font-size: 12px;
     border: 1px solid #F2CA52;
     padding: 3px;
-    color: #000;
+    color: #EF4B68;
+   
 
 }
 
 #webdev-links {
-    a:link { text-decoration: none; color: #000 }
-        a:visited { text-decoration: none; color: #000}
-        a:hover { text-decoration: none; color: #EF4B68}
-        a:active { text-decoration: none; color: #EF4B68}
+    a:link { text-decoration: none; color: #EF4B68 }
+        a:visited { text-decoration: none; color: #EF4B68}
+        a:hover { text-decoration: none; color: #000}
+        a:active { text-decoration: none; color: #000}
     position: fixed;
-    left: 48%;
-    top: 40%;
-    color: #000;
-    font-size: 30px;
-    font-family: 'Roboto-Slab';
-    line-height: 3rem;
+    left:50%;
+    top: 60%;
+    font-size: 18px;
+    font-family: Roboto-Slab;
+    line-height: 1.5rem;
     font-weight: 400;
-    max-width: 80%;
+    max-width: 60%;
     z-index: 3;
     ul {
         list-style-type: none;
@@ -80,7 +59,7 @@ margin-bottom: 5rem;
     a:visited { text-decoration: none; color:#EF4B68}
     a:hover { text-decoration: none; color: #000}
     a:active { text-decoration: none; color: #EF4B68}
-    font-size: 28px;
+    font-size: 14px;
     font-family: Roboto-Slab;
     position: relative;
 }
@@ -95,23 +74,22 @@ margin-bottom: 5rem;
         color: #000;
         line-height: 3px;
         z-index: 2;
-        font-size: 32px;
+        font-size: 24px;
         font-family: 'Roboto-Slab', serif;
         font-weight: 400;
         width:50%;
-      line-height: 3rem;
+      line-height: 2rem;
       text-shadow: 1px 1px #fff;
 }
 
     #webdev-img-angular {
-        max-width: 80%;
+        max-width: 100%;
         position: relative;
         z-index: 3;
         height: auto;
         top: 3%;
-        margin: 3rem; 
         border: solid 4px #fff;
-        float: left;
+        left: 0.3rem;
 }
 
 .title {
@@ -135,3 +113,6 @@ margin-bottom: 5rem;
     position: relative;
     z-index: 2;
 }
+
+
+

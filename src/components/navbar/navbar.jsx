@@ -8,7 +8,7 @@ export default class NavbarView extends React.Component {
     render() {
         return(
 <>
-<Navbar expand="lg" className='justify-content-between'>
+<Navbar expand="lg" className='justify-content-between' style={{zIndex: '2'}}>
   <Container>
   <Navbar.Brand href="/">
       <img id='logo-img' src={LogoImage} alt=''  className="d-inline-block align-top" style={{width: '40%', height:'auto', margin:'0.5%'}}/>
