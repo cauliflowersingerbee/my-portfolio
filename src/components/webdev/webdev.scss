@@ -1,149 +1,268 @@
 
-
-#navbar {
-margin-bottom: 5rem;
-}
-
-.work-cards {
-    width: 32rem;
-    margin-top: 5rem;
-    border: 5rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 5rem;
-}
-
-#webdev-vector
-{
-    position: absolute;
-    width:1000.84px;
-    height:700px;
-    left: -100px;
-    top: 100px;
-}
-
-#webdev-vector2 {
-    position: absolute;
-    width:1000.84px;
-    height:700px;
-    left: 400px;
-    top: 100px;
-}
-
-#webdev-img {
-    position: relative;
-    z-index: 2;
-    width: 350px;
-    height: 350px;
-    left: 1050px;
-    top: 300px;
-}
-  
-
-
-.project-images {
-    :hover {cursor: pointer; opacity: 50%;}
-    
-    
-}
-
-#react-modal {
-    z-index: 2;
-    position: relative;
-}
-
 #to-top {
-    margin-top: 5rem;
-    font-size: medium;
+    margin-top: 7rem;
+    font-size: 12px;
     border: 1px solid #F2CA52;
     padding: 3px;
-    color: #000;
+    color: #EF4B68;
+   
 
 }
 
 #webdev-links {
-    a:link { text-decoration: none; color: #F2CA52 }
-        a:visited { text-decoration: none; color: #F2CA52}
-        a:hover { text-decoration: none; color: #EF4B68}
-        a:active { text-decoration: none; color: #EF4B68}
+    a:link { text-decoration: none; color: #EF4B68 }
+        a:visited { text-decoration: none; color: #EF4B68}
+        a:hover { text-decoration: none; color: #000}
+        a:active { text-decoration: none; color: #000}
     position: fixed;
-    left: 1180px;
-    top: 150px;
-    color: #F2CA52;
-    font-size: 20px;
-    font-family: 'Roboto';
-    line-height: 5rem;
-    font-weight: 800;
-    width: 13.5rem;
+    left:50%;
+    top: 60%;
+    font-size: 18px;
+    font-family: Roboto-Slab;
+    line-height: 1.5rem;
+    font-weight: 400;
+    max-width: 60%;
+    z-index: 3;
     ul {
         list-style-type: none;
     }
-    border: solid 1px #EF4B68 ;
-    
     
 }
 
-#squiggly-one {
+#webdev-vector{
     position: fixed;
-        z-index: 2;
-        width: 170px;
-        height: 10px;
-        left: 1210px;
-        top: 210px;
+    width: 100%;
+    top: 80%;
+    left: 25%;
+    z-index: 1;
 }
 
-#squiggly-two {
-    position: fixed;
-        z-index: 2;
-        width: 150px;
-        height: 10px;
-        left: 1210px;
-        top: 290px;
+#myflix-angular, #myflix-react {
+    position: relative;
+    z-index: 2;
 }
 
-#squiggly-three {
-    position: fixed;
-        z-index: 2;
-        width: 140px;
-        height: 10px;
-        left: 1210px;
-        top: 370px;
+.title {
+    color: #EF4B68;
 }
-
-#squiggly-four {
-    position: fixed;
-        z-index: 2;
-        width: 80px;
-        height: 10px;
-        left: 1210px;
-        top: 450px;
-}
-
-#squiggly-line-five {
-    position: fixed;
-        z-index: 2;
-        width: 80px;
-        height: 10px;
-        left: 1210px;
-        top: 530px;
-}
-
-#squiggly-six {
-    position: fixed;
-        z-index: 2;
-        width: 120px;
-        height: 10px;
-        left: 1210px;
-        top: 610px;
-}
-
 
 #site-links {
-    a:link { text-decoration: none; color: #fff }
-    a:visited { text-decoration: none; color: #fff}
-    a:hover { text-decoration: none; color: #EF4B68}
+    a:link { text-decoration: none; color: #EF4B68}
+    a:visited { text-decoration: none; color:#EF4B68}
+    a:hover { text-decoration: none; color: #000}
     a:active { text-decoration: none; color: #EF4B68}
-    font-size: small;
-    margin: 3px;
+    font-size: 14px;
+    font-family: Roboto-Slab;
+    position: relative;
+}
+
+
+.webdev-text {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+    position: relative;
+        left: 1%;
+        color: #000;
+        z-index: 2;
+        font-size: 24px;
+        font-family: 'Roboto-Slab';
+        font-weight: 400;
+        width:50%;
+      line-height: 1rem;
+      text-shadow: 1px 1px #fff;
+}
+
+
+
+    #webdev-img-angular,  #webdev-img-react, #webdev-img-api, #webdev-img-titbit, #webdev-img-aptly, #webdev-img-pokedex {
+        max-width: 80%;
+        position: relative;
+        z-index: 3;
+        height: auto;
+        top: 3%;
+        border: solid 4px #fff;
+        left: 0.3rem;
+}
+
+
+.title {
+    left: 50%;
+    margin-top: 15%;
+}
+
+
+
+
+@media only screen and (min-width: 480px)  {
+
+    #to-top {
+        margin-top: 7rem;
+        font-size: 12px;
+        border: 1px solid #F2CA52;
+        padding: 3px;
+        color: #EF4B68;
+       
+    
+    }
+    
+    #webdev-links {
+        a:link { text-decoration: none; color: #EF4B68 }
+            a:visited { text-decoration: none; color: #EF4B68}
+            a:hover { text-decoration: none; color: #000}
+            a:active { text-decoration: none; color: #000}
+        position: fixed;
+        left:57%;
+        top: 50%;
+        font-size: 22px;
+        font-family: Roboto-Slab;
+        line-height: 2rem;
+        font-weight: 400;
+        max-width: 60%;
+        z-index: 3;
+        ul {
+            list-style-type: none;
+        }
+        
+    }
+    
+    #webdev-vector{
+        position: fixed;
+        width: 100%;
+        top: 60%;
+        left: 25%;
+        z-index: 1;
+    }
+    
+
+    
+    #site-links {
+        a:link { text-decoration: none; color: #EF4B68}
+        a:visited { text-decoration: none; color:#EF4B68}
+        a:hover { text-decoration: none; color: #000}
+        a:active { text-decoration: none; color: #EF4B68}
+        font-size: 14px;
+        font-family: Roboto-Slab;
+        position: relative;
+        margin-left: 3rem;
+    }
+    
+    
+    .webdev-text {
+        position: relative;
+            display: block;
+            flex-direction: column;
+            left: 1%;
+            margin-top: 8%;
+            color: #000;
+            line-height: 3px;
+            z-index: 2;
+            font-size: 32px;
+            font-family: 'Roboto-Slab', serif;
+            font-weight: 400;
+            width:55%;
+          line-height: 2rem;
+          text-shadow: 1px 1px #fff;
+    }
+    
+        #webdev-img-angular,  #webdev-img-react {
+            max-width: 100%;
+            position: relative;
+            z-index: 3;
+            height: auto;
+            top: 3%;
+            border: solid 4px #fff;
+            left: 0.3rem;
+    }
+    
+    .title {
+        left: 50%;
+        margin-top: 15%;
+    }
+    
+}
+
+@media only screen and (min-width: 800px)  {
+
+    #to-top {
+        margin-top: 7rem;
+        font-size: 22px;
+        border: 1px solid #F2CA52;
+        padding: 3px;
+        color: #EF4B68;
+       
+    
+    }
+    
+    #webdev-links {
+        a:link { text-decoration: none; color: #EF4B68 }
+            a:visited { text-decoration: none; color: #EF4B68}
+            a:hover { text-decoration: none; color: #000}
+            a:active { text-decoration: none; color: #000}
+        position: fixed;
+        left:67%;
+        top: 30%;
+        font-size: 34px;
+        font-family: Roboto-Slab;
+        line-height: 3rem;
+        font-weight: 400;
+        max-width: 60%;
+        z-index: 3;
+        ul {
+            list-style-type: none;
+        }
+        
+    }
+    
+    #webdev-vector{
+        position: fixed;
+        width: 100%;
+        top: 60%;
+        left: 25%;
+        z-index: 1;
+    }
+    
+    #site-links {
+        a:link { text-decoration: none; color: #EF4B68}
+        a:visited { text-decoration: none; color:#EF4B68}
+        a:hover { text-decoration: none; color: #000}
+        a:active { text-decoration: none; color: #EF4B68}
+        font-size: 22px;
+        font-family: Roboto-Slab;
+        position: relative;
+    }
+    
+    
+    .webdev-text {
+        position: relative;
+            display: block;
+            flex-direction: column;
+            left: 3%;
+            margin-top: 8%;
+            color: #000;
+            line-height: 3px;
+            z-index: 2;
+            font-size: 24px;
+            font-family: 'Roboto-Slab', serif;
+            font-weight: 400;
+            width:55%;
+          line-height: 2rem;
+          text-shadow: 1px 1px #fff;
+    }
+    
+        #webdev-img-angular,  #webdev-img-react {
+            max-width: 100%;
+            position: relative;
+            z-index: 3;
+            height: auto;
+            top: 20%;
+            border: solid 4px #fff;
+            left: 0.3rem;
+            float: left;
+            margin: 1.5rem;
+    }
+    
+    .title {
+        left: 50%;
+        margin-top: 15%;
+    }
 }
