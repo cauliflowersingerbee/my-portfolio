@@ -203,18 +203,11 @@ export default class WebDevView extends React.Component {
                     <p className='title' >APTLY</p>
                     <img alt='' src={AptlyImg} style={{ width: '24rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid .1px #fff'}}/>
                      <p>This is a serverless, progressive web application (PWA) built with React using a test-driven development 
-                              (TDD) technique. It uses the Google Calendar API to fetch upcoming events. Features include: 
-
-                              <ul >
-                              <li>Uses the Google Calendar API and OAuth2 authentication flow.</li>
-                              <li>Uses serverless functions (AWS lambda) for the authorization server 
-                                instead of using a traditional server.</li>
-                              <li>Passes Lighthouse’s PWA checklist.</li>
-                              <li>Works offline or in slow network conditions with the help of a service worker.</li>
-                              <li>The API calls use React axios and async/await.</li>
-                              <li>Implements an alert system using an OOP approach to show information to the user.</li>
-                              <li>Makes use of data visualization (using recharts).</li>
-                              </ul> </p>
+                              (TDD) technique. It uses the Google Calendar API to fetch upcoming events. Uses the Google Calendar API and OAuth2 authentication flow.
+                              It uses serverless functions (AWS lambda) for the authorization server 
+                                instead of using a traditional server. It also passes Lighthouse’s PWA checklist. It 
+                                works offline or in slow network conditions with the help of a service worker. The API calls 
+                                use React axios and async/await. The app presents data visualization using Recharts.</p>
 
                   
  <Row>
