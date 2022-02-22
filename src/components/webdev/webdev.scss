@@ -37,9 +37,13 @@
     z-index: 1;
 }
 
-#myflix-angular {
+#myflix-angular, #myflix-react {
     position: relative;
     z-index: 2;
+}
+
+.title {
+    color: #EF4B68;
 }
 
 #site-links {
@@ -54,23 +58,21 @@
 
 
 .webdev-text {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
     position: relative;
-        display: block;
-        flex-direction: column;
         left: 1%;
-        margin-top: 8%;
         color: #000;
-        line-height: 3px;
         z-index: 2;
         font-size: 24px;
-        font-family: 'Roboto-Slab', serif;
+        font-family: 'Roboto-Slab';
         font-weight: 400;
         width:50%;
-      line-height: 2rem;
+      line-height: 1rem;
       text-shadow: 1px 1px #fff;
 }
 
-    #webdev-img-angular {
+    #webdev-img-angular,  #webdev-img-react {
         max-width: 100%;
         position: relative;
         z-index: 3;
@@ -79,6 +81,7 @@
         border: solid 4px #fff;
         left: 0.3rem;
 }
+
 
 .title {
     left: 50%;
@@ -128,10 +131,7 @@
         z-index: 1;
     }
     
-    #myflix-angular {
-        position: relative;
-        z-index: 2;
-    }
+
     
     #site-links {
         a:link { text-decoration: none; color: #EF4B68}
@@ -161,7 +161,7 @@
           text-shadow: 1px 1px #fff;
     }
     
-        #webdev-img-angular {
+        #webdev-img-angular,  #webdev-img-react {
             max-width: 100%;
             position: relative;
             z-index: 3;
@@ -218,11 +218,6 @@
         z-index: 1;
     }
     
-    #myflix-angular {
-        position: relative;
-        z-index: 2;
-    }
-    
     #site-links {
         a:link { text-decoration: none; color: #EF4B68}
         a:visited { text-decoration: none; color:#EF4B68}
@@ -238,20 +233,20 @@
         position: relative;
             display: block;
             flex-direction: column;
-            left: 1%;
+            left: 3%;
             margin-top: 8%;
             color: #000;
             line-height: 3px;
             z-index: 2;
-            font-size: 40px;
+            font-size: 28px;
             font-family: 'Roboto-Slab', serif;
             font-weight: 400;
             width:55%;
-          line-height: 3rem;
+          line-height: 2rem;
           text-shadow: 1px 1px #fff;
     }
     
-        #webdev-img-angular {
+        #webdev-img-angular,  #webdev-img-react {
             max-width: 100%;
             position: relative;
             z-index: 3;
@@ -260,14 +255,11 @@
             border: solid 4px #fff;
             left: 0.3rem;
             float: left;
+            margin: 1.5rem;
     }
     
     .title {
         left: 50%;
         margin-top: 15%;
     }
-}
-
-@media only screen and (min-width: 900px)  {
-
 }
