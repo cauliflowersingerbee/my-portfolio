@@ -26,7 +26,7 @@ export default class WebDevView extends React.Component {
   }
 
   const returnTextColor = (e) => {
-    e.target.style.color = '#F2CA52'
+    e.target.style.color = '#000'
   }
 
   
@@ -36,6 +36,7 @@ export default class WebDevView extends React.Component {
       <div id='navbar'>
         <Navbar/>
       </div>
+      <Row>
       <div id='webdev-links'>
         
         <ul>
@@ -48,7 +49,7 @@ export default class WebDevView extends React.Component {
            <li><HashLink to="#top" id='to-top' >Back to Top</HashLink></li>
           </ul>
       </div>
-
+      </Row>
       <div>
       <img alt='' src={WebDevImg} id='webdev-vector'/>            
       </div>
