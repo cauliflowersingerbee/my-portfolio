@@ -228,7 +228,7 @@
         a:visited { text-decoration: none; color:#EF4B68}
         a:hover { text-decoration: none; color: #000}
         a:active { text-decoration: none; color: #EF4B68}
-        font-size: 14px;
+        font-size: 22px;
         font-family: Roboto-Slab;
         position: relative;
     }
@@ -256,9 +256,10 @@
             position: relative;
             z-index: 3;
             height: auto;
-            top: 3%;
+            top: 20%;
             border: solid 4px #fff;
             left: 0.3rem;
+            float: left;
     }
     
     .title {
