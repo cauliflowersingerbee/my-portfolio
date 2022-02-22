@@ -1,16 +1,4 @@
 
-
-.work-cards {
-    width: 32rem;
-    margin-top: 5rem;
-    border: 5rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 5rem;
-}
-
-
 #to-top {
     margin-top: 7rem;
     font-size: 12px;
@@ -43,8 +31,8 @@
 
 #webdev-vector{
     position: fixed;
-    width: 60%;
-    top: 50%;
+    width: 100%;
+    top: 80%;
     left: 25%;
     z-index: 1;
 }
@@ -97,22 +85,188 @@
     margin-top: 15%;
 }
 
-#user-flows {
-    max-width: 40%;
+
+
+
+@media only screen and (min-width: 480px)  {
+
+    #to-top {
+        margin-top: 7rem;
+        font-size: 12px;
+        border: 1px solid #F2CA52;
+        padding: 3px;
+        color: #EF4B68;
+       
+    
+    }
+    
+    #webdev-links {
+        a:link { text-decoration: none; color: #EF4B68 }
+            a:visited { text-decoration: none; color: #EF4B68}
+            a:hover { text-decoration: none; color: #000}
+            a:active { text-decoration: none; color: #000}
+        position: fixed;
+        left:57%;
+        top: 50%;
+        font-size: 22px;
+        font-family: Roboto-Slab;
+        line-height: 2rem;
+        font-weight: 400;
+        max-width: 60%;
+        z-index: 3;
+        ul {
+            list-style-type: none;
+        }
+        
+    }
+    
+    #webdev-vector{
+        position: fixed;
+        width: 100%;
+        top: 60%;
+        left: 25%;
+        z-index: 1;
+    }
+    
+    #myflix-angular {
         position: relative;
         z-index: 2;
-        height: auto;
-        top: 5%;
-        margin: 1rem; 
-        border: solid 4px #fff;
+    }
+    
+    #site-links {
+        a:link { text-decoration: none; color: #EF4B68}
+        a:visited { text-decoration: none; color:#EF4B68}
+        a:hover { text-decoration: none; color: #000}
+        a:active { text-decoration: none; color: #EF4B68}
+        font-size: 14px;
+        font-family: Roboto-Slab;
+        position: relative;
+    }
+    
+    
+    .webdev-text {
+        position: relative;
+            display: block;
+            flex-direction: column;
+            left: 1%;
+            margin-top: 8%;
+            color: #000;
+            line-height: 3px;
+            z-index: 2;
+            font-size: 32px;
+            font-family: 'Roboto-Slab', serif;
+            font-weight: 400;
+            width:55%;
+          line-height: 2rem;
+          text-shadow: 1px 1px #fff;
+    }
+    
+        #webdev-img-angular {
+            max-width: 100%;
+            position: relative;
+            z-index: 3;
+            height: auto;
+            top: 3%;
+            border: solid 4px #fff;
+            left: 0.3rem;
+    }
+    
+    .title {
         left: 50%;
-        background-color: #fff;
+        margin-top: 15%;
+    }
+    
 }
 
-#myflix-react {
-    position: relative;
-    z-index: 2;
+@media only screen and (min-width: 800px)  {
+
+    #to-top {
+        margin-top: 7rem;
+        font-size: 22px;
+        border: 1px solid #F2CA52;
+        padding: 3px;
+        color: #EF4B68;
+       
+    
+    }
+    
+    #webdev-links {
+        a:link { text-decoration: none; color: #EF4B68 }
+            a:visited { text-decoration: none; color: #EF4B68}
+            a:hover { text-decoration: none; color: #000}
+            a:active { text-decoration: none; color: #000}
+        position: fixed;
+        left:67%;
+        top: 30%;
+        font-size: 34px;
+        font-family: Roboto-Slab;
+        line-height: 3rem;
+        font-weight: 400;
+        max-width: 60%;
+        z-index: 3;
+        ul {
+            list-style-type: none;
+        }
+        
+    }
+    
+    #webdev-vector{
+        position: fixed;
+        width: 100%;
+        top: 60%;
+        left: 25%;
+        z-index: 1;
+    }
+    
+    #myflix-angular {
+        position: relative;
+        z-index: 2;
+    }
+    
+    #site-links {
+        a:link { text-decoration: none; color: #EF4B68}
+        a:visited { text-decoration: none; color:#EF4B68}
+        a:hover { text-decoration: none; color: #000}
+        a:active { text-decoration: none; color: #EF4B68}
+        font-size: 14px;
+        font-family: Roboto-Slab;
+        position: relative;
+    }
+    
+    
+    .webdev-text {
+        position: relative;
+            display: block;
+            flex-direction: column;
+            left: 1%;
+            margin-top: 8%;
+            color: #000;
+            line-height: 3px;
+            z-index: 2;
+            font-size: 40px;
+            font-family: 'Roboto-Slab', serif;
+            font-weight: 400;
+            width:55%;
+          line-height: 3rem;
+          text-shadow: 1px 1px #fff;
+    }
+    
+        #webdev-img-angular {
+            max-width: 100%;
+            position: relative;
+            z-index: 3;
+            height: auto;
+            top: 3%;
+            border: solid 4px #fff;
+            left: 0.3rem;
+    }
+    
+    .title {
+        left: 50%;
+        margin-top: 15%;
+    }
 }
 
+@media only screen and (min-width: 900px)  {
 
-
+}
