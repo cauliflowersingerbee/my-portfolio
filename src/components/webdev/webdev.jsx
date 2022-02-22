@@ -104,9 +104,7 @@ export default class WebDevView extends React.Component {
                                 login view, registration view and profile view. </p>
 
                           
-        
-        </div>
-        <Row>
+                                <Row>
                     <Col id='site-links' ><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
                     <Col id='site-links' ><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
                     <Col id='site-links' ><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Case Study</Card.Link></Col>
@@ -117,6 +115,8 @@ export default class WebDevView extends React.Component {
                    <Col></Col>
                  
                 </Row>
+        </div>
+        
 
        
         </div>
@@ -153,102 +153,131 @@ export default class WebDevView extends React.Component {
        
         </div>
 
-
         <div id='myflix-angular' >
 
-        <div>
-        
-        </div>
-        <div className='webdev-text'>
-          
-                            <p>KINO NOIR ANGULAR</p>
-                            <img alt='' src={MyFlixAngularImg} id='webdev-img-angular'/>
-                            <p>This is a single-page, responsive movie app built with <span style={{color:'#F24968'}}>Angular</span>, with routing and several
-                            interface views. The client-side is an Angular rendition of a previous project that I built 
-                            with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc. </p>
+<div>
 
-                          
-        
-        </div>
-        <Row>
-                    <Col id='site-links' ><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
-                    <Col id='site-links' ><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
-                    <Col id='site-links' ><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Case Study</Card.Link></Col>
-                   <Col></Col>
-                   <Col></Col>
-                   <Col></Col>
-                   <Col></Col>
-                   <Col></Col>
-                 
-                </Row>
+</div>
+<div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}} >
+  
+                    <p className='title' >KINO NOIR ANGULAR</p>
+                    <img alt='' src={MyFlixAngularImg} id='webdev-img-angular'/>
+                    <p>This is a single-page, responsive movie app built with <span style={{color:'#F24968'}}>Angular</span>, with routing and several
+                    interface views. The client-side is an Angular rendition of a previous project that I built 
+                    with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc. </p>
 
-       
-        </div>
-
-
-        <div id='myflix-angular' >
-
-        <div>
-        
-        </div>
-        <div className='webdev-text'>
-          
-                            <p>KINO NOIR ANGULAR</p>
-                            <img alt='' src={MyFlixAngularImg} id='webdev-img-angular'/>
-                            <p>This is a single-page, responsive movie app built with <span style={{color:'#F24968'}}>Angular</span>, with routing and several
-                            interface views. The client-side is an Angular rendition of a previous project that I built 
-                            with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc. </p>
-
-                          
-        
-        </div>
-        <Row>
-                    <Col id='site-links' ><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
-                    <Col id='site-links' ><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
-                    <Col id='site-links' ><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Case Study</Card.Link></Col>
-                   <Col></Col>
-                   <Col></Col>
-                   <Col></Col>
-                   <Col></Col>
-                   <Col></Col>
-                 
-                </Row>
-
-       
-        </div>
+                  
+ <Row>
+            <Col id='site-links' ><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
+            <Col id='site-links' ><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
+            <Col id='site-links' ><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Case Study</Card.Link></Col>
+           <Col></Col>
+           <Col></Col>
+           <Col></Col>
+           <Col></Col>
+           <Col></Col>
+         
+        </Row>
+</div>
 
 
 
-        <div id='myflix-angular' >
+</div>
 
-        <div>
-        
-        </div>
-        <div className='webdev-text'>
-          
-                            <p>KINO NOIR ANGULAR</p>
-                            <img alt='' src={MyFlixAngularImg} id='webdev-img-angular'/>
-                            <p>This is a single-page, responsive movie app built with <span style={{color:'#F24968'}}>Angular</span>, with routing and several
-                            interface views. The client-side is an Angular rendition of a previous project that I built 
-                            with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc. </p>
+<div id='myflix-angular' >
 
-                          
-        
-        </div>
-        <Row>
-                    <Col id='site-links' ><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
-                    <Col id='site-links' ><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
-                    <Col id='site-links' ><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Case Study</Card.Link></Col>
-                   <Col></Col>
-                   <Col></Col>
-                   <Col></Col>
-                   <Col></Col>
-                   <Col></Col>
-                 
-                </Row>
+<div>
 
-       
-        </div>
+</div>
+<div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}} >
+  
+                    <p className='title' >KINO NOIR ANGULAR</p>
+                    <img alt='' src={MyFlixAngularImg} id='webdev-img-angular'/>
+                    <p>This is a single-page, responsive movie app built with <span style={{color:'#F24968'}}>Angular</span>, with routing and several
+                    interface views. The client-side is an Angular rendition of a previous project that I built 
+                    with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc. </p>
+
+                  
+ <Row>
+            <Col id='site-links' ><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
+            <Col id='site-links' ><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
+            <Col id='site-links' ><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Case Study</Card.Link></Col>
+           <Col></Col>
+           <Col></Col>
+           <Col></Col>
+           <Col></Col>
+           <Col></Col>
+         
+        </Row>
+</div>
+
+
+
+</div>
+
+
+<div id='myflix-angular' >
+
+<div>
+
+</div>
+<div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}} >
+  
+                    <p className='title' >KINO NOIR ANGULAR</p>
+                    <img alt='' src={MyFlixAngularImg} id='webdev-img-angular'/>
+                    <p>This is a single-page, responsive movie app built with <span style={{color:'#F24968'}}>Angular</span>, with routing and several
+                    interface views. The client-side is an Angular rendition of a previous project that I built 
+                    with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc. </p>
+
+                  
+ <Row>
+            <Col id='site-links' ><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
+            <Col id='site-links' ><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
+            <Col id='site-links' ><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Case Study</Card.Link></Col>
+           <Col></Col>
+           <Col></Col>
+           <Col></Col>
+           <Col></Col>
+           <Col></Col>
+         
+        </Row>
+</div>
+
+
+
+</div>
+
+
+<div id='myflix-angular' >
+
+<div>
+
+</div>
+<div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}} >
+  
+                    <p className='title' >KINO NOIR ANGULAR</p>
+                    <img alt='' src={MyFlixAngularImg} id='webdev-img-angular'/>
+                    <p>This is a single-page, responsive movie app built with <span style={{color:'#F24968'}}>Angular</span>, with routing and several
+                    interface views. The client-side is an Angular rendition of a previous project that I built 
+                    with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc. </p>
+
+                  
+ <Row>
+            <Col id='site-links' ><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
+            <Col id='site-links' ><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
+            <Col id='site-links' ><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Case Study</Card.Link></Col>
+           <Col></Col>
+           <Col></Col>
+           <Col></Col>
+           <Col></Col>
+           <Col></Col>
+         
+        </Row>
+</div>
+
+
+
+</div>
 
 
 
