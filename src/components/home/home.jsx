@@ -16,7 +16,7 @@ export default class HomeView extends React.Component {
       <div className='container'>
       <NavbarView className='nav'/>
       
-      <img id='home-img' src={HomeImage} alt='' className='image'/>
+      <img id='home-img' src={HomeImage} alt='flat illustration of woman with laptop sitting at desk' className='image'/>
       <img id='home-vector' src={HomeVector} alt='' className='image'/>
       <div id='home-text'>
             <p>Hi, I'm Okwiri.</p>

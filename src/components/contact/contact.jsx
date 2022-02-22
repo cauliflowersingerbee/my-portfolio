@@ -22,7 +22,7 @@ export default class ContactView extends React.Component {
       return (
       <div>
       <Navbar/>
-      <img id='contact-img' src={ContactImage} alt=''/>
+      <img id='contact-img' src={ContactImage} alt='flat illustration of a hand holding a red envelope'/>
       <img id='contact-vector' src={ContactVector} alt=''/>
       <div id='contact-text'>
      

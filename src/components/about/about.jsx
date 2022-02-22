@@ -14,7 +14,7 @@ export default class AboutView extends React.Component {
       return (
       <div>
       <Navbar/>
-      <img id='about-img' src={AboutImage} alt=''/>
+      <img id='about-img' src={AboutImage} alt='flat illustration of woman lying down with a book facedown on her stomach'/>
       <img id='about-vector' src={AboutVector} alt=''/>
         <div id='about-text'>
           <p>ABOUT ME</p>

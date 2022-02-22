@@ -9,7 +9,6 @@ import MyFlixApiImg from '../imgs/myflix-api-img.svg';
 import AptlyImg from '../imgs/aptly-img.svg';
 import TitbitImg from '../imgs/titbit-img.svg';
 import PokedexImg from '../imgs/pokedex-img.svg';
-import UserFlows from '../imgs/user-flows.svg';
 import { Card, Row, Col } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -65,7 +64,7 @@ webdev-page
         <div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}} >
 
                             <p className='title' style={{marginTop: '0.5rem'}}>KINO NOIR ANGULAR</p>
-                            <img alt='' src={MyFlixAngularImg} id='webdev-img-angular'/>
+                            <img alt='screenshot of live Angular project' src={MyFlixAngularImg} id='webdev-img-angular'/>
                             <p>This is a single-page, responsive movie app built with Angular, with routing and several
                             interface views. The client-side is an Angular rendition of a previous project that I built 
                             with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc. </p>
@@ -97,7 +96,7 @@ webdev-page
         <div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}}>
           
                             <p className='title' style={{marginTop: '0.5rem'}}>KINO NOIR REACT</p>
-                            <img alt='' src={MyFlixReactImg} id='webdev-img-react'/>
+                            <img alt='screenshot of live React project' src={MyFlixReactImg} id='webdev-img-react'/>
                             <p>This is the client-side of a movie API. It's built using the MERN tech stack 
                                 (MongoDB, Express, React, and Node.js). It’s a single-page application (SPA). 
                                 It uses routing to navigate between views and share URLs. It uses Parcel as its build tool.
@@ -131,7 +130,7 @@ webdev-page
         <div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}}>
           
                             <p className='title' style={{marginTop: '0.5rem'}}>KINO NOIR API</p>
-                            <img id='webdev-img-api' alt='' src={MyFlixApiImg} style={{ width: '30rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid 4px #fff'}}/>
+                            <img id='webdev-img-api' alt='screenshot of MongoDB sign-in page' src={MyFlixApiImg} style={{ width: '30rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid 4px #fff'}}/>
                      <p>This is the complete server-side of a movie web application, including the server, business logic, 
                              and business layers of the application. It consists of a well-designed REST API and architected 
                              database built using JavaScript, Node.js, Express, and MongoDB. The REST API is accessed via commonly 
@@ -164,7 +163,7 @@ webdev-page
 <div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}} >
   
                     <p className='title' style={{marginTop: '0.5rem'}}>TITBIT</p>
-                    <img id='webdev-img-titbit' alt='' src={TitbitImg} style={{ width: '21.5rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid 2px #fff'}}/>
+                    <img id='webdev-img-titbit' alt='screenshot of live Titbit project' src={TitbitImg} style={{ width: '21.5rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid 2px #fff'}}/>
                        <p>This is a chat app for mobile 
                               devices, built using React Native. The app provides users with a chat interface and options to share images and their location.
                               The app is written in React Native. It's developed using Expo. Conversations are stored in Google Firestore Database.
@@ -202,7 +201,7 @@ webdev-page
 <div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}} >
   
                     <p className='title' style={{marginTop: '0.5rem'}}>APTLY</p>
-                    <img id='webdev-img-aptly' alt='' src={AptlyImg} style={{ width: '24rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid .1px #fff'}}/>
+                    <img id='webdev-img-aptly' alt='screenshot of live Aptly project' src={AptlyImg} style={{ width: '24rem', height: 'auto', float: 'left', margin: '1rem', border: 'solid .1px #fff'}}/>
                      <p>This is a serverless, progressive web application (PWA) built with React using a test-driven development 
                               (TDD) technique. It uses the Google Calendar API to fetch upcoming events. Uses the Google Calendar API and OAuth2 authentication flow.
                               It uses serverless functions (AWS lambda) for the authorization server 
@@ -237,7 +236,7 @@ webdev-page
 <div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}} >
   
                     <p className='title' style={{marginTop: '0.5rem'}}>POKEDEX</p>
-                    <img id='webdev-img-pokedex' alt='' src={PokedexImg} style={{ width: '35rem', height: 'auto', margin: '1rem', border: 'solid 1px #fff'}}/>
+                    <img id='webdev-img-pokedex' alt='screenshot of live Pokedex project' src={PokedexImg} style={{ width: '35rem', height: 'auto', margin: '1rem', border: 'solid 1px #fff'}}/>
                       <p>This is a small web application with HTML, CSS, and JavaScript that loads data from an external 
                                API and enables the viewing of data points in detail. </p>
 
