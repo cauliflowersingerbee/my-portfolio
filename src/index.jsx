@@ -20,11 +20,11 @@ ReactDOM.render(
       <div>
     <Switch>
         <Route exact path="/my-portfolio/" ><HomeView /></Route>
-        <Route path="/about"><AboutView /></Route>
-        <Route path="/webdevelopment/"><WebDevView /></Route>
-        <Route path="/uxdesign"><UXDesignView /></Route>
-        <Route path="/writing"><WritingView /></Route>
-        <Route path="/contact"><ContactView /></Route>
+        <Route path="/my-portfolio/about"><AboutView /></Route>
+        <Route path="/my-portfolio/my-portfolio/webdevelopment/"><WebDevView /></Route>
+        <Route path="/my-portfolio/uxdesign"><UXDesignView /></Route>
+        <Route path="/my-portfolio/writing"><WritingView /></Route>
+        <Route path="/my-portfolio/contact"><ContactView /></Route>
 
 
         
