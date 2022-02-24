@@ -21,7 +21,7 @@ ReactDOM.render(
     <Switch>
         <Route exact path="/my-portfolio/" ><HomeView /></Route>
         <Route path="/my-portfolio/about"><AboutView /></Route>
-        <Route path="/my-portfolio/my-portfolio/webdevelopment/"><WebDevView /></Route>
+        <Route path="/my-portfolio/webdevelopment/"><WebDevView /></Route>
         <Route path="/my-portfolio/uxdesign"><UXDesignView /></Route>
         <Route path="/my-portfolio/writing"><WritingView /></Route>
         <Route path="/my-portfolio/contact"><ContactView /></Route>
