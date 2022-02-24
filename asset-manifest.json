@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.4aa802a3.css",
-    "main.js": "/my-portfolio/static/js/main.c9cf15ac.js",
+    "main.js": "/my-portfolio/static/js/main.cb8a6c5d.js",
     "static/media/myflix-angular-img.svg": "/my-portfolio/static/media/myflix-angular-img.e54fe093487bb42ebc9481d72524f436.svg",
     "static/media/myflix-react-img.svg": "/my-portfolio/static/media/myflix-react-img.ce914c01621367f7f2e3f3412acb6dae.svg",
     "static/media/titbit-img.svg": "/my-portfolio/static/media/titbit-img.3851dc1a6b748d4fc4198da050a735bd.svg",
@@ -21,10 +21,10 @@
     "static/media/work-vector.svg": "/my-portfolio/static/media/work-vector.32a6255341ceeab4cf1ad98987d17603.svg",
     "static/media/webdev-page-vector.svg": "/my-portfolio/static/media/webdev-page-vector.07a98595c1b2a987ee636857dce445f7.svg",
     "main.4aa802a3.css.map": "/my-portfolio/static/css/main.4aa802a3.css.map",
-    "main.c9cf15ac.js.map": "/my-portfolio/static/js/main.c9cf15ac.js.map"
+    "main.cb8a6c5d.js.map": "/my-portfolio/static/js/main.cb8a6c5d.js.map"
   },
   "entrypoints": [
     "static/css/main.4aa802a3.css",
-    "static/js/main.c9cf15ac.js"
+    "static/js/main.cb8a6c5d.js"
   ]
 }
