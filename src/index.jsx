@@ -16,7 +16,7 @@ ReactDOM.render(
 
   //wrapping whole app in browser router to connect browser URL 
   <React.StrictMode>
-    <Router basename={`${process.env.PUBLIC_URL}/`}>
+    <Router >
       <div>
     <Switch>
         <Route exact path="/my-portfolio/" ><HomeView /></Route>
