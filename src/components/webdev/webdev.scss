@@ -36,6 +36,8 @@
     font-size: 12px;
     font-family: Roboto-Slab;
     position: relative;
+    margin-left: 1rem;
+        line-height: 16px;
 }
 
 
@@ -52,6 +54,11 @@
         max-width:100%;
       line-height: 1.5rem;
       text-shadow: 1px 1px #fff;
+      margin-top: 30px;
+}
+
+.paragraph {
+    margin: 10px;
 }
 
 
@@ -100,11 +107,15 @@
     #to-top {
         margin-top: 7rem;
         font-size: 12px;
-        border: 1px solid #F2CA52;
+        border: 1px solid #EF4B68;
         padding: 3px;
         color: #EF4B68;
        
     
+    }
+
+    .paragraph {
+        margin: none;
     }
     
     #webdev-links {
@@ -113,9 +124,9 @@
             a:hover { text-decoration: none; color: #000}
             a:active { text-decoration: none; color: #000}
         position: fixed;
-        left:52%;
+        left:61%;
         top: 55%;
-        font-size: 22px;
+        font-size: 16px;
         font-family: Roboto-Slab;
         line-height: 2rem;
         font-weight: 400;
@@ -145,7 +156,8 @@
         font-size: 14px;
         font-family: Roboto-Slab;
         position: relative;
-        margin-left: 3rem;
+        margin-left: 1rem;
+        line-height: 16px;
     }
     
     
@@ -158,10 +170,10 @@
             color: #000;
             line-height: 3px;
             z-index: 2;
-            font-size: 32px;
+            font-size: 28px;
             font-family: 'Roboto-Slab', serif;
             font-weight: 400;
-            width:55%;
+            width:65%;
           line-height: 2rem;
           text-shadow: 1px 1px #fff;
     }
@@ -183,12 +195,20 @@
     
 }
 
+@media only screen and (min-width: 768px)  {
+    #webdev-links {
+        left:61%;
+        top: 54%;
+        font-size: 28px;
+    }
+}
+
 @media only screen and (min-width: 800px)  {
 
     #to-top {
         margin-top: 7rem;
         font-size: 22px;
-        border: 1px solid #F2CA52;
+        border: 1px solid #EF4B68;
         padding: 3px;
         color: #EF4B68;
        
