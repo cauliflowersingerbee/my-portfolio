@@ -15,7 +15,7 @@ export default class ContactView extends React.Component {
 
       //adding external linkedin link
     const  handleClick = () => {
-      window.open("https://www.linkedin.com/in/okwiri-oduor-ab2010219/", '_blank');
+      window.open("https://www.linkedin.com/in/okwirioduor", '_blank');
     };
 
 
