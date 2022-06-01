@@ -11,6 +11,7 @@ import './home.scss';
 export default class HomeView extends React.Component {  
     
     render() {
+      console.log('Welcome!')
     
       return (
       <div className='container'>
