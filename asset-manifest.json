@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.977e3e9c.css",
-    "main.js": "/my-portfolio/static/js/main.2f953b65.js",
+    "main.js": "/my-portfolio/static/js/main.d2378956.js",
     "static/media/myflix-angular-img.svg": "/my-portfolio/static/media/myflix-angular-img.e54fe093487bb42ebc9481d72524f436.svg",
     "static/media/myflix-react-img.svg": "/my-portfolio/static/media/myflix-react-img.ce914c01621367f7f2e3f3412acb6dae.svg",
     "static/media/titbit-img.svg": "/my-portfolio/static/media/titbit-img.3851dc1a6b748d4fc4198da050a735bd.svg",
@@ -9,6 +9,7 @@
     "static/media/pokedex-img.svg": "/my-portfolio/static/media/pokedex-img.89269346c7453ab0d18490910f627935.svg",
     "static/media/aptly-img.svg": "/my-portfolio/static/media/aptly-img.0c4d7632680fd2b1c1460ddd0ccad3a7.svg",
     "static/media/work-projects-img.svg": "/my-portfolio/static/media/work-projects-img.89c398e7b2a239e5b267ff86993f61db.svg",
+    "static/media/spacey-exxe-img.png": "/my-portfolio/static/media/spacey-exxe-img.bc6fe5bd1c3f541eccd9.png",
     "static/media/okwiri-oduor-resume-2022.pdf": "/my-portfolio/static/media/okwiri-oduor-resume-2022.b60011821d0eb5a0744b.pdf",
     "static/media/about-img.svg": "/my-portfolio/static/media/about-img.9961ab8e8a5eeb031789ab50e90c11c1.svg",
     "static/media/portfolio-logo.svg": "/my-portfolio/static/media/portfolio-logo.7cc189daa5582564fa05a0a51c6d79f8.svg",
@@ -22,10 +23,10 @@
     "static/media/work-vector.svg": "/my-portfolio/static/media/work-vector.32a6255341ceeab4cf1ad98987d17603.svg",
     "static/media/webdev-page-vector.svg": "/my-portfolio/static/media/webdev-page-vector.07a98595c1b2a987ee636857dce445f7.svg",
     "main.977e3e9c.css.map": "/my-portfolio/static/css/main.977e3e9c.css.map",
-    "main.2f953b65.js.map": "/my-portfolio/static/js/main.2f953b65.js.map"
+    "main.d2378956.js.map": "/my-portfolio/static/js/main.d2378956.js.map"
   },
   "entrypoints": [
     "static/css/main.977e3e9c.css",
-    "static/js/main.2f953b65.js"
+    "static/js/main.d2378956.js"
   ]
 }
