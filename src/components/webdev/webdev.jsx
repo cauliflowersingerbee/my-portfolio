@@ -57,18 +57,17 @@ export default class WebDevView extends React.Component {
 
 
 
-      <div id='myflix-angular' >
+      <div id='spacey-exxe' >
 
 <div>
 
 </div>
-<div className='spacey-exxe' style={{border: 'solid 0.5px #000', padding:'1rem'}} >
+<div className='webdev-text' style={{border: 'solid 0.5px #000', padding:'1rem'}} >
 
                     <p className='title' style={{marginTop: '0.5rem'}}>Spacey Exxe</p>
-                    <img alt='screenshot of live Spacey Exxe project' src={SpaceyImg} id='webdev-img-angular'/>
+                    <img alt='screenshot of live Spacey Exxe project' src={SpaceyImg} id='webdev-img-spx'/>
                     <p className='paragraph'>This is a simple site using data from SpaceX missions. The site fetches "history" and "launches" data from the SpaceX API using Wordpress AJAX. It then retrieves the data body, decodes the JSON, and stores it as PHP array objects. This data is then used to create posts dynamically and store them in the Wordpress database as custom posttypes / pages. </p>
                     <p className='paragraph'>Built as part of a technical assignment for a web developer recruitment process, the website presents its solution in the form of a custom-built theme. AJAX was originally coded in Javascript, before being rewritten in PHP. The project is thus entirely coded in HTML, CSS, and PHP. It is a custome theme whose pages and posts are created programmatically.</p>
-                    <p className='paragraph'>Built with HTML, CSS, PHP</p>
                     <p className='paragraph'>The Wordpress development environment was set up using Local by Flywheel.</p>
                   
  <Row>
