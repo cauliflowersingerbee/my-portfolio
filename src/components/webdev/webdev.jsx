@@ -66,14 +66,13 @@ export default class WebDevView extends React.Component {
 
                     <p className='title' style={{marginTop: '0.5rem'}}>Spacey Exxe</p>
                     <img alt='screenshot of live Spacey Exxe project' src={SpaceyImg} id='webdev-img-angular'/>
-                    <p className='paragraph'>This is a single-page, responsive movie app built with Angular, with routing and several
-                    interface views. The client-side is an Angular rendition of a previous project that I built 
-                    with React. It is designed using Angular Material, with documentation created using Typedoc and JSDoc. </p>
-
+                    <p className='paragraph'>This is a simple site using data from SpaceX missions. The site fetches "history" and "launches" data from the SpaceX API using Wordpress AJAX. It then retrieves the data body, decodes the JSON, and stores it as PHP array objects. This data is then used to create posts dynamically and store them in the Wordpress database as custom posttypes / pages. </p>
+                    <p className='paragraph'>Built as part of a technical assignment for a web developer recruitment process, the website presents its solution in the form of a custom-built theme. AJAX was originally coded in Javascript, before being rewritten in PHP. The project is thus entirely coded in HTML, CSS, and PHP. It is a custome theme whose pages and posts are created programmatically.</p>
+                    <p className='paragraph'>Built with HTML, CSS, PHP</p>
+                    <p className='paragraph'>The Wordpress development environment was set up using Local by Flywheel.</p>
                   
  <Row>
-            <Col id='site-links' ><Card.Link href="https://github.com/cauliflowersingerbee/myFlix-Angular-client" target="_blank">Github</Card.Link></Col>
-            <Col id='site-links' ><Card.Link href="https://cauliflowersingerbee.github.io/myFlix-Angular-client/welcome" target="_blank">Live Site</Card.Link></Col>
+            <Col id='site-links' ><Card.Link href="https://github.com/cauliflowersingerbee/spaceyexxe" target="_blank">Github (Private Repository)</Card.Link></Col>
             <Col></Col>
            <Col></Col>
            <Col></Col>
